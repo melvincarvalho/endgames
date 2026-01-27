@@ -20,7 +20,7 @@ The queen is worth approximately 9 points, the rook 5. But unlike material advan
 
 ### Step 1: Centralize
 
-<ChessBoard fen="8/8/8/3Q4/8/8/5rk1/6K1 w - - 0 1" />
+<ChessBoard fen="8/8/8/3Q4/8/8/5rk1/4K3 w - - 0 1" />
 
 Keep the queen centralized where it controls maximum squares.
 
@@ -48,7 +48,7 @@ Now **5...Kf2 6.Qxe2+** wins the rook, or **5...Kh2 6.Qd5** restricting the rook
 
 ## The Philidor Position (Q vs R)
 
-<ChessBoard fen="1Q6/8/8/8/8/1r6/1k6/1K6 w - - 0 1" />
+<ChessBoard fen="1Q6/8/8/8/8/1r6/1k6/3K4 w - - 0 1" />
 
 A key defensive formation. Black's rook shields the king.
 
@@ -98,7 +98,7 @@ The defender must stay alert for 30+ moves. The attacker should remain patient.
 
 ### Exercise 1
 
-<ChessBoard fen="8/8/8/3Q4/8/8/3rk3/4K3 w - - 0 1" />
+<ChessBoard fen="8/8/8/3Q4/8/8/3rk3/6K1 w - - 0 1" />
 
 White to move. Win the rook.
 
@@ -115,7 +115,7 @@ White to move. Win the rook.
 
 ### Exercise 2
 
-<ChessBoard fen="8/8/8/4Q3/8/8/1k1r4/2K5 w - - 0 1" />
+<ChessBoard fen="8/8/8/4Q3/8/8/1k1r4/4K3 w - - 0 1" />
 
 White to move. How should White proceed?
 

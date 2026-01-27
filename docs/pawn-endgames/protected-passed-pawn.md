@@ -17,7 +17,7 @@ A **protected passed pawn** is a passed pawn defended by another pawn. It's one 
 
 ## What Makes It Special
 
-<ChessBoard fen="8/8/8/3Pp3/3P4/8/5k2/4K3 w - - 0 1" />
+<ChessBoard fen="8/8/8/3Pp3/3P4/8/5k2/2K5 w - - 0 1" />
 
 The d5-pawn is a **protected passed pawn**:
 - It's passed (no enemy pawn can block or capture it)
@@ -108,7 +108,7 @@ White has a protected passer, but the position is blocked. Neither side can make
 
 ### Wrong Side of the Board
 
-<ChessBoard fen="8/8/8/7p/3Pp2P/3P4/8/4Kk2 w - - 0 1" />
+<ChessBoard fen="8/8/8/7p/3Pp2P/3P4/8/2K2k2 w - - 0 1" />
 
 White's protected passer is on d4, but Black's king is on the kingside with a pawn. This could be a race that Black wins.
 
@@ -146,7 +146,7 @@ White to move. How should White proceed?
 
 ### Exercise 2
 
-<ChessBoard fen="8/8/8/1pp5/1Pp5/2P5/5k2/6K1 w - - 0 1" />
+<ChessBoard fen="8/8/8/1pp5/1Pp5/2P5/5k2/2K5 w - - 0 1" />
 
 White to move. Create a protected passed pawn.
 

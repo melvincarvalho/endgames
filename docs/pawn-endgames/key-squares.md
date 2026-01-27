@@ -129,7 +129,7 @@ The key squares here are c5 and e5 — squares that outflank Black's defense of 
 
 ### Exercise 1
 
-<ChessBoard fen="8/8/8/8/8/4P3/4K3/3k4 w - - 0 1" />
+<ChessBoard fen="8/8/8/8/8/4P3/4K3/1k6 w - - 0 1" />
 
 What are the key squares for the e3-pawn?
 

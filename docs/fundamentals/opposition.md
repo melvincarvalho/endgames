@@ -67,9 +67,9 @@ White to move: **Kf5!** (takes opposition). After ...Kf7 Ke5, White's king suppo
 
 ### Losing Without Opposition
 
-<ChessBoard fen="8/8/4k3/4K3/4P3/8/8/8 w - - 0 1" />
+<ChessBoard fen="8/8/4k3/8/4K3/4P3/8/8 w - - 0 1" />
 
-White to move is in trouble. **Kf4** allows ...Kf6 (Black takes opposition). **Kd4** allows ...Kd6. The king cannot advance without opposition.
+White to move must be careful. **Ke5?** allows ...Ke7! (Black takes opposition). **Kd4** allows ...Kd6. The king needs to maneuver to gain opposition.
 
 ## Taking the Opposition
 

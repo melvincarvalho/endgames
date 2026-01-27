@@ -34,7 +34,7 @@ The rook on e2 cuts off the king from ranks 1-2. The king is confined to a "box.
 
 ### Step 2: Approach with Your King
 
-<ChessBoard fen="8/8/8/4k3/4K3/8/4R3/8 w - - 0 1" />
+<ChessBoard fen="8/8/8/4k3/8/4K3/4R3/8 w - - 0 1" />
 
 Bring your king up to support shrinking the box.
 

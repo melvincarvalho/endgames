@@ -58,7 +58,7 @@ Black's pawns on e6, g5, a7 are all on light squares—the same color as both bi
 
 Even with same-colored bishops, the **wrong rook pawn** draws:
 
-<ChessBoard fen="8/8/8/8/p7/8/BK6/k7 w - - 0 1" />
+<ChessBoard fen="8/8/8/8/p7/K7/B7/k7 w - - 0 1" />
 
 White cannot win. The bishop doesn't control a1, and Black's king cannot be driven out.
 
