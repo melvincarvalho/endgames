@@ -1,0 +1,25 @@
+{
+  "id": "getting-started/introduction",
+  "title": "Introduction",
+  "description": "Why study chess endgames and how this guide can help you improve",
+  "source": "@site/docs/getting-started/introduction.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/introduction",
+  "permalink": "/endgames/getting-started/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/getting-started/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Introduction",
+    "description": "Why study chess endgames and how this guide can help you improve"
+  },
+  "sidebar": "mainSidebar",
+  "next": {
+    "title": "How to Use This Guide",
+    "permalink": "/endgames/getting-started/how-to-use"
+  }
+}

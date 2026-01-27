@@ -1,0 +1,29 @@
+{
+  "id": "minor-piece-endgames/bishop-same-color",
+  "title": "Same-Color Bishops",
+  "description": "When both bishops travel the same color squares",
+  "source": "@site/docs/minor-piece-endgames/bishop-same-color.md",
+  "sourceDirName": "minor-piece-endgames",
+  "slug": "/minor-piece-endgames/bishop-same-color",
+  "permalink": "/endgames/minor-piece-endgames/bishop-same-color",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/minor-piece-endgames/bishop-same-color.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Same-Color Bishops",
+    "description": "When both bishops travel the same color squares"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Minor Piece Endgames",
+    "permalink": "/endgames/minor-piece-endgames/overview"
+  },
+  "next": {
+    "title": "Opposite-Color Bishops",
+    "permalink": "/endgames/minor-piece-endgames/bishop-opposite-color"
+  }
+}

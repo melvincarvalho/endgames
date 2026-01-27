@@ -1,0 +1,29 @@
+{
+  "id": "minor-piece-endgames/bishop-vs-knight",
+  "title": "Bishop vs Knight",
+  "description": "Evaluating which piece is better",
+  "source": "@site/docs/minor-piece-endgames/bishop-vs-knight.md",
+  "sourceDirName": "minor-piece-endgames",
+  "slug": "/minor-piece-endgames/bishop-vs-knight",
+  "permalink": "/endgames/minor-piece-endgames/bishop-vs-knight",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/minor-piece-endgames/bishop-vs-knight.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Bishop vs Knight",
+    "description": "Evaluating which piece is better"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Knight Endgames",
+    "permalink": "/endgames/minor-piece-endgames/knight-endgames"
+  },
+  "next": {
+    "title": "Queen Endgames",
+    "permalink": "/endgames/queen-endgames/overview"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "pawn-endgames/triangulation",
+  "title": "Triangulation",
+  "description": "Losing a tempo to gain zugzwang",
+  "source": "@site/docs/pawn-endgames/triangulation.md",
+  "sourceDirName": "pawn-endgames",
+  "slug": "/pawn-endgames/triangulation",
+  "permalink": "/endgames/pawn-endgames/triangulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/pawn-endgames/triangulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Triangulation",
+    "description": "Losing a tempo to gain zugzwang"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Advanced Opposition",
+    "permalink": "/endgames/pawn-endgames/opposition-deep"
+  },
+  "next": {
+    "title": "Rook Pawn Exceptions",
+    "permalink": "/endgames/pawn-endgames/rook-pawn-special"
+  }
+}

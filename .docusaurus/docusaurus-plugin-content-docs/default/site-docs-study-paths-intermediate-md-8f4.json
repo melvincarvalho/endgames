@@ -1,0 +1,29 @@
+{
+  "id": "study-paths/intermediate",
+  "title": "Intermediate Path",
+  "description": "Standard theoretical positions for players rated 1200-1600",
+  "source": "@site/docs/study-paths/intermediate.md",
+  "sourceDirName": "study-paths",
+  "slug": "/study-paths/intermediate",
+  "permalink": "/endgames/study-paths/intermediate",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/study-paths/intermediate.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Intermediate Path",
+    "description": "Standard theoretical positions for players rated 1200-1600"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Beginner Path",
+    "permalink": "/endgames/study-paths/beginner"
+  },
+  "next": {
+    "title": "Advanced Path",
+    "permalink": "/endgames/study-paths/advanced"
+  }
+}

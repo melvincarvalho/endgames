@@ -1,0 +1,29 @@
+{
+  "id": "pawn-endgames/principles",
+  "title": "Pawn Endgame Principles",
+  "description": "Fundamental concepts for king and pawn endgames",
+  "source": "@site/docs/pawn-endgames/principles.md",
+  "sourceDirName": "pawn-endgames",
+  "slug": "/pawn-endgames/principles",
+  "permalink": "/endgames/pawn-endgames/principles",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/pawn-endgames/principles.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Pawn Endgame Principles",
+    "description": "Fundamental concepts for king and pawn endgames"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Key Squares",
+    "permalink": "/endgames/fundamentals/key-squares"
+  },
+  "next": {
+    "title": "King + Pawn vs King",
+    "permalink": "/endgames/pawn-endgames/king-pawn-vs-king"
+  }
+}

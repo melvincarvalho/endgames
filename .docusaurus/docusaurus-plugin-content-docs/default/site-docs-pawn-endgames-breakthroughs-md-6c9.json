@@ -1,0 +1,29 @@
+{
+  "id": "pawn-endgames/breakthroughs",
+  "title": "Pawn Breakthroughs",
+  "description": "Sacrificing pawns to create a passed pawn",
+  "source": "@site/docs/pawn-endgames/breakthroughs.md",
+  "sourceDirName": "pawn-endgames",
+  "slug": "/pawn-endgames/breakthroughs",
+  "permalink": "/endgames/pawn-endgames/breakthroughs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/pawn-endgames/breakthroughs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Pawn Breakthroughs",
+    "description": "Sacrificing pawns to create a passed pawn"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Pawn Races",
+    "permalink": "/endgames/pawn-endgames/pawn-races"
+  },
+  "next": {
+    "title": "Outside Passed Pawn",
+    "permalink": "/endgames/pawn-endgames/outside-passed-pawn"
+  }
+}

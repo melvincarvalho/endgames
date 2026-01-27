@@ -1,0 +1,29 @@
+{
+  "id": "queen-endgames/queen-vs-rook",
+  "title": "Queen vs Rook",
+  "description": "The winning technique for Q vs R",
+  "source": "@site/docs/queen-endgames/queen-vs-rook.md",
+  "sourceDirName": "queen-endgames",
+  "slug": "/queen-endgames/queen-vs-rook",
+  "permalink": "/endgames/queen-endgames/queen-vs-rook",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/queen-endgames/queen-vs-rook.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Queen vs Rook",
+    "description": "The winning technique for Q vs R"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Queen vs Pawn",
+    "permalink": "/endgames/queen-endgames/queen-vs-pawn"
+  },
+  "next": {
+    "title": "Strategic Themes",
+    "permalink": "/endgames/strategic-themes/overview"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "fundamentals/key-squares",
+  "title": "Key Squares",
+  "description": "Critical squares for pawn promotion",
+  "source": "@site/docs/fundamentals/key-squares.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/key-squares",
+  "permalink": "/endgames/fundamentals/key-squares",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/fundamentals/key-squares.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Key Squares",
+    "description": "Critical squares for pawn promotion"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Opposition",
+    "permalink": "/endgames/fundamentals/opposition"
+  },
+  "next": {
+    "title": "Pawn Endgame Principles",
+    "permalink": "/endgames/pawn-endgames/principles"
+  }
+}

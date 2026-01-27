@@ -1,0 +1,29 @@
+{
+  "id": "pawn-endgames/outside-passed-pawn",
+  "title": "Outside Passed Pawn",
+  "description": "The decoy advantage",
+  "source": "@site/docs/pawn-endgames/outside-passed-pawn.md",
+  "sourceDirName": "pawn-endgames",
+  "slug": "/pawn-endgames/outside-passed-pawn",
+  "permalink": "/endgames/pawn-endgames/outside-passed-pawn",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/pawn-endgames/outside-passed-pawn.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Outside Passed Pawn",
+    "description": "The decoy advantage"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Pawn Breakthroughs",
+    "permalink": "/endgames/pawn-endgames/breakthroughs"
+  },
+  "next": {
+    "title": "Protected Passed Pawn",
+    "permalink": "/endgames/pawn-endgames/protected-passed-pawn"
+  }
+}

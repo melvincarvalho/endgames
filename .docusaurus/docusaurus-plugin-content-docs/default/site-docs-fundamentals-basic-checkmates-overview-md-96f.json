@@ -1,0 +1,29 @@
+{
+  "id": "fundamentals/basic-checkmates/overview",
+  "title": "Basic Checkmates Overview",
+  "description": "Essential checkmates every chess player must know",
+  "source": "@site/docs/fundamentals/basic-checkmates/overview.md",
+  "sourceDirName": "fundamentals/basic-checkmates",
+  "slug": "/fundamentals/basic-checkmates/overview",
+  "permalink": "/endgames/fundamentals/basic-checkmates/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/fundamentals/basic-checkmates/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Basic Checkmates Overview",
+    "description": "Essential checkmates every chess player must know"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Advanced Path",
+    "permalink": "/endgames/study-paths/advanced"
+  },
+  "next": {
+    "title": "King + Queen vs King",
+    "permalink": "/endgames/fundamentals/basic-checkmates/queen-mate"
+  }
+}
