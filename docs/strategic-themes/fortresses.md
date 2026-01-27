@@ -31,15 +31,15 @@ The bishop is "wrong-colored"—it doesn't control h8 (the promotion square). Bl
 
 ## Fortress: Rook vs Queen
 
-<ChessBoard fen="1r6/8/8/8/4Q3/8/7k/6K1 b - - 0 1" />
+<ChessBoard fen="8/8/8/8/4k3/8/2r5/K3Q3 b - - 0 1" />
 
-Queen vs rook is usually winning for the queen. But here, Black builds a fortress:
+Queen vs rook is usually winning for the queen. But here, Black draws with perpetual checks:
 
-**1...Rb2! 2.Qe5 Rb1+ 3.Kf2 Rb2+ 4.Ke3 Rb3+!**
+**1...Rc1+ 2.Kb2 Rc2+ 3.Kb3 Rc3+ 4.Kb4 Rc4+**
 
-The rook keeps checking from behind, and the queen cannot simultaneously shield the king and attack the rook.
+The rook keeps checking from behind along the c-file. The queen cannot simultaneously shield the king and capture the rook.
 
-**Draw!** The rook holds the fortress.
+**Draw!** The rook holds with perpetual check.
 
 ## Fortress: Knight Blockade
 
