@@ -1,0 +1,165 @@
+/**
+ * Chess Endgames - Custom Theme
+ * Warm wood tones inspired by classic chessboards
+ */
+
+:root {
+  /* Primary - warm brown/amber tones */
+  --ifm-color-primary: #8B4513;
+  --ifm-color-primary-dark: #7A3D11;
+  --ifm-color-primary-darker: #723910;
+  --ifm-color-primary-darkest: #5E2F0D;
+  --ifm-color-primary-light: #9C4E15;
+  --ifm-color-primary-lighter: #A45316;
+  --ifm-color-primary-lightest: #B8601A;
+
+  /* Code styling */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(139, 69, 19, 0.1);
+
+  /* Links */
+  --ifm-link-color: #8B4513;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #FEFCFB;
+  --ifm-navbar-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+  /* Footer */
+  --ifm-footer-background-color: #2C1810;
+
+  /* Typography */
+  --ifm-font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ifm-heading-font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* Dark mode */
+[data-theme='dark'] {
+  --ifm-color-primary: #D4A574;
+  --ifm-color-primary-dark: #CB9460;
+  --ifm-color-primary-darker: #C68C55;
+  --ifm-color-primary-darkest: #B5763B;
+  --ifm-color-primary-light: #DDB688;
+  --ifm-color-primary-lighter: #E2BE93;
+  --ifm-color-primary-lightest: #EDD4B6;
+
+  --docusaurus-highlighted-code-line-bg: rgba(212, 165, 116, 0.2);
+  --ifm-link-color: #D4A574;
+  --ifm-navbar-background-color: #1A0F0A;
+  --ifm-footer-background-color: #1A0F0A;
+  --ifm-background-color: #241610;
+}
+
+/* Hero gradient */
+.hero--primary {
+  background: linear-gradient(135deg, #8B4513, #D2691E);
+}
+
+/* Code blocks */
+.prism-code {
+  border-radius: 8px;
+}
+
+/* Tables */
+table {
+  display: table;
+  width: 100%;
+}
+
+table th {
+  background-color: rgba(139, 69, 19, 0.1);
+}
+
+[data-theme='dark'] table th {
+  background-color: rgba(212, 165, 116, 0.15);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Difficulty badges */
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  font-size: 0.75em;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-left: 0.5em;
+  vertical-align: middle;
+}
+
+.badge--beginner {
+  background-color: #22C55E;
+  color: white;
+}
+
+.badge--intermediate {
+  background-color: #EAB308;
+  color: black;
+}
+
+.badge--advanced {
+  background-color: #F97316;
+  color: white;
+}
+
+.badge--master {
+  background-color: #EF4444;
+  color: white;
+}
+
+.badge--must-know {
+  background-color: #8B4513;
+  color: white;
+}
+
+/* Chess viewer container */
+.chess-viewer {
+  margin: 1.5rem 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.chess-viewer-board {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Admonition styling for chess-specific callouts */
+.admonition.admonition-position {
+  border-left-color: #8B4513;
+}
+
+.admonition.admonition-position .admonition-icon svg {
+  fill: #8B4513;
+}
+
+/* FEN display */
+.fen-display {
+  font-family: monospace;
+  font-size: 0.85em;
+  background: var(--ifm-code-background);
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  margin: 0.5em 0;
+  word-break: break-all;
+}
+
+/* Study path cards */
+.study-path-card {
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.2s;
+}
+
+.study-path-card:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+.study-path-card h3 {
+  margin-top: 0;
+}
