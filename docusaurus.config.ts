@@ -7,10 +7,12 @@ const config: Config = {
   tagline: 'Master the art of converting advantages into victories',
   favicon: 'img/favicon.ico',
 
-  url: 'https://endgames.github.io',
-  baseUrl: '/',
-  organizationName: 'endgames',
+  url: 'https://melvincarvalho.github.io',
+  baseUrl: '/endgames/',
+  organizationName: 'melvincarvalho',
   projectName: 'endgames',
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'warn',
 
@@ -30,7 +32,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: '/',
-          editUrl: 'https://github.com/endgames/endgames/tree/main/',
+          editUrl: 'https://github.com/melvincarvalho/endgames/tree/main/',
         },
         blog: false,
         theme: {
@@ -89,7 +91,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/endgames/endgames',
+          href: 'https://github.com/melvincarvalho/endgames',
           label: 'GitHub',
           position: 'right',
         },
@@ -120,7 +122,7 @@ const config: Config = {
           items: [
             {label: 'Glossary', to: '/reference/glossary'},
             {label: 'Book Recommendations', to: '/reference/books'},
-            {label: 'GitHub', href: 'https://github.com/endgames/endgames'},
+            {label: 'GitHub', href: 'https://github.com/melvincarvalho/endgames'},
           ],
         },
       ],
