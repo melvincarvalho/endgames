@@ -1,0 +1,29 @@
+{
+  "id": "strategic-themes/stalemate-resources",
+  "title": "Stalemate Resources",
+  "description": "Saving lost positions through stalemate",
+  "source": "@site/docs/strategic-themes/stalemate-resources.md",
+  "sourceDirName": "strategic-themes",
+  "slug": "/strategic-themes/stalemate-resources",
+  "permalink": "/endgames/strategic-themes/stalemate-resources",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/strategic-themes/stalemate-resources.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Stalemate Resources",
+    "description": "Saving lost positions through stalemate"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Fortresses",
+    "permalink": "/endgames/strategic-themes/fortresses"
+  },
+  "next": {
+    "title": "Principle of Two Weaknesses",
+    "permalink": "/endgames/strategic-themes/principle-of-two-weaknesses"
+  }
+}

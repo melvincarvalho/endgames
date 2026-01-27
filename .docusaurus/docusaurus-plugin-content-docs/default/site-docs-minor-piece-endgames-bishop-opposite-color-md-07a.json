@@ -1,0 +1,29 @@
+{
+  "id": "minor-piece-endgames/bishop-opposite-color",
+  "title": "Opposite-Color Bishops",
+  "description": "Drawing tendencies and winning exceptions",
+  "source": "@site/docs/minor-piece-endgames/bishop-opposite-color.md",
+  "sourceDirName": "minor-piece-endgames",
+  "slug": "/minor-piece-endgames/bishop-opposite-color",
+  "permalink": "/endgames/minor-piece-endgames/bishop-opposite-color",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/minor-piece-endgames/bishop-opposite-color.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Opposite-Color Bishops",
+    "description": "Drawing tendencies and winning exceptions"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Same-Color Bishops",
+    "permalink": "/endgames/minor-piece-endgames/bishop-same-color"
+  },
+  "next": {
+    "title": "Good vs Bad Bishop",
+    "permalink": "/endgames/minor-piece-endgames/good-vs-bad-bishop"
+  }
+}

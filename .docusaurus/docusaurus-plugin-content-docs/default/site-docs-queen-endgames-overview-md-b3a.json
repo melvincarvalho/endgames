@@ -1,0 +1,29 @@
+{
+  "id": "queen-endgames/overview",
+  "title": "Queen Endgames",
+  "description": "The most complex endgame type",
+  "source": "@site/docs/queen-endgames/overview.md",
+  "sourceDirName": "queen-endgames",
+  "slug": "/queen-endgames/overview",
+  "permalink": "/endgames/queen-endgames/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/queen-endgames/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Queen Endgames",
+    "description": "The most complex endgame type"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Bishop vs Knight",
+    "permalink": "/endgames/minor-piece-endgames/bishop-vs-knight"
+  },
+  "next": {
+    "title": "Queen vs Pawn",
+    "permalink": "/endgames/queen-endgames/queen-vs-pawn"
+  }
+}

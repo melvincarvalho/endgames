@@ -1,0 +1,29 @@
+{
+  "id": "fundamentals/basic-checkmates/rook-mate",
+  "title": "King + Rook vs King",
+  "description": "The essential rook checkmate technique",
+  "source": "@site/docs/fundamentals/basic-checkmates/rook-mate.md",
+  "sourceDirName": "fundamentals/basic-checkmates",
+  "slug": "/fundamentals/basic-checkmates/rook-mate",
+  "permalink": "/endgames/fundamentals/basic-checkmates/rook-mate",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/fundamentals/basic-checkmates/rook-mate.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "King + Rook vs King",
+    "description": "The essential rook checkmate technique"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "King + Queen vs King",
+    "permalink": "/endgames/fundamentals/basic-checkmates/queen-mate"
+  },
+  "next": {
+    "title": "King + Two Bishops vs King",
+    "permalink": "/endgames/fundamentals/basic-checkmates/two-bishops-mate"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "fundamentals/basic-checkmates/queen-mate",
+  "title": "King + Queen vs King",
+  "description": "The simplest checkmate technique",
+  "source": "@site/docs/fundamentals/basic-checkmates/queen-mate.md",
+  "sourceDirName": "fundamentals/basic-checkmates",
+  "slug": "/fundamentals/basic-checkmates/queen-mate",
+  "permalink": "/endgames/fundamentals/basic-checkmates/queen-mate",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/fundamentals/basic-checkmates/queen-mate.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "King + Queen vs King",
+    "description": "The simplest checkmate technique"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Basic Checkmates Overview",
+    "permalink": "/endgames/fundamentals/basic-checkmates/overview"
+  },
+  "next": {
+    "title": "King + Rook vs King",
+    "permalink": "/endgames/fundamentals/basic-checkmates/rook-mate"
+  }
+}

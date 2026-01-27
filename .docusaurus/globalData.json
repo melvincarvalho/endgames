@@ -1,0 +1,292 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/endgames/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/endgames/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "fundamentals/basic-checkmates/bishop-knight-mate",
+              "path": "/endgames/fundamentals/basic-checkmates/bishop-knight-mate",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "fundamentals/basic-checkmates/overview",
+              "path": "/endgames/fundamentals/basic-checkmates/overview",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "fundamentals/basic-checkmates/queen-mate",
+              "path": "/endgames/fundamentals/basic-checkmates/queen-mate",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "fundamentals/basic-checkmates/rook-mate",
+              "path": "/endgames/fundamentals/basic-checkmates/rook-mate",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "fundamentals/basic-checkmates/two-bishops-mate",
+              "path": "/endgames/fundamentals/basic-checkmates/two-bishops-mate",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "fundamentals/key-squares",
+              "path": "/endgames/fundamentals/key-squares",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "fundamentals/king-activity",
+              "path": "/endgames/fundamentals/king-activity",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "fundamentals/opposition",
+              "path": "/endgames/fundamentals/opposition",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "getting-started/how-to-use",
+              "path": "/endgames/getting-started/how-to-use",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "getting-started/introduction",
+              "path": "/endgames/getting-started/introduction",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "getting-started/notation",
+              "path": "/endgames/getting-started/notation",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/endgames/"
+            },
+            {
+              "id": "minor-piece-endgames/bishop-opposite-color",
+              "path": "/endgames/minor-piece-endgames/bishop-opposite-color",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "minor-piece-endgames/bishop-same-color",
+              "path": "/endgames/minor-piece-endgames/bishop-same-color",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "minor-piece-endgames/bishop-vs-knight",
+              "path": "/endgames/minor-piece-endgames/bishop-vs-knight",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "minor-piece-endgames/good-vs-bad-bishop",
+              "path": "/endgames/minor-piece-endgames/good-vs-bad-bishop",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "minor-piece-endgames/knight-endgames",
+              "path": "/endgames/minor-piece-endgames/knight-endgames",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "minor-piece-endgames/overview",
+              "path": "/endgames/minor-piece-endgames/overview",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/breakthroughs",
+              "path": "/endgames/pawn-endgames/breakthroughs",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/key-squares",
+              "path": "/endgames/pawn-endgames/key-squares",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/king-pawn-vs-king",
+              "path": "/endgames/pawn-endgames/king-pawn-vs-king",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/opposition-deep",
+              "path": "/endgames/pawn-endgames/opposition-deep",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/outside-passed-pawn",
+              "path": "/endgames/pawn-endgames/outside-passed-pawn",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/pawn-majorities",
+              "path": "/endgames/pawn-endgames/pawn-majorities",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/pawn-races",
+              "path": "/endgames/pawn-endgames/pawn-races",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/principles",
+              "path": "/endgames/pawn-endgames/principles",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/protected-passed-pawn",
+              "path": "/endgames/pawn-endgames/protected-passed-pawn",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/rook-pawn-special",
+              "path": "/endgames/pawn-endgames/rook-pawn-special",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/rule-of-the-square",
+              "path": "/endgames/pawn-endgames/rule-of-the-square",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/same-side-pawns",
+              "path": "/endgames/pawn-endgames/same-side-pawns",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "pawn-endgames/triangulation",
+              "path": "/endgames/pawn-endgames/triangulation",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "queen-endgames/overview",
+              "path": "/endgames/queen-endgames/overview",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "queen-endgames/queen-vs-pawn",
+              "path": "/endgames/queen-endgames/queen-vs-pawn",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "queen-endgames/queen-vs-rook",
+              "path": "/endgames/queen-endgames/queen-vs-rook",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "reference/books",
+              "path": "/endgames/reference/books",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "reference/glossary",
+              "path": "/endgames/reference/glossary",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "reference/tablebase-guide",
+              "path": "/endgames/reference/tablebase-guide",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "rook-endgames/active-rook",
+              "path": "/endgames/rook-endgames/active-rook",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "rook-endgames/lucena-position",
+              "path": "/endgames/rook-endgames/lucena-position",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "rook-endgames/philidor-position",
+              "path": "/endgames/rook-endgames/philidor-position",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "rook-endgames/principles",
+              "path": "/endgames/rook-endgames/principles",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "rook-endgames/rook-pawn-vs-rook",
+              "path": "/endgames/rook-endgames/rook-pawn-vs-rook",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "rook-endgames/rook-vs-pawn",
+              "path": "/endgames/rook-endgames/rook-vs-pawn",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "strategic-themes/do-not-hurry",
+              "path": "/endgames/strategic-themes/do-not-hurry",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "strategic-themes/fortresses",
+              "path": "/endgames/strategic-themes/fortresses",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "strategic-themes/overview",
+              "path": "/endgames/strategic-themes/overview",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "strategic-themes/principle-of-two-weaknesses",
+              "path": "/endgames/strategic-themes/principle-of-two-weaknesses",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "strategic-themes/stalemate-resources",
+              "path": "/endgames/strategic-themes/stalemate-resources",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "strategic-themes/zugzwang",
+              "path": "/endgames/strategic-themes/zugzwang",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "study-paths/advanced",
+              "path": "/endgames/study-paths/advanced",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "study-paths/beginner",
+              "path": "/endgames/study-paths/beginner",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "study-paths/intermediate",
+              "path": "/endgames/study-paths/intermediate",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "study-paths/overview",
+              "path": "/endgames/study-paths/overview",
+              "sidebar": "mainSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "mainSidebar": {
+              "link": {
+                "path": "/endgames/getting-started/introduction",
+                "label": "getting-started/introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

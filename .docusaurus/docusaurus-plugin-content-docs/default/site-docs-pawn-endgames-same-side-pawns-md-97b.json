@@ -1,0 +1,29 @@
+{
+  "id": "pawn-endgames/same-side-pawns",
+  "title": "Same-Side Pawns (4v3, 3v2)",
+  "description": "When extra pawns aren't enough",
+  "source": "@site/docs/pawn-endgames/same-side-pawns.md",
+  "sourceDirName": "pawn-endgames",
+  "slug": "/pawn-endgames/same-side-pawns",
+  "permalink": "/endgames/pawn-endgames/same-side-pawns",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/pawn-endgames/same-side-pawns.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Same-Side Pawns (4v3, 3v2)",
+    "description": "When extra pawns aren't enough"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Pawn Majorities",
+    "permalink": "/endgames/pawn-endgames/pawn-majorities"
+  },
+  "next": {
+    "title": "Rook Endgame Principles",
+    "permalink": "/endgames/rook-endgames/principles"
+  }
+}

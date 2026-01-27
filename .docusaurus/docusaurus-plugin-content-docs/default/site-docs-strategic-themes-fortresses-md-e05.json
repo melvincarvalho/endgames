@@ -1,0 +1,29 @@
+{
+  "id": "strategic-themes/fortresses",
+  "title": "Fortresses",
+  "description": "Defensive positions that cannot be broken",
+  "source": "@site/docs/strategic-themes/fortresses.md",
+  "sourceDirName": "strategic-themes",
+  "slug": "/strategic-themes/fortresses",
+  "permalink": "/endgames/strategic-themes/fortresses",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/strategic-themes/fortresses.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Fortresses",
+    "description": "Defensive positions that cannot be broken"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Zugzwang",
+    "permalink": "/endgames/strategic-themes/zugzwang"
+  },
+  "next": {
+    "title": "Stalemate Resources",
+    "permalink": "/endgames/strategic-themes/stalemate-resources"
+  }
+}

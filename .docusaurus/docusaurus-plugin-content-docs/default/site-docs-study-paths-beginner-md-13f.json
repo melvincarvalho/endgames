@@ -1,0 +1,29 @@
+{
+  "id": "study-paths/beginner",
+  "title": "Beginner Path",
+  "description": "Essential endgames for players under 1200",
+  "source": "@site/docs/study-paths/beginner.md",
+  "sourceDirName": "study-paths",
+  "slug": "/study-paths/beginner",
+  "permalink": "/endgames/study-paths/beginner",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/study-paths/beginner.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Beginner Path",
+    "description": "Essential endgames for players under 1200"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Study Paths Overview",
+    "permalink": "/endgames/study-paths/overview"
+  },
+  "next": {
+    "title": "Intermediate Path",
+    "permalink": "/endgames/study-paths/intermediate"
+  }
+}

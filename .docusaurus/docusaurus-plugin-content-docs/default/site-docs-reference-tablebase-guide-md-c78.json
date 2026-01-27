@@ -1,0 +1,25 @@
+{
+  "id": "reference/tablebase-guide",
+  "title": "Tablebase Guide",
+  "description": "Using endgame tablebases for perfect play",
+  "source": "@site/docs/reference/tablebase-guide.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/tablebase-guide",
+  "permalink": "/endgames/reference/tablebase-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/reference/tablebase-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Tablebase Guide",
+    "description": "Using endgame tablebases for perfect play"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Recommended Books",
+    "permalink": "/endgames/reference/books"
+  }
+}

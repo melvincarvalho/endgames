@@ -1,0 +1,29 @@
+{
+  "id": "strategic-themes/principle-of-two-weaknesses",
+  "title": "Principle of Two Weaknesses",
+  "description": "Stretching the defense to breaking point",
+  "source": "@site/docs/strategic-themes/principle-of-two-weaknesses.md",
+  "sourceDirName": "strategic-themes",
+  "slug": "/strategic-themes/principle-of-two-weaknesses",
+  "permalink": "/endgames/strategic-themes/principle-of-two-weaknesses",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/strategic-themes/principle-of-two-weaknesses.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Principle of Two Weaknesses",
+    "description": "Stretching the defense to breaking point"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Stalemate Resources",
+    "permalink": "/endgames/strategic-themes/stalemate-resources"
+  },
+  "next": {
+    "title": "Do Not Hurry",
+    "permalink": "/endgames/strategic-themes/do-not-hurry"
+  }
+}

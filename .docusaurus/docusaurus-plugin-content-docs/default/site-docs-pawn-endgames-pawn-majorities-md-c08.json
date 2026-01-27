@@ -1,0 +1,29 @@
+{
+  "id": "pawn-endgames/pawn-majorities",
+  "title": "Pawn Majorities",
+  "description": "Creating passed pawns from numerical advantage",
+  "source": "@site/docs/pawn-endgames/pawn-majorities.md",
+  "sourceDirName": "pawn-endgames",
+  "slug": "/pawn-endgames/pawn-majorities",
+  "permalink": "/endgames/pawn-endgames/pawn-majorities",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/pawn-endgames/pawn-majorities.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13,
+    "title": "Pawn Majorities",
+    "description": "Creating passed pawns from numerical advantage"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Protected Passed Pawn",
+    "permalink": "/endgames/pawn-endgames/protected-passed-pawn"
+  },
+  "next": {
+    "title": "Same-Side Pawns (4v3, 3v2)",
+    "permalink": "/endgames/pawn-endgames/same-side-pawns"
+  }
+}

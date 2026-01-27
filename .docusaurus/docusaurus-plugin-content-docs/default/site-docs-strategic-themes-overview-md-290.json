@@ -1,0 +1,29 @@
+{
+  "id": "strategic-themes/overview",
+  "title": "Strategic Themes",
+  "description": "Cross-cutting concepts that apply to many endgames",
+  "source": "@site/docs/strategic-themes/overview.md",
+  "sourceDirName": "strategic-themes",
+  "slug": "/strategic-themes/overview",
+  "permalink": "/endgames/strategic-themes/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/strategic-themes/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Strategic Themes",
+    "description": "Cross-cutting concepts that apply to many endgames"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Queen vs Rook",
+    "permalink": "/endgames/queen-endgames/queen-vs-rook"
+  },
+  "next": {
+    "title": "Zugzwang",
+    "permalink": "/endgames/strategic-themes/zugzwang"
+  }
+}

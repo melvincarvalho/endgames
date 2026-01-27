@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Chess King Symbol -->
+  <rect x="24" y="8" width="16" height="4" fill="#8B4513"/>
+  <rect x="28" y="4" width="8" height="8" fill="#8B4513"/>
+  <rect x="30" y="2" width="4" height="12" fill="#8B4513"/>
+
+  <!-- King Body -->
+  <path d="M20 16 L44 16 L46 24 L42 24 L44 48 L40 56 L24 56 L20 48 L22 24 L18 24 Z" fill="#8B4513"/>
+
+  <!-- Base -->
+  <rect x="16" y="56" width="32" height="6" rx="2" fill="#8B4513"/>
+
+  <!-- Highlight -->
+  <rect x="28" y="20" width="8" height="4" fill="#D4A574" opacity="0.5"/>
+</svg>

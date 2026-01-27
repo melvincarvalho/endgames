@@ -1,0 +1,29 @@
+{
+  "id": "reference/books",
+  "title": "Recommended Books",
+  "description": "Essential endgame literature",
+  "source": "@site/docs/reference/books.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/books",
+  "permalink": "/endgames/reference/books",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/reference/books.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Recommended Books",
+    "description": "Essential endgame literature"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Glossary",
+    "permalink": "/endgames/reference/glossary"
+  },
+  "next": {
+    "title": "Tablebase Guide",
+    "permalink": "/endgames/reference/tablebase-guide"
+  }
+}

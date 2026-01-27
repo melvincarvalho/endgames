@@ -1,0 +1,29 @@
+{
+  "id": "study-paths/advanced",
+  "title": "Advanced Path",
+  "description": "Complex endgames for players rated 1600-2000",
+  "source": "@site/docs/study-paths/advanced.md",
+  "sourceDirName": "study-paths",
+  "slug": "/study-paths/advanced",
+  "permalink": "/endgames/study-paths/advanced",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/study-paths/advanced.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Advanced Path",
+    "description": "Complex endgames for players rated 1600-2000"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "Intermediate Path",
+    "permalink": "/endgames/study-paths/intermediate"
+  },
+  "next": {
+    "title": "Basic Checkmates Overview",
+    "permalink": "/endgames/fundamentals/basic-checkmates/overview"
+  }
+}

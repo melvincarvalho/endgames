@@ -1,0 +1,29 @@
+{
+  "id": "fundamentals/king-activity",
+  "title": "King Activity",
+  "description": "The king as a fighting piece in the endgame",
+  "source": "@site/docs/fundamentals/king-activity.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/king-activity",
+  "permalink": "/endgames/fundamentals/king-activity",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/fundamentals/king-activity.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "King Activity",
+    "description": "The king as a fighting piece in the endgame"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "King + Bishop + Knight vs King",
+    "permalink": "/endgames/fundamentals/basic-checkmates/bishop-knight-mate"
+  },
+  "next": {
+    "title": "Opposition",
+    "permalink": "/endgames/fundamentals/opposition"
+  }
+}

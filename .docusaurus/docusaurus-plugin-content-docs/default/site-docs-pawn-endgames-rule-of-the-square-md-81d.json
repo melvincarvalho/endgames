@@ -1,0 +1,29 @@
+{
+  "id": "pawn-endgames/rule-of-the-square",
+  "title": "Rule of the Square",
+  "description": "Can the king catch the pawn?",
+  "source": "@site/docs/pawn-endgames/rule-of-the-square.md",
+  "sourceDirName": "pawn-endgames",
+  "slug": "/pawn-endgames/rule-of-the-square",
+  "permalink": "/endgames/pawn-endgames/rule-of-the-square",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/melvincarvalho/endgames/tree/main/docs/pawn-endgames/rule-of-the-square.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Rule of the Square",
+    "description": "Can the king catch the pawn?"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "King + Pawn vs King",
+    "permalink": "/endgames/pawn-endgames/king-pawn-vs-king"
+  },
+  "next": {
+    "title": "Key Squares",
+    "permalink": "/endgames/pawn-endgames/key-squares"
+  }
+}
