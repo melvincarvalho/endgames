@@ -25,6 +25,17 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Practice Puzzles',
+      collapsed: false,
+      items: [
+        'practice-puzzles/index',
+        'practice-puzzles/beginner',
+        'practice-puzzles/intermediate',
+        'practice-puzzles/checkmate-patterns',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Fundamentals',
       collapsed: true,
       items: [
