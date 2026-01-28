@@ -70,6 +70,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: '/practice-puzzles',
+          label: 'Puzzles',
+          position: 'left',
+        },
+        {
           to: '/fundamentals/basic-checkmates/overview',
           label: 'Fundamentals',
           position: 'left',
@@ -106,6 +111,7 @@ const config: Config = {
           items: [
             {label: 'Getting Started', to: '/getting-started/introduction'},
             {label: 'Study Paths', to: '/study-paths/overview'},
+            {label: 'Practice Puzzles', to: '/practice-puzzles'},
             {label: 'Fundamentals', to: '/fundamentals/basic-checkmates/overview'},
           ],
         },
