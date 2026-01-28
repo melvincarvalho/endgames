@@ -46,6 +46,19 @@ description: Comprehensive chess endgame documentation
   </a>
 </div>
 
+<div className="puzzle-cta">
+  <div className="puzzle-cta-content">
+    <span className="puzzle-cta-icon">&#9816;</span>
+    <div className="puzzle-cta-text">
+      <h3>Practice Puzzles</h3>
+      <p>Test your skills with 26 interactive endgame puzzles</p>
+    </div>
+    <a href="/practice-puzzles" className="puzzle-cta-button">
+      Start Training &#8594;
+    </a>
+  </div>
+</div>
+
 <h2 className="section-title">
   <span className="section-icon">&#9823;</span>
   Browse by Material

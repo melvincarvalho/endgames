@@ -976,6 +976,111 @@ html {
 }
 
 /* ================================
+   PUZZLE CTA (Landing Page)
+   ================================ */
+
+.puzzle-cta {
+  margin: 3rem 0;
+  background: linear-gradient(135deg, #667EEA 0%, #764BA2 100%);
+  border-radius: 24px;
+  padding: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.puzzle-cta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+.puzzle-cta-content {
+  background: linear-gradient(135deg, #1A1A2E 0%, #16213E 100%);
+  border-radius: 22px;
+  padding: 2rem 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.puzzle-cta-icon {
+  font-size: 4rem;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.4));
+  animation: float 3s ease-in-out infinite;
+}
+
+.puzzle-cta-text {
+  flex: 1;
+}
+
+.puzzle-cta-text h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.puzzle-cta-text p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+}
+
+.puzzle-cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  color: #1A1A2E !important;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.puzzle-cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255, 215, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+  .puzzle-cta-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .puzzle-cta-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .puzzle-cta-icon {
+    font-size: 3rem;
+  }
+}
+
+/* ================================
    PUZZLE BOARD
    ================================ */
 
