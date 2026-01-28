@@ -17,7 +17,7 @@ description: Comprehensive chess endgame documentation
       "In order to improve your game, you must study the endgame before everything else."
       <cite>— Jose Raul Capablanca</cite>
     </div>
-    <a href="/getting-started/introduction" className="hero-cta">
+    <a href="./getting-started/introduction" className="hero-cta">
       Start Learning &#8594;
     </a>
   </div>
@@ -29,17 +29,17 @@ description: Comprehensive chess endgame documentation
 </h2>
 
 <div className="study-paths">
-  <a href="/study-paths/beginner" className="path-card path-beginner">
+  <a href="./study-paths/beginner" className="path-card path-beginner">
     <div className="path-level">Beginner</div>
     <div className="path-title">Foundation Builder</div>
     <div className="path-rating">Under 1200 Rating</div>
   </a>
-  <a href="/study-paths/intermediate" className="path-card path-intermediate">
+  <a href="./study-paths/intermediate" className="path-card path-intermediate">
     <div className="path-level">Intermediate</div>
     <div className="path-title">Skill Developer</div>
     <div className="path-rating">1200 - 1600 Rating</div>
   </a>
-  <a href="/study-paths/advanced" className="path-card path-advanced">
+  <a href="./study-paths/advanced" className="path-card path-advanced">
     <div className="path-level">Advanced</div>
     <div className="path-title">Master Techniques</div>
     <div className="path-rating">1600+ Rating</div>
@@ -53,7 +53,7 @@ description: Comprehensive chess endgame documentation
       <h3>Practice Puzzles</h3>
       <p>Test your skills with 26 interactive endgame puzzles</p>
     </div>
-    <a href="/practice-puzzles" className="puzzle-cta-button">
+    <a href="./practice-puzzles" className="puzzle-cta-button">
       Start Training &#8594;
     </a>
   </div>
@@ -65,7 +65,7 @@ description: Comprehensive chess endgame documentation
 </h2>
 
 <div className="cards-grid">
-  <a href="/pawn-endgames/principles" className="feature-card">
+  <a href="./pawn-endgames/principles" className="feature-card">
     <span className="card-icon">&#9823;</span>
     <div className="card-title">Pawn Endgames</div>
     <p className="card-description">
@@ -73,7 +73,7 @@ description: Comprehensive chess endgame documentation
     </p>
     <span className="card-arrow">&#8594;</span>
   </a>
-  <a href="/rook-endgames/principles" className="feature-card">
+  <a href="./rook-endgames/principles" className="feature-card">
     <span className="card-icon">&#9814;</span>
     <div className="card-title">Rook Endgames</div>
     <p className="card-description">
@@ -81,7 +81,7 @@ description: Comprehensive chess endgame documentation
     </p>
     <span className="card-arrow">&#8594;</span>
   </a>
-  <a href="/minor-piece-endgames/overview" className="feature-card">
+  <a href="./minor-piece-endgames/overview" className="feature-card">
     <span className="card-icon">&#9816;</span>
     <div className="card-title">Minor Piece Endgames</div>
     <p className="card-description">
@@ -89,7 +89,7 @@ description: Comprehensive chess endgame documentation
     </p>
     <span className="card-arrow">&#8594;</span>
   </a>
-  <a href="/queen-endgames/overview" className="feature-card">
+  <a href="./queen-endgames/overview" className="feature-card">
     <span className="card-icon">&#9813;</span>
     <div className="card-title">Queen Endgames</div>
     <p className="card-description">
@@ -107,7 +107,7 @@ description: Comprehensive chess endgame documentation
 <p>These positions appear constantly in games. Know them by heart:</p>
 
 <div className="positions-grid">
-  <a href="/fundamentals/basic-checkmates/queen-mate" className="position-card">
+  <a href="./fundamentals/basic-checkmates/queen-mate" className="position-card">
     <span className="position-icon">&#9813;</span>
     <div className="position-info">
       <h4>K+Q vs K</h4>
@@ -117,7 +117,7 @@ description: Comprehensive chess endgame documentation
       </span>
     </div>
   </a>
-  <a href="/fundamentals/basic-checkmates/rook-mate" className="position-card">
+  <a href="./fundamentals/basic-checkmates/rook-mate" className="position-card">
     <span className="position-icon">&#9814;</span>
     <div className="position-info">
       <h4>K+R vs K</h4>
@@ -127,7 +127,7 @@ description: Comprehensive chess endgame documentation
       </span>
     </div>
   </a>
-  <a href="/pawn-endgames/king-pawn-vs-king" className="position-card">
+  <a href="./pawn-endgames/king-pawn-vs-king" className="position-card">
     <span className="position-icon">&#9817;</span>
     <div className="position-info">
       <h4>K+P vs K</h4>
@@ -137,7 +137,7 @@ description: Comprehensive chess endgame documentation
       </span>
     </div>
   </a>
-  <a href="/rook-endgames/lucena-position" className="position-card">
+  <a href="./rook-endgames/lucena-position" className="position-card">
     <span className="position-icon">&#9814;</span>
     <div className="position-info">
       <h4>Lucena Position</h4>
@@ -147,7 +147,7 @@ description: Comprehensive chess endgame documentation
       </span>
     </div>
   </a>
-  <a href="/rook-endgames/philidor-position" className="position-card">
+  <a href="./rook-endgames/philidor-position" className="position-card">
     <span className="position-icon">&#9814;</span>
     <div className="position-info">
       <h4>Philidor Position</h4>
@@ -167,28 +167,28 @@ description: Comprehensive chess endgame documentation
 <p>Concepts that apply across all endgames:</p>
 
 <div className="themes-list">
-  <a href="/fundamentals/opposition" className="theme-item">
+  <a href="./fundamentals/opposition" className="theme-item">
     <span className="theme-icon">&#9818;</span>
     <div className="theme-content">
       <h4>Opposition</h4>
       <p>The fundamental king battle</p>
     </div>
   </a>
-  <a href="/fundamentals/king-activity" className="theme-item">
+  <a href="./fundamentals/king-activity" className="theme-item">
     <span className="theme-icon">&#9818;</span>
     <div className="theme-content">
       <h4>King Activity</h4>
       <p>The king as a fighting piece</p>
     </div>
   </a>
-  <a href="/strategic-themes/zugzwang" className="theme-item">
+  <a href="./strategic-themes/zugzwang" className="theme-item">
     <span className="theme-icon">&#8987;</span>
     <div className="theme-content">
       <h4>Zugzwang</h4>
       <p>When any move loses</p>
     </div>
   </a>
-  <a href="/strategic-themes/fortresses" className="theme-item">
+  <a href="./strategic-themes/fortresses" className="theme-item">
     <span className="theme-icon">&#9962;</span>
     <div className="theme-content">
       <h4>Fortresses</h4>
@@ -223,7 +223,7 @@ description: Comprehensive chess endgame documentation
 <div className="footer-cta">
   <h2>Ready to improve your endgame?</h2>
   <p>Start with the fundamentals and build your way up to master-level techniques.</p>
-  <a href="/getting-started/introduction" className="cta-button">
+  <a href="./getting-started/introduction" className="cta-button">
     Get Started &#8594;
   </a>
 </div>

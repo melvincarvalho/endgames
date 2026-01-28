@@ -153,4 +153,4 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
 
 **Congratulations!** You've completed all puzzle sets. Keep practicing to maintain your skills!
 
-[Back to Puzzle Overview](/practice-puzzles)
+[Back to Puzzle Overview](./)

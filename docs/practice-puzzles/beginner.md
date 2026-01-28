@@ -125,4 +125,4 @@ Master these fundamental positions before moving on. Each puzzle tests a critica
 
 ---
 
-**Completed all puzzles?** Move on to [Intermediate Puzzles](/practice-puzzles/intermediate)!
+**Completed all puzzles?** Move on to [Intermediate Puzzles](./intermediate)!

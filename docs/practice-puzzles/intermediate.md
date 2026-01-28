@@ -129,4 +129,4 @@ These puzzles test your knowledge of critical rook endgame techniques.
 
 ---
 
-**Ready for more?** Try [Checkmate Patterns](/practice-puzzles/checkmate-patterns)!
+**Ready for more?** Try [Checkmate Patterns](./checkmate-patterns)!

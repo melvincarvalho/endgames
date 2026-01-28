@@ -19,17 +19,17 @@ description: Test your endgame skills with interactive puzzles
 ## Choose Your Challenge
 
 <div className="study-paths">
-  <a href="/practice-puzzles/beginner" className="path-card path-beginner">
+  <a href="./beginner" className="path-card path-beginner">
     <div className="path-level">Beginner</div>
     <div className="path-title">Foundation</div>
     <div className="path-rating">Basic checkmates & king + pawn</div>
   </a>
-  <a href="/practice-puzzles/intermediate" className="path-card path-intermediate">
+  <a href="./intermediate" className="path-card path-intermediate">
     <div className="path-level">Intermediate</div>
     <div className="path-title">Technique</div>
     <div className="path-rating">Lucena, Philidor & more</div>
   </a>
-  <a href="/practice-puzzles/checkmate-patterns" className="path-card path-advanced">
+  <a href="./checkmate-patterns" className="path-card path-advanced">
     <div className="path-level">Patterns</div>
     <div className="path-title">Checkmates</div>
     <div className="path-rating">Essential mating patterns</div>
