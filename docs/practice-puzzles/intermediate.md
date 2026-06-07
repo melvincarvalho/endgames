@@ -76,6 +76,7 @@ These puzzles test your knowledge of critical rook endgame techniques.
   title="Activate Your Rook"
   description="Use your rook actively to tie down the enemy king."
   hint="Cut off the king with your rook."
+  note="⚠️ WARNING: Ra4→a6 is ILLEGAL — Black's rook on a5 blocks the a-file. Rooks cannot jump over pieces. This puzzle needs a corrected FEN (e.g., remove ra5 or place it elsewhere)."
 />
 
 ### Puzzle 6: Rook Behind Passer
@@ -110,6 +111,7 @@ These puzzles test your knowledge of critical rook endgame techniques.
   title="Rook Skewer"
   description="Use a skewer to win material."
   hint="Check the king and win the rook."
+  note="⚠️ WARNING: (1) Ra3→a8 gives no check — nothing on rank 8 or a-file to check. Skewer concept fails. (2) Black's Rf2→f7 is also illegal — Kf3 blocks the f-file. This puzzle needs a corrected FEN where the rook can actually skewer."
 />
 
 ---
