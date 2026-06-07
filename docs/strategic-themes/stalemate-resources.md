@@ -30,6 +30,8 @@ White to move. **Qf8?? or Qg7??** = Stalemate!
 
 Correct: **Qg7#** or **Qf6+ Kg8 Qg7#**.
 
+> ⚠️ **WARNING:** Both "stalemate" claims are wrong — Qf8 gives CHECK on h8 (same rank), and Qg7 gives CHECK on h8 (diagonal). Qg7 IS checkmate (#), which contradicts calling it stalemate above. This section needs a rewritten FEN where both moves actually cause stalemate instead of check.
+
 The attacker must always check for stalemate.
 
 ### Piece Sacrifice for Stalemate
@@ -39,6 +41,8 @@ The attacker must always check for stalemate.
 Black is losing (White threatens Ra8#). But:
 
 **1...Ra6+!! 2.Rxa6** — Stalemate! Black has no legal moves.
+
+> ⚠️ **WARNING:** NOT stalemate — after 2.Rxa6, Ke8 can escape to d8 (not attacked by Ra6 or Ke6).
 
 Black sacrificed the rook to force stalemate.
 
@@ -52,7 +56,11 @@ Black is losing the exchange. But:
 
 **1...Rg3!** — Threatening nothing... except stalemate!
 
-If **2.hxg3**, Black is stalemated! White must be careful: **2.Rf3!** breaks the trap.
+If **2.hxg3**, Black is stalemated!
+
+> ⚠️ **WARNING:** NOT stalemate — after hxg3, Kg8 can escape to h8 (not attacked by Rf1, Kg1, or pg3).
+
+White must be careful: **2.Rf3!** breaks the trap.
 
 ### Throwing Away Material
 
@@ -74,7 +82,11 @@ But in some positions, sacrificing all pieces creates stalemate.
 
 White is winning, but careless play can allow:
 
-**1.f8=Q+?? Kxf8** — Now if **2.Kf6?** Black has **2...Ke8** and **3.f7+ Kf8** = Stalemate pattern!
+**1.f8=Q+?? Kxf8**
+
+> ⚠️ **WARNING:** `f8=Q+` is ILLEGAL — Kf8 occupies f8, so the pawn cannot push there. The entire line needs a corrected FEN.
+
+Also, after the "Correct" line `2.f8=Q+ Kxf8`, the continuation `4.f7+` is impossible — the f7 pawn was already promoted and captured.
 
 Correct: **1.Ke6!** (take opposition) **1...Ke8 2.f8=Q+ Kxf8 3.Kf6 Kg8 4.f7+** — This time White wins.
 
@@ -84,7 +96,9 @@ Correct: **1.Ke6!** (take opposition) **1...Ke8 2.f8=Q+ Kxf8 3.Kf6 Kg8 4.f7+** �
 
 White wants to break through, but after exchanging pawns, Black's king may be stalemated.
 
-**1.f4? gxf3 2.g4 f2 3.g5 f1=Q 4.gxh6** and Black isn't stalemated (Kf6).
+**1.f4? gxf3 2.g4 f2 3.g5 f1=Q 4.gxh6**
+
+> ⚠️ **WARNING:** Move sequence garbled — `1.f4 gxf3` is impossible. No Black g-pawn can capture on f3 in one move (pg6 captures on f5, not f3). This line needs rewriting.
 
 ## Stalemate in Queen Endgames
 
@@ -92,7 +106,11 @@ White wants to break through, but after exchanging pawns, Black's king may be st
 
 Black threatens ...a1=Q#. White plays:
 
-**1.Qb3+! Kc1 2.Qa2!** — Pinning the pawn. Now if **2...Kb1 3.Qb3+ Kc1 4.Qa3!** — perpetual.
+**1.Qb3+! Kc1 2.Qa2!**
+
+> ⚠️ **WARNING:** `1.Qb3+` is ILLEGAL — Kb3 occupies b3, the queen cannot move there. This line and the whole section needs a corrected FEN where the queen can actually reach b3.
+
+— Pinning the pawn. Now if **2...Kb1 3.Qb3+ Kc1 4.Qa3!** — perpetual.
 
 But watch for: **1.Qc2+?? Kb4** and Black escapes.
 
@@ -110,7 +128,11 @@ Before every move, ask: "Does my opponent have any legal moves?"
 
 <ChessBoard fen="6k1/6P1/5K2/8/8/8/8/8 w - - 0 1" />
 
-**1.g8=Q??** = Stalemate! **1.g8=R+!** or **1.Kf5** wins.
+**1.g8=Q??**
+
+> ⚠️ **WARNING:** `g8=Q` is ILLEGAL — Kg8 occupies g8, the pawn cannot push there. Similarly `g8=R+` is illegal for the same reason. This position needs a corrected FEN (e.g., king on h8 so g8 is empty).
+
+= Stalemate! **1.g8=R+!** or **1.Kf5** wins.
 
 ## Exercises
 
@@ -138,7 +160,11 @@ White to move and win.
 <details>
 <summary>Solution</summary>
 
-**1.Rf8+?** = Stalemate!
+**1.Rf8+?**
+
+> ⚠️ **WARNING:** NOT stalemate — after Rf8+, Kh8 can escape to g7 (not attacked by Rf8 on f-file/rank-8, nor by Ph7 which attacks g8 not g7).
+
+= Stalemate!
 
 **1.Kg2!** (or other waiting move) **1...Kg7 2.Rf8** — Now it's check, not stalemate, and **2...Kxf8 3.h8=Q+** wins.
 
@@ -153,9 +179,15 @@ White to move. Find the quickest win without stalemate.
 <details>
 <summary>Solution</summary>
 
-**1.Kf2!** (approach first) **1...Kg8 2.Qe8#** or **1...Kh7 2.Qg7#**.
+**1.Kf2!** (approach first) **1...Kg8 2.Qe8#**
+
+> ⚠️ **WARNING:** `2.Qe8#` is NOT checkmate — Kg8 can escape to g7 (not attacked by Qe8 on rank 8 / e-file / diagonals d7-c6 / f7-g6).
+
+or **1...Kh7 2.Qg7#**.
 
 NOT **1.Qg7??** = Stalemate!
+
+> ⚠️ **WARNING:** `1.Qg7` is NOT stalemate — it gives CHECK on Kh8 via diagonal g7-h8.
 
 NOT **1.Qe8+? Kh7 2.Qf7+?? Kh6 3.Qf8+ Kh7** — Slow and risks errors.
 
