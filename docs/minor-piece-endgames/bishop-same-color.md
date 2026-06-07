@@ -28,7 +28,7 @@ The active bishop beats the passive one.
 
 <ChessBoard fen="8/1p4k1/p3p3/P3P3/8/5B2/6K1/5b2 w - - 0 1" />
 
-White's bishop is active (controlling d5, e6, and the a6-c8 diagonal). Black's bishop on f1 is passive—restricted by its own pawns on e6 and b7.
+White's bishop is active (controlling d5, c6, b7, and the a8-e4 diagonal). Black's bishop on f1 is passive—restricted by its own pawns on e6 and b7.
 
 **1.Bd5!** — Dominating the position.
 
@@ -48,7 +48,7 @@ Attack pawns fixed on your bishop's color.
 
 <ChessBoard fen="8/pp2bk2/4p3/4P1p1/6P1/1B2K3/8/8 w - - 0 1" />
 
-Black's pawns on e6, g5, a7 are all on light squares—the same color as both bishops. White's bishop can pressure them:
+Black's pawns on b7 and e6 are on light squares—the same color as both bishops. White's bishop can pressure them:
 
 **1.Kd4 Kf8 2.Kc5!** — Threatening Kd6.
 
