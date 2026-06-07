@@ -124,7 +124,7 @@ White to move. How should White proceed?
 
 **1.Qe5+!** — Checking and attacking the rook.
 
-**1...Kc3 2.Qxd5** — Won, or **1...Kb3 2.Qe3+ Ka2 3.Qxd2** — Won.
+**1...Kc3 2.Qxd2** — Won, or **1...Kb3 2.Qe3+ Ka2 3.Qxd2** — Won.
 
 Central queen with active checks wins quickly.
 
