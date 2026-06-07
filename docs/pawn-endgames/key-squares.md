@@ -29,7 +29,7 @@ For this d4-pawn, the key squares are **c6, d6, and e6**. If White's king reache
 
 For pawns that haven't crossed the middle of the board, there are **3 key squares**, located **two ranks ahead** of the pawn.
 
-<ChessBoard fen="8/8/8/2KPK3/3*3/8/5k2/8 w - - 0 1" />
+<ChessBoard fen="8/8/8/2KPK3/8/8/5k2/8 w - - 0 1" />
 
 **d2-pawn**: Key squares are c4, d4, e4
 **d3-pawn**: Key squares are c5, d5, e5
@@ -197,7 +197,7 @@ What are the key squares for the d5-pawn? Does White already occupy one?
 
 White's king is on e5 — **not** a key square (it's on the 5th rank with the pawn, not ahead of it).
 
-**1.Ke6?** would be check/stalemate issues. Better:
+**1.Ke6?** leads to stalemate issues. Better:
 
 **1.d6! Ke8 2.Ke6** — Now e6 is effectively a key square because the pawn is on d6.
 
