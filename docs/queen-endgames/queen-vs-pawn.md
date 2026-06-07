@@ -109,6 +109,8 @@ The black king is perfectly placed. **1.Qc4+ Kb2 2.Qb4+ Ka1!** and White cannot 
 
 ### Exercise 2
 
+> ⚠️ **WARNING: FEN missing the queen** — The FEN below has only a White king on f5 and Black king/pawn on a1/a2. No White queen is present, but the solution plays 3.Qf4+. FEN needs a queen added (e.g. on f4 or another square). Melvin to correct.
+
 <ChessBoard fen="8/8/8/5K2/8/8/p7/k7 w - - 0 1" />
 
 White to move. Can White win?
