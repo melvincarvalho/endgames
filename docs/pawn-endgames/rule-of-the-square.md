@@ -19,7 +19,7 @@ Draw a square from the pawn to the promotion square. If the defending king can e
 
 <ChessBoard fen="8/8/8/p7/8/8/8/5K2 w - - 0 1" />
 
-The "square" of the a5 pawn extends to a5-a1-e1-e5. Can White's king enter?
+The "square" of the a5 pawn extends to a5-a1-e1-e5. White's king on f1 **can** enter this square (Ke2 is one move), so the king catches the pawn.
 
 ## How to Find the Square
 
@@ -39,7 +39,9 @@ White's king is on e2. The square is a5-a1-e1-e5. **Kd3** enters the square—ki
 
 <ChessBoard fen="8/8/8/p7/8/8/8/5K2 w - - 0 1" />
 
-White's king is on f1. The square is a5-a1-e1-e5. Kf1 cannot reach e2 in time—pawn promotes!
+> ⚠️ **WARNING: diagram needs fixing** — The FEN shows the White king on f1, but from f1 the king CAN enter the square in one move (Ke2, and e2 is inside a5-a1-e1-e5). For a genuine "cannot catch" example the king should be on g1 (or farther). FEN to be corrected by Melvin.
+
+With the corrected position, the king would be too far to enter the square, and the pawn promotes.
 
 ## With the King Supporting
 
