@@ -33,6 +33,8 @@ White has an extra pawn, but this is a **dead draw**.
 
 ## Why Extra Pawns Don't Always Help
 
+> ⚠️ **WARNING: diagram needs fixing** — The FEN below has both bishops on dark squares (Bd2 and Bc1), making them same-color bishops, not opposite-color. This example belongs on a different page. FEN to be corrected by Melvin.
+
 <ChessBoard fen="8/8/2p5/2Pk4/3P4/3K4/3B4/2b5 w - - 0 1" />
 
 Even with **two extra pawns**, White cannot win:
