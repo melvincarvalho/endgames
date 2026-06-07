@@ -59,9 +59,7 @@ Be careful not to give stalemate:
 
 <ChessBoard fen="k7/8/1K6/8/8/8/8/Q7 w - - 0 1" />
 
-**Qa7??** would be stalemate! The king has no legal moves but isn't in check.
-
-Instead, **Qb1** and then **Qa2#**.
+> ⚠️ **WARNING: this stalemate example is incorrect** — With the White king on b6, **Qa7 is checkmate**, not stalemate: Qa7 checks Ka8 along the a-file and is defended by the b6-king. So this position does not illustrate a stalemate trap. A correct example needs the king elsewhere — e.g. **Kc6**, where **Qb6??** is the real stalemate (no check, no legal move). Flagged for re-authoring.
 
 ## Practice Positions
 
