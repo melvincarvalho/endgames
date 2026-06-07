@@ -59,9 +59,9 @@ Be careful not to give stalemate:
 
 <ChessBoard fen="k7/8/1K6/8/8/8/8/Q7 w - - 0 1" />
 
-**Qa7??** would be stalemate! The king has no legal moves but isn't in check.
+> ⚠️ **WARNING: example needs fixing** — The text below claims Qa7 is stalemate, but Qa7 checks Ka8 via the a-file, so it's actually **checkmate** (not stalemate). A true stalemate example needs a different position. Melvin to correct.
 
-Instead, **Qb1** and then **Qa2#**.
+**Qa7??** would be checkmate — winning immediately! But the lesson here is about avoiding positions where you accidentally stalemate when the king has more room. **Qb1** and then **Qa2#** is a safer general approach.
 
 ## Practice Positions
 
