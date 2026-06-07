@@ -37,9 +37,9 @@ White's king is on e2. The square is a5-a1-e1-e5. **Kd3** enters the square—ki
 
 ### King Cannot Catch
 
-<ChessBoard fen="8/8/8/p7/8/8/8/5K2 w - - 0 1" />
+<ChessBoard fen="8/8/8/p7/8/8/8/6K1 w - - 0 1" />
 
-White's king is on f1. The square is a5-a1-e1-e5. Kf1 cannot reach e2 in time—pawn promotes!
+White's king is on g1, outside the square (a5-a1-e1-e5). It cannot step into the square on its move (even Kf1 stays outside the e-file edge), so by the rule of the square the king cannot catch the pawn, and it promotes.
 
 ## With the King Supporting
 
