@@ -59,4 +59,4 @@ Throughout this guide, you'll find interactive chess positions. You can:
 
 ## Contributing
 
-This is a growing resource. If you find errors or want to contribute positions, please visit our [GitHub repository](https://github.com/endgames/endgames).
+This is a growing resource. If you find errors or want to contribute positions, please visit our [GitHub repository](https://github.com/melvincarvalho/endgames).
