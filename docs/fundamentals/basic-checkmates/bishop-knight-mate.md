@@ -57,7 +57,7 @@ This is done through careful piece coordination.
 
 <ChessBoard fen="8/8/8/8/8/8/k1K5/2B2N2 w - - 0 1" />
 
-The bishop controls the a3-f8 diagonal, preventing escape.
+The bishop controls the a3-h6 diagonal, preventing escape.
 
 ### 2. Knight Covers Opposite Color
 
