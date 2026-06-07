@@ -74,11 +74,13 @@ Now **3...Kf5 4.d4** — White breaks through.
 
 ### The Trebuchet
 
+> ⚠️ **WARNING: all move lines below contain illegal moves** — The FEN has White king on d3 and Black king on d5. Every king move listed (Ke4, Kc4) is illegal because those squares are adjacent to the opposing king. This section needs a corrected FEN (kings farther apart) or a complete rewrite of the move lines. Flagged for Melvin to fix.
+
 <ChessBoard fen="8/8/8/1p1k4/1P6/3K4/8/8 w - - 0 1" />
 
 Pure mutual zugzwang. Whoever moves must give way:
-- **1.Ke3 Ke4** or **1.Kc3 Kc4** — Black wins
-- **1...Ke4 2.Kc4** or **1...Kc4 2.Ke4** — White wins
+- **1.Ke3 Ke4** or **1.Kc3 Kc4** — Black wins ⚠️ *illegal moves*
+- **1...Ke4 2.Kc4** or **1...Kc4 2.Ke4** — White wins ⚠️ *illegal moves*
 
 ### Reti-like Zugzwang
 
