@@ -200,15 +200,13 @@ White to move. Is the bishop on the right color?
 <details>
 <summary>Solution</summary>
 
-**Yes!** The bishop is on light squares, and h8 is a dark square... wait, that seems wrong.
+**Yes — it's the right bishop, and White wins.**
 
-Actually, let's check: h8 is a **light square** (bottom-right is light in standard orientation). The bishop on e3 is on **dark squares**.
+The pawn is an h-pawn, so it promotes on **h8**, a **dark** square (file 8 + rank 8 = 16, even). The bishop on **e3** is also on a **dark** square (5 + 3 = 8, even). Because its colour matches the queening square, the bishop can control h8 and shepherd the pawn home — this is the **right bishop**.
 
-So this is the **wrong bishop**! Draw.
+The "wrong bishop" draw only happens when the bishop is the *opposite* colour to the queening square, so it can never cover it. Here the colours match, so White brings the king up and escorts the pawn to promotion.
 
-**1.Be3-f4 Kh8 2.Bg5 Kh7 3.Bf6 Kh8** — Stalemate if Kg6.
-
-Always verify which color the queening square is!
+**Rule of thumb:** a rook-pawn wins only if your bishop matches the colour of the queening square.
 
 </details>
 
