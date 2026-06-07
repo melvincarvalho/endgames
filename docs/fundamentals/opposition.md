@@ -69,7 +69,7 @@ White to move: **Kf5!** (takes opposition). After ...Kf7 Ke5, White's king suppo
 
 <ChessBoard fen="8/8/4k3/8/4K3/4P3/8/8 w - - 0 1" />
 
-White to move must be careful. **Ke5?** allows ...Ke7! (Black takes opposition). **Kd4** allows ...Kd6. The king needs to maneuver to gain opposition.
+White to move must be careful. **Ke5?** is illegal — e5 is adjacent to Black's king on e6. **Kd4** allows ...Kd6 (Black takes opposition). **Kf4** allows ...Kf6. White's king needs to maneuver to gain opposition.
 
 ## Taking the Opposition
 
