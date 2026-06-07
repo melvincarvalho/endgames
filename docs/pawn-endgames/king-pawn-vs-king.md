@@ -41,7 +41,7 @@ The defender draws if they can keep their king in front of the pawn or reach opp
 
 <ChessBoard fen="8/8/8/3k4/8/8/3PK3/8 b - - 0 1" />
 
-Black to move: **...Kd4!** (opposition) and Black holds.
+Black to move: **...Kd4!** (king in front of the pawn) and Black holds.
 
 ## The Rook Pawn Problem
 
