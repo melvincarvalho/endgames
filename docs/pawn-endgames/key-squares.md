@@ -29,7 +29,7 @@ For this d4-pawn, the key squares are **c6, d6, and e6**. If White's king reache
 
 For pawns that haven't crossed the middle of the board, there are **3 key squares**, located **two ranks ahead** of the pawn.
 
-<ChessBoard fen="8/8/8/2KPK3/8/8/5k2/8 w - - 0 1" />
+<ChessBoard fen="4k3/8/8/8/3P4/8/4K3/8 w - - 0 1" highlightSquares={['c6', 'd6', 'e6']} />
 
 **d2-pawn**: Key squares are c4, d4, e4
 **d3-pawn**: Key squares are c5, d5, e5
@@ -39,13 +39,13 @@ For pawns that haven't crossed the middle of the board, there are **3 key square
 
 Once the pawn reaches the 5th rank, there are **6 key squares** on two ranks.
 
-<ChessBoard fen="8/8/2KKK3/2KPK3/8/8/5k2/8 w - - 0 1" />
+<ChessBoard fen="4k3/8/8/3P4/8/8/4K3/8 w - - 0 1" highlightSquares={['c6', 'd6', 'e6', 'c7', 'd7', 'e7']} />
 
 **d5-pawn**: Key squares are c6, d6, e6, c7, d7, e7
 
 ### Pawns on 6th Rank
 
-<ChessBoard fen="8/2KKK3/2KPK3/8/8/8/5k2/8 w - - 0 1" />
+<ChessBoard fen="6k1/8/3P4/8/8/8/4K3/8 w - - 0 1" highlightSquares={['c7', 'd7', 'e7', 'c8', 'd8', 'e8']} />
 
 **d6-pawn**: Key squares are c7, d7, e7, c8, d8, e8
 
@@ -53,7 +53,7 @@ Once the pawn reaches the 5th rank, there are **6 key squares** on two ranks.
 
 For a pawn on the 7th rank, the key squares are the three squares touching the promotion square.
 
-<ChessBoard fen="2KKK3/3P4/8/8/8/8/5k2/8 w - - 0 1" />
+<ChessBoard fen="6k1/3P4/8/8/8/8/4K3/8 w - - 0 1" highlightSquares={['c8', 'd8', 'e8']} />
 
 **d7-pawn**: Key squares are c8, d8, e8
 
@@ -61,7 +61,7 @@ For a pawn on the 7th rank, the key squares are the three squares touching the p
 
 Rook pawns (a and h files) have only **2 key squares** because one side is blocked by the edge of the board.
 
-<ChessBoard fen="8/8/KK6/P7/8/8/5k2/8 w - - 0 1" />
+<ChessBoard fen="8/6k1/8/P7/8/8/1K6/8 w - - 0 1" highlightSquares={['a7', 'b7']} />
 
 **a5-pawn**: Key squares are only a7 and b7 (not c7—too far).
 
