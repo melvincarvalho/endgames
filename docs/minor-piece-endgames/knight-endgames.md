@@ -57,7 +57,7 @@ Knights need many moves to cross the board:
 
 <ChessBoard fen="8/7p/8/8/8/8/8/N6K w - - 0 1" />
 
-The knight needs **6 moves** to reach h7: Na1-b3-c5-e6-g7-h5-f6xh7 or similar.
+The knight needs **5 moves** to reach h7: Na1-b3-c5-e6-g5-h7 or similar.
 
 In this time, a bishop would have taken the pawn long ago.
 
