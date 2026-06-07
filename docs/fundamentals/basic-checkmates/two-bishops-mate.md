@@ -34,11 +34,15 @@ Start by centralizing your bishops and king.
 
 ### Step 2: Create the Diagonal Barrier
 
+> ⚠️ **WARNING: FEN has two same-color bishops** — Bf5 (6+5=11, light) and Be4 (5+4=9, light) are both on light squares. Two same-color bishops cannot deliver checkmate (they only control one square color). One bishop must be on a dark square.
+
 <ChessBoard fen="8/8/4k3/5B2/4B3/8/4K3/8 w - - 0 1" />
 
 Place the bishops on adjacent diagonals. The king cannot cross this barrier.
 
 ### Step 3: Push the King to the Edge
+
+> ⚠️ **WARNING: FEN has two same-color bishops** — Be6 (5+6=11, light) and Bf5 (6+5=11, light) are both on light squares. Same issue as Step 2.
 
 <ChessBoard fen="8/5k2/4B3/5B2/8/4K3/8/8 w - - 0 1" />
 
@@ -52,9 +56,11 @@ The king is trapped in the corner.
 
 ### Step 5: Checkmate
 
+> ⚠️ **WARNING: multiple errors** — (1) Bf7 (light) and Bg6 (light) are both same-color bishops. (2) "Bf6#" is not a legal bishop move from g6 (g6→f6 is horizontal, not diagonal). (3) Kh8 is not in check from either bishop or king, so this is stalemate, not checkmate. The correct checkmate FEN needs one bishop on each color. Melvin to correct.
+
 <ChessBoard fen="7k/5B2/5BK1/8/8/8/8/8 w - - 0 1" />
 
-**Bf6#** — The bishops cover all escape squares.
+**Bf6#** — The bishops cover all escape squares. ⚠️ *illegal move and stalemate, not checkmate*
 
 ## The Diagonal Barrier Concept
 
