@@ -67,7 +67,7 @@ Sometimes what looks like a fortress can be broken:
 
 <ChessBoard fen="8/6k1/6p1/6P1/8/4B3/5K2/8 w - - 0 1" />
 
-This looks like a fortress (opposite-color bishops with blocked pawns), but:
+This looks like a fortress (blocked pawns with bishop vs no bishop), but:
 
 **1.Bf4! Kf7 2.Kg3 Ke6 3.Kh4 Kf5 4.Kh3!**
 
@@ -111,7 +111,9 @@ White to move. Can White win?
 <details>
 <summary>Solution</summary>
 
-**Yes!** This is NOT a fortress because the bishop controls b8.
+**Yes!** This is NOT a fortress — the b-pawn is not a rook pawn (a/h file). The wrong-bishop rule only applies to rook pawns.
+
+> ⚠️ **Note:** The original text claimed "the bishop controls b8" but Ba2 does NOT control b8 (its diagonals run to b1, b3, c4, d5, e6, f7, g8 — not b8).
 
 **1.Be6! Kc7 2.Ka5 Kb8 3.Kb6** — White wins by promoting.
 
