@@ -67,7 +67,9 @@ White is winning (passed pawn, better king). But direct play stumbles:
 
 **Wrong: 1.f5?** — Premature.
 
-**1...gxf5 2.g6+ fxg6** — Now it's a draw (wrong-colored bishop pattern even without bishops).
+**1...gxf5 2.g6 fxg6** — Now it's a draw (wrong-colored bishop pattern even without bishops).
+
+> ⚠️ **Note:** Removed erroneous `+` from `2.g6` — a pawn on g6 attacks f7 and h7 diagonally, not g7 directly ahead. The king on g7 is not in check.
 
 **Right: 1.Kf4!** (improving the king)
 
