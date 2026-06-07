@@ -28,6 +28,8 @@ A bishop is "good" when:
 
 White's bishop is excellent—the white pawns (a2, b2, f4) are on dark squares, leaving the light-squared bishop free.
 
+> ⚠️ **NOTE:** Pawn a2 is on a light square (1+2=3, same color as bishop), not dark. The setup still illustrates the concept since b2 and f4 are on dark squares, but a2 contradicts the claim.
+
 ### Bad Bishop
 
 A bishop is "bad" when:
@@ -39,6 +41,8 @@ A bishop is "bad" when:
 
 Now White's bishop is terrible—blocked by pawns on d4, e5. It has almost no scope.
 
+> ⚠️ **WARNING: This contradicts the definition.** Bd1 is light-squared (4+1=5). The blocking pawns d4 (4+4=8, dark) and e5 (5+5=10, dark) are on the **opposite** color. A bad bishop needs pawns on the **same** color. This FEN actually shows a good bishop setup (pawns opposite the bishop's color). To demonstrate a truly bad bishop, the pawns need to be on light squares (e.g., c4, d3, e4, f3).
+
 ## The Impact of Bad Bishops
 
 ### Defensive Weakness
@@ -46,6 +50,8 @@ Now White's bishop is terrible—blocked by pawns on d4, e5. It has almost no sc
 <ChessBoard fen="8/pp2k3/4p3/3pP3/3P4/8/PP3K2/3B4 w - - 0 1" />
 
 White's bad bishop cannot defend the weak squares b3, c4, d3. Black's king can invade via these squares.
+
+> ⚠️ **NOTE:** This FEN also has Bd1 (light-squared) with pawns on dark squares — same issue as above. Squares b3 (2+3=5, light), c4 (3+4=7, light), d3 (4+3=7, light) are on the bishop's own color, so the bishop *can* potentially reach them (e.g., d1→c2→b3).
 
 **1...Kd7 2.Ke3 Kc6 3.Kd3 Kb5** — The king penetrates.
 
@@ -114,6 +120,8 @@ If possible, advance or trade pawns to free the bishop:
 <ChessBoard fen="8/1p2k3/p1p1p3/P1PpPp2/1P1P1P2/8/8/4BK2 w - - 0 1" />
 
 White's bishop is completely useless—it cannot move without allowing ...Kd6 or ...Kf6.
+
+> ⚠️ **WARNING: This is NOT a tall pawn.** Bf1 is light-squared (6+1=7). ALL six White pawns (a5, b4, c5, d4, e5, f4) are on dark squares — the **opposite** color. A true tall pawn has pawns on the **same** color as the bishop, blocking its diagonals. Here the bishop has open light diagonals. To demonstrate a tall pawn, the pawns should be on light squares.
 
 Despite material equality, **Black is effectively a piece up** because the bishop does nothing.
 
