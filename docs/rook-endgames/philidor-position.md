@@ -18,7 +18,7 @@ The essential defensive technique when your opponent has a rook and pawn. Named 
 <ChessBoard fen="8/8/8/8/3pk3/8/3K4/3R4 w - - 0 1" />
 
 Black has:
-- Pawn on 6th rank (not 7th yet)
+- Pawn on d4, three moves from promotion (rank 1)
 - King supporting the pawn
 
 White's goal: **Draw by preventing pawn promotion.**
@@ -27,41 +27,41 @@ White's goal: **Draw by preventing pawn promotion.**
 
 ### Key Principle: Third Rank Defense
 
-**Place your rook on the 3rd rank** (from your perspective), cutting off the enemy king.
+**Place your rook on the 6th rank** (counting from White's side), cutting off the enemy king.
 
 <ChessBoard fen="8/8/8/8/3pk3/3R4/3K4/8 b - - 0 1" />
 
 The rook on d3 prevents the black king from advancing. The pawn cannot advance safely.
 
-### Why the Third Rank?
+### Why This Rank?
 
-1. **Blocks the king** — The enemy king cannot cross the 3rd rank
+1. **Blocks the king** — The enemy king cannot cross to the ranks below the rook
 2. **Maintains flexibility** — The rook can switch to checking from behind
 3. **Preserves drawing chances** — Even if the pawn advances
 
 ## When the Pawn Advances
 
-If Black pushes the pawn to the 7th rank, switch to **checking from behind**.
+If Black pushes the pawn closer to promotion, switch to **checking from behind**.
 
 <ChessBoard fen="8/3p4/4k3/8/8/8/3K4/3R4 w - - 0 1" />
 
-After ...d2, White plays **Rd1**, and then gives infinite checks from behind. The king cannot escape the checks without losing the pawn.
+Here Black's pawn is on d7, still six moves from promotion. The rook on d1 is behind the pawn, ready to check the king. After **...d6** (or any advance), White checks from the d-file.
 
 ## The Full Drawing Method
 
-### Phase 1: Third Rank Defense
+### Phase 1: Rook on the Same Rank as the Pawn
 
 <ChessBoard fen="8/8/8/4k3/3p4/3R4/3K4/8 b - - 0 1" />
 
-Keep the rook on the 3rd rank while the pawn is on the 4th, 5th, or 6th.
+Keep the rook alongside the pawn's rank, blocking the enemy king from leading the pawn forward. In this diagram the pawn is on d4, three moves from promotion.
 
 ### Phase 2: Switch to Checking
 
-Once the pawn reaches the 7th rank:
+Once the pawn advances and the king tries to escort it to promotion:
 
 <ChessBoard fen="8/3pk3/8/8/8/3R4/3K4/8 w - - 0 1" />
 
-**1. Rd1!** — Now the rook checks from behind.
+Here the pawn is on d7. **1. Rd1!** — Now the rook checks from behind.
 
 After 1...Ke6 2. Re1+ Kd6 3. Rd1+ (continue checking)
 
@@ -79,7 +79,7 @@ The king cannot shelter from checks without abandoning the pawn.
 
 <ChessBoard fen="8/8/8/4k3/3p4/8/3K4/3R4 b - - 0 1" />
 
-White's rook on d1 is too passive. Black advances with ...Ke4, ...d3, ...Ke3, and wins.
+White's rook on d1 is too passive — it sits behind the pawn instead of alongside it. Black advances with ...Ke4, ...d3, ...Ke3, and wins.
 
 ### Rook on the Wrong Side
 
@@ -94,7 +94,7 @@ White to move. What's the drawing technique?
 <details>
 <summary>Solution</summary>
 
-**1. Rd3!** — Third rank defense. Wait until the pawn advances to the 7th, then switch to checking from behind.
+**1. Rd3!** — Rook alongside the pawn, blocking the king. Wait until the pawn advances toward promotion, then switch to checking from behind.
 
 </details>
 
@@ -102,16 +102,16 @@ White to move. What's the drawing technique?
 
 | Position | Pawn Location | Result |
 |----------|---------------|--------|
-| Lucena | 7th rank, king in front | Win |
-| Philidor | 6th rank (or below) | Draw |
+| Lucena | Pawn near promotion, king in front | Win |
+| Philidor | Pawn several moves from promotion | Draw |
 
 The battle in R+P vs R is often: Can the attacker reach a Lucena? Can the defender maintain a Philidor?
 
 ## Summary
 
-1. **Third rank defense** — Rook on 3rd rank blocks the enemy king
+1. **Rook alongside the pawn** — Block the enemy king from advancing in front
 2. **Wait patiently** — Maintain position until pawn advances
-3. **Switch to checking** — When pawn reaches 7th, check from behind
+3. **Switch to checking** — When the pawn pushes forward, check from behind
 4. **Infinite checks** — The king cannot escape without losing the pawn
 
 This is the counterpart to Lucena. Know both positions cold.
