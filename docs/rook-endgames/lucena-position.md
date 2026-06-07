@@ -36,7 +36,7 @@ This move prepares to block checks. The rook will become a "bridge" for the king
 
 ### Step 2: Advance the King
 
-After 1...Ra1 2. Kc7 Rc1+ 3. Kb6 Rb1+ 4. Kc6 Rc1+ 5. Kb5 Rb1+
+After 1...Ra1 2. Kc7* Rc1+ 3. Kb6 Rb1+ 4. Kc6 Rc1+ 5. Kb5 Rb1+
 
 <ChessBoard fen="8/1P1k4/8/1K6/2R5/8/8/1r6 w - - 0 1" />
 
@@ -87,12 +87,12 @@ Play through: 1. Rc4 Ra1 2. Kc7 Rc1+ 3. Kb6 Rb1+ 4. Kc6 Rc1+ 5. Kb5 Rb1+ 6. Rb4!
 ### Black Tries Different Checks
 
 After 1. Rc4 Ra2 (not Ra1):
-- 2. Kc7 Rc2+ 3. Kb6 Rb2+ 4. Kc6 Rc2+ 5. Kb5 Rb2+ 6. Rb4! Same technique.
+- 2. Kc7* Rc2+ 3. Kb6 Rb2+ 4. Kc6 Rc2+ 5. Kb5 Rb2+ 6. Rb4! Same technique.
 
 ### Black's Rook Stays Passive
 
 After 1. Rc4 Ke7:
-- 2. Kc7 Ra7 3. Rc5! (cutting off Black's king) and the pawn promotes.
+- 2. Kc7* Ra7 3. Rc5! (cutting off Black's king) and the pawn promotes.
 
 ## Common Mistakes
 
@@ -108,3 +108,7 @@ After 1. Rc4 Ke7:
 4. **Promote** — Victory!
 
 The Lucena is the single most important rook endgame pattern. Know it by heart.
+
+---
+
+\* *Kc7 is flagged for review — with the Black king on d8, c7 is diagonally adjacent and therefore illegal. The standard Lucena bridge typically begins with the Black king farther from the pawn (e.g. on e8 or f8). Melvin to verify and correct the starting FEN or move sequence.*
