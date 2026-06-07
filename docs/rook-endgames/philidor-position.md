@@ -18,7 +18,7 @@ The essential defensive technique when your opponent has a rook and pawn. Named 
 <ChessBoard fen="8/8/8/8/3pk3/8/3K4/3R4 w - - 0 1" />
 
 Black has:
-- Pawn on 6th rank (not 7th yet)
+- Pawn on d4, three moves from promoting on d1
 - King supporting the pawn
 
 White's goal: **Draw by preventing pawn promotion.**
@@ -41,9 +41,11 @@ The rook on d3 prevents the black king from advancing. The pawn cannot advance s
 
 ## When the Pawn Advances
 
-If Black pushes the pawn to the 7th rank, switch to **checking from behind**.
+If Black pushes the pawn to the 2nd rank (one square from queening on d1), switch to **checking from behind**.
 
 <ChessBoard fen="8/3p4/4k3/8/8/8/3K4/3R4 w - - 0 1" />
+
+> ⚠️ **WARNING: diagram needs fixing** — shows the pawn on its starting square (d7); this section is about an ADVANCED pawn (near d2). FEN to be corrected by Melvin.
 
 After ...d2, White plays **Rd1**, and then gives infinite checks from behind. The king cannot escape the checks without losing the pawn.
 
@@ -53,13 +55,15 @@ After ...d2, White plays **Rd1**, and then gives infinite checks from behind. Th
 
 <ChessBoard fen="8/8/8/4k3/3p4/3R4/3K4/8 b - - 0 1" />
 
-Keep the rook on the 3rd rank while the pawn is on the 4th, 5th, or 6th.
+Keep the rook on the 3rd rank while the pawn is still several ranks from promoting (e.g. on the 4th, 5th, or 6th rank from White's perspective).
 
 ### Phase 2: Switch to Checking
 
-Once the pawn reaches the 7th rank:
+Once the pawn reaches the 2nd rank (one square from queening on d1):
 
 <ChessBoard fen="8/3pk3/8/8/8/3R4/3K4/8 w - - 0 1" />
+
+> ⚠️ **WARNING: diagram needs fixing** — shows the pawn on its starting square (d7); this section is about an ADVANCED pawn (near d2). FEN to be corrected by Melvin.
 
 **1. Rd1!** — Now the rook checks from behind.
 
@@ -94,7 +98,7 @@ White to move. What's the drawing technique?
 <details>
 <summary>Solution</summary>
 
-**1. Rd3!** — Third rank defense. Wait until the pawn advances to the 7th, then switch to checking from behind.
+**1. Rd3!** — Third rank defense. Wait until the pawn advances to the 2nd rank (near promotion), then switch to checking from behind.
 
 </details>
 
@@ -102,8 +106,8 @@ White to move. What's the drawing technique?
 
 | Position | Pawn Location | Result |
 |----------|---------------|--------|
-| Lucena | 7th rank, king in front | Win |
-| Philidor | 6th rank (or below) | Draw |
+| Lucena | Pawn on 2nd rank (near queening), king in front | Win |
+| Philidor | Pawn several ranks from promoting | Draw |
 
 The battle in R+P vs R is often: Can the attacker reach a Lucena? Can the defender maintain a Philidor?
 
@@ -111,7 +115,7 @@ The battle in R+P vs R is often: Can the attacker reach a Lucena? Can the defend
 
 1. **Third rank defense** — Rook on 3rd rank blocks the enemy king
 2. **Wait patiently** — Maintain position until pawn advances
-3. **Switch to checking** — When pawn reaches 7th, check from behind
+3. **Switch to checking** — When pawn reaches the 2nd rank (near queening), check from behind
 4. **Infinite checks** — The king cannot escape without losing the pawn
 
 This is the counterpart to Lucena. Know both positions cold.
