@@ -31,7 +31,7 @@ Drive the enemy king to a corner that matches your bishop's color.
 
 <ChessBoard fen="k7/8/1K6/8/8/5B2/8/7N w - - 0 1" />
 
-With a light-squared bishop, you must drive the king to a1 or h8 (light corners).
+With a light-squared bishop, you must drive the king to a8 or h1 (light corners).
 
 ## The W-Maneuver
 
@@ -41,7 +41,7 @@ The key technique for transferring the king from the "wrong" corner to the "righ
 
 <ChessBoard fen="7k/8/5K2/8/8/5B2/6N1/8 w - - 0 1" />
 
-The king is in h8 (dark corner), but our bishop is light-squared. We need to drive it to a1 or h8... wait, h8 is dark. We need a1.
+The king is in h8 (dark corner), but our bishop is light-squared. We need to drive it to a8 or h1 (light corners).
 
 ### The W-Path
 
