@@ -15,7 +15,7 @@ The most important winning position in rook endgames. Named after Luis Ramírez 
 
 ## The Position
 
-<ChessBoard fen="1K1k4/1P6/8/8/8/8/r7/2R5 w - - 0 1" />
+<ChessBoard fen="1K3k2/1P6/8/8/8/8/r7/2R5 w - - 0 1" />
 
 White has:
 - Pawn on the 7th rank (b7)
@@ -28,7 +28,7 @@ Black's rook gives checks from the side. **How does White escape?**
 
 ### Step 1: Lift the Rook to the 4th Rank
 
-<ChessBoard fen="1K1k4/1P6/8/8/8/8/r7/2R5 w - - 0 1" />
+<ChessBoard fen="1K3k2/1P6/8/8/8/8/r7/2R5 w - - 0 1" />
 
 **1. Rc4!**
 
@@ -78,7 +78,7 @@ You need:
 
 Set up this position and practice:
 
-`1K1k4/1P6/8/8/8/8/r7/2R5 w - - 0 1`
+`1K3k2/1P6/8/8/8/8/r7/2R5 w - - 0 1`
 
 Play through: 1. Rc4 Ra1 2. Kc7 Rc1+ 3. Kb6 Rb1+ 4. Kc6 Rc1+ 5. Kb5 Rb1+ 6. Rb4!
 
