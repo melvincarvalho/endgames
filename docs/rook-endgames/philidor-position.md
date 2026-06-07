@@ -18,7 +18,7 @@ The essential defensive technique when your opponent has a rook and pawn. Named 
 <ChessBoard fen="8/8/8/8/3pk3/8/3K4/3R4 w - - 0 1" />
 
 Black has:
-- Pawn on 6th rank (not 7th yet)
+- Pawn on the 4th rank, advancing
 - King supporting the pawn
 
 White's goal: **Draw by preventing pawn promotion.**
@@ -103,7 +103,7 @@ White to move. What's the drawing technique?
 | Position | Pawn Location | Result |
 |----------|---------------|--------|
 | Lucena | 7th rank, king in front | Win |
-| Philidor | 6th rank (or below) | Draw |
+| Philidor | 4th–6th rank | Draw |
 
 The battle in R+P vs R is often: Can the attacker reach a Lucena? Can the defender maintain a Philidor?
 
