@@ -91,6 +91,8 @@ Black's weaknesses:
 
 White maneuvers: **1.Bf3 Nd6 2.Kd4 Nb5+ 3.Kc4 Nd6+ 4.Kb3!**
 
+> ⚠️ **WARNING:** `1...Nd6` is not a legal knight move from d5 (d5→d6 = 1 square, not an L-shape). Legal knight moves from d5: b6, c3, c7, f4, f6. This move sequence needs correction.
+
 Now **a4-a5** creates threats on the queenside while the bishop controls the light squares.
 
 ## When One Weakness Suffices
@@ -118,6 +120,8 @@ Create weakness #2: **1.h6!** — Creates a potential passed pawn.
 
 **1...Kh8** (if gxh6 then g6 creates a passer)
 
+> ⚠️ **WARNING:** After `...gxh6` (g7xh6), the g6 square is still occupied by Black's own pawn (pg6). White's g5 pawn cannot push to g6. This annotation needs correction.
+
 **2.Ke3 Kg8 3.Kd4 Kf7 4.Kc5** — Now attacking both b7 and a6.
 
 Black cannot defend both wings.
@@ -135,7 +139,9 @@ White to move. Apply the two weaknesses principle.
 
 Attack weakness #1: **1.Rd6!** — Attacking a6 (a-pawn is backward).
 
-**1...Ra7 2.h4!** — Creating weakness #2 (potential kingside passed pawn).
+**1...Ra7 2.h4!** — Creating weakness #2
+
+> ⚠️ **WARNING:** `1...Ra7` is illegal — a7 is occupied by Black's own pawn (pa7). The rook on d7 cannot move to a7. This move needs correction (perhaps `1...Rd6` or another defense).
 
 **2...Kf7 3.h5!** — Now Black must defend both a6 and prevent h6.
 
