@@ -33,7 +33,7 @@ White has an extra pawn, but this is a **dead draw**.
 
 ## Why Extra Pawns Don't Always Help
 
-<ChessBoard fen="8/8/2p5/2Pk4/3P4/3K4/3B4/2b5 w - - 0 1" />
+<ChessBoard fen="8/8/2p5/2Pk4/3P4/3K4/4B3/2b5 w - - 0 1" />
 
 Even with **two extra pawns**, White cannot win:
 
