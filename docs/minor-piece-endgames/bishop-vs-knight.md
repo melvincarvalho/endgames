@@ -43,7 +43,7 @@ The knight cannot be in two places at once.
 
 <ChessBoard fen="8/1p2k3/p3p3/P1p1P3/2P1N3/8/6K1/3b4 w - - 0 1" />
 
-The knight on e4 is perfectly placed—supported by pawns, unassailable by the bishop. Black's bishop is "bad" (blocked by pawns on e6, c5).
+The knight on e4 is perfectly placed—centralized on a strong square, unassailable by the bishop. Black's bishop is "bad" (blocked by pawns on e6, c5).
 
 White will win by bringing the king to support the knight.
 
