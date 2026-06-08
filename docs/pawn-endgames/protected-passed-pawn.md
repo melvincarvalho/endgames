@@ -23,6 +23,8 @@ The d5-pawn is a **protected passed pawn**:
 - It's passed (no enemy pawn can block or capture it)
 - It's protected by the d4-pawn
 
+> ⚠️ **WARNING: Core concept error.** A pawn on d4 captures diagonally on **c5** and **e5** — it does **NOT** protect d5 (which is directly ahead, not on a diagonal). For d5 to be a protected passed pawn, it would need a friendly pawn on c4 or e4. The Pd4/Pd5 structure appears throughout this page and is NOT a protected passed pawn. A correct example would be Pc5 + Pd4 (c5 protected by d4 which captures on c5).
+
 ### Key Properties
 
 1. **Cannot be captured by the king** — The protecting pawn guards it
@@ -42,6 +44,8 @@ Black's king is tied to stopping d5. White's king is free:
 
 **5...Kc7 6.Kxe5 Kd7 7.Kf6** — White wins.
 
+> ⚠️ **WARNING: Impossible move at move 6.** White king is on c5 after move 5. "6.Kxe5" requires jumping from c5 to e5 — that's 2 files apart. Kings move one square. The move sequence needs correction.
+
 The protected passed pawn occupied Black's king while White's king invaded.
 
 ## Creating a Protected Passed Pawn
@@ -51,6 +55,8 @@ The protected passed pawn occupied Black's king while White's king invaded.
 <ChessBoard fen="8/8/4k3/2p5/1pPp4/1P1P4/8/4K3 w - - 0 1" />
 
 **1.c5!** — Sacrificing to create a protected passer.
+
+> ⚠️ **WARNING: Illegal move.** c5 is occupied by Black's pawn (pc5). A pawn on c4 cannot push forward to c5. This needs a FEN correction (e.g., remove pc5 or change the move to a diagonal capture).
 
 **1...bxc5** (if **1...Kxc5 2.bxc4** wins the d4-pawn)
 
@@ -80,6 +86,8 @@ Wrong approach! The protected passed pawn shouldn't be captured so easily.
 
 **1.d6!! Kxd6 2.d5!** — Now White has a simple passed pawn, but Black's king is far.
 
+> ⚠️ **WARNING: Illegal move.** Black's king is on d6 (per the FEN). "1.d6!!" pushes Pd5 to d6, but d6 is occupied by the Black king. A pawn cannot move to a square occupied by any piece, including the enemy king. The FEN or move needs correction.
+
 **2...exd5?? 3.Kxg2** — White wins the pawn race!
 
 Or **2...Kxd5 3.Kxg2 Ke4 4.Kf2** — Drawn, but better than losing.
@@ -105,6 +113,8 @@ White has a protected passed pawn on d5. The a-pawns are balanced.
 <ChessBoard fen="8/8/3k4/3Pp3/3Pp3/4P3/8/4K3 w - - 0 1" />
 
 White has a protected passer, but the position is blocked. Neither side can make progress.
+
+> ⚠️ **NOTE:** Same core concept issue — Pd4 does not protect Pd5 (pawns protect diagonally, not forward).
 
 ### Wrong Side of the Board
 
@@ -154,6 +164,8 @@ White to move. Create a protected passed pawn.
 <summary>Solution</summary>
 
 **1.c4!!** — The key break.
+
+> ⚠️ **WARNING: Illegal move.** c4 is occupied by Black's pawn (pc4 in FEN rank 4: `1Pp5` = b4=P, c4=p). A pawn on c3 cannot push forward to c4. Needs FEN or move correction.
 
 **1...bxc4** (forced, otherwise cxb5)
 
