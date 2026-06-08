@@ -14,6 +14,8 @@ description: Chess endgame terminology
 
 **Bad Bishop** — A bishop blocked by its own pawns on the same color squares.
 
+**Blockade** — Stopping a passed pawn by placing a piece directly in front of it. Knights are ideal blockaders because they can attack the pawn while remaining stable.
+
 **Breakthrough** — A pawn sacrifice that clears a path so another pawn can promote.
 
 **Building a Bridge** — The Lucena technique of using the rook to block checks.
@@ -56,6 +58,8 @@ description: Chess endgame terminology
 
 **Passed Pawn** — A pawn with no enemy pawns blocking or able to capture it.
 
+**Pawn Majority** — Having more pawns than the opponent on one wing, often used to create a passed pawn.
+
 **[Philidor Position](/rook-endgames/philidor-position)** — The drawing R+P vs R defense with third rank technique.
 
 **[Protected Passed Pawn](/pawn-endgames/protected-passed-pawn)** — A passed pawn defended by a friendly pawn, making it harder to block.
@@ -79,6 +83,8 @@ description: Chess endgame terminology
 **Tarrasch Rule** — The guideline that rooks belong behind passed pawns, whether your own or the opponent's.
 
 **Tempo** — A single move viewed as a unit of time; "gaining a tempo" means making progress while the opponent does not.
+
+**Trebuchet** — A mutual-zugzwang position where whoever is to move loses. Also called a full-point zugzwang.
 
 **[Triangulation](/pawn-endgames/triangulation)** — Moving the king in a triangle to transfer the move to the opponent.
 
