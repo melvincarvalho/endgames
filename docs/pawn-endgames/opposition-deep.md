@@ -87,7 +87,7 @@ This is an advanced technique used in complex king and pawn endgames.
 
 ## The Trebuchet
 
-A special mutual zugzwang position where whoever moves loses.
+A special mutual [zugzwang](/strategic-themes/zugzwang) position where whoever moves loses.
 
 <ChessBoard fen="8/8/8/1p1k4/1P6/3K4/8/8 w - - 0 1" />
 
