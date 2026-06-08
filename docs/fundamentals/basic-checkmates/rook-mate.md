@@ -21,7 +21,7 @@ Use the rook to cut off the enemy king, shrink its space, and deliver checkmate 
 
 1. **Cut off the king** — The rook creates a barrier
 2. **Shrink the box** — Reduce the king's space rank by rank (or file by file)
-3. **Opposition** — Use your king to force the enemy king back
+3. **[Opposition](/fundamentals/opposition)** — Use your king to force the enemy king back
 4. **Patience** — This takes more moves than the queen mate
 
 ## The Technique: Building a Box
@@ -50,7 +50,7 @@ When your king is ready, use the rook to push the enemy king back.
 
 <ChessBoard fen="4k3/8/4K3/4R3/8/8/8/8 w - - 0 1" />
 
-The enemy king is on the edge. Now use opposition to deliver mate.
+The enemy king is on the edge. Now use [opposition](/fundamentals/opposition) to deliver mate.
 
 ### Step 5: Checkmate
 
