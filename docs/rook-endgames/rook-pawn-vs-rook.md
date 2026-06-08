@@ -54,22 +54,17 @@ The long side has enough room. White wins.
 
 ## The Vancura Position (Drawing Technique)
 
-<ChessBoard fen="K7/P7/8/8/8/8/6k1/r7 w - - 0 1" />
+With a rook each and an a-pawn only on the **6th** rank, the defender draws by putting the rook on the **Vancura square** — on the rook's file's rank, attacking the pawn *from the side*:
 
-Black's rook on the a-file, Black's king on the long side. Can Black draw?
+<ChessBoard fen="R7/8/P4r2/8/8/6k1/8/7K w - - 0 1" />
 
-**1.Kb7 Rb1+ 2.Ka6 Ra1+ 3.Kb6 Rb1+ 4.Ka5 Ra1+ 5.Kb4 Ra6!**
+Black's rook on f6 attacks the a6-pawn along the rank, while White's own rook is tied passively in front of its pawn on a8, and White's king is cut off in the corner.
 
-The **Vancura position**: Black's rook attacks from the side (6th rank), preventing both king escape and pawn advance.
+White can make no progress:
+- The rook on f6 keeps hitting a6, so the pawn cannot safely advance to a7.
+- If White ever frees the rook to push, Black's rook swings behind (…Rf8/…Ra6) and gives checks the cut-off king cannot escape.
 
-<ChessBoard fen="K7/P7/r7/8/1K6/8/6k1/8 w - - 0 1" />
-
-After **Ra6!**, White cannot make progress:
-- If **a8=Q**, then **Rxa8**
-- If **Kb5**, then **Ra1** (rook goes behind)
-- If **Kc5**, then **Ra1** (same)
-
-**Draw!**
+Stockfish confirms it: **0.00 — a draw.** (The trick fails if the pawn is already on a7, or if White's king is close enough to shield it from the checks.)
 
 ## Summary of Rook Pawn Principles
 
