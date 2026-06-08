@@ -205,3 +205,9 @@ The bishop cannot stop both pawns simultaneously.
 3. **Pawns opposite color** — Keep pawns off your bishop's color
 4. **Wrong rook pawn** — Draws even with extra pawn
 5. **Two pawns up** — Usually winning, but technique matters
+
+## Related topics
+
+- [Opposite-colour bishops](/minor-piece-endgames/bishop-opposite-color)
+- [Good vs bad bishop](/minor-piece-endgames/good-vs-bad-bishop)
+- [Two weaknesses](/strategic-themes/principle-of-two-weaknesses)

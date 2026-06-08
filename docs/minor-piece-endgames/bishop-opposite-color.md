@@ -213,3 +213,9 @@ The pawns spanned enough files (a to h), and the king penetrated.
 4. **Connected passers** — Win if far enough advanced (6th rank)
 5. **Rule of 7 squares** — Pawns spanning 7+ files usually win
 6. **King activity** — The key factor in winning these endings
+
+## Related topics
+
+- [Same-colour bishops](/minor-piece-endgames/bishop-same-color)
+- [Bishop vs knight](/minor-piece-endgames/bishop-vs-knight)
+- [Fortresses](/strategic-themes/fortresses)
