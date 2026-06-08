@@ -107,7 +107,7 @@ Pawns from b4 to h7 span 7 files. This is **winning** for White.
 
 ## Defensive Technique
 
-### Create a Fortress
+### Create a [Fortress](/strategic-themes/fortresses)
 
 <ChessBoard fen="8/8/4k3/3pPp2/3P1P2/8/8/3bK2B w - - 0 1" />
 

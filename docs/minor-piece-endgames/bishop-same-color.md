@@ -62,7 +62,7 @@ Even with same-colored bishops, the **wrong rook pawn** draws:
 
 White cannot win. The bishop doesn't control a1, and Black's king cannot be driven out.
 
-**1.Bc4 Ka2 2.Bd5+ Ka1!** — Stalemate threats. White cannot make progress.
+**1.Bc4 Ka2 2.Bd5+ Ka1!** — [Stalemate](/strategic-themes/stalemate-resources) threats. White cannot make progress.
 
 ## Bishop + Pawn vs Bishop
 
@@ -123,7 +123,7 @@ White is a pawn up with better bishop activity.
 
 **1...Kf8 2.Ke4 Ke7 3.Kd5 Kd7 4.Be3!** — The bishop improves while maintaining control.
 
-**4...Kc7 5.Bc5!** — Zugzwang approaching.
+**4...Kc7 5.Bc5!** — [Zugzwang](/strategic-themes/zugzwang) approaching.
 
 **5...Kd7 6.Bf8! g5 7.Ke5** — White's king penetrates decisively.
 
