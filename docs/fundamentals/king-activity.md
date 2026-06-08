@@ -53,7 +53,7 @@ Plan your king's journey. The shortest path isn't always best—sometimes you ne
 <ChessBoard fen="8/8/8/4k3/8/4K3/8/8 w - - 0 1" />
 
 To reach c5, the king can go:
-- e3-d3-c3-c4-c5 (4 moves, might allow opposition)
+- e3-d3-c3-c4-c5 (4 moves, might allow [opposition](/fundamentals/opposition))
 - e3-d4-c5 (2 moves via diagonal)
 
 **Diagonal paths** often save tempi.

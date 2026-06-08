@@ -14,7 +14,7 @@ Rook pawns create special difficulties because the edge of the board restricts m
 
 ## Why Rook Pawns Are Different
 
-With center or bishop pawns, the Lucena technique "builds a bridge" using the 4th rank. With rook pawns, there's no room on one side—the king can't escape checks.
+With center or bishop pawns, the [Lucena](/rook-endgames/lucena-position) technique "builds a bridge" using the 4th rank. With rook pawns, there's no room on one side—the king can't escape checks.
 
 <ChessBoard fen="K7/P7/8/8/8/8/7r/5k2 w - - 0 1" />
 
