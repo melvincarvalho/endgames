@@ -78,7 +78,7 @@ A **central pawn** usually wins:
 
 ### Drawing Cases
 
-<ChessBoard fen="B7/8/k7/P7/8/8/K7/1b6 b - - 0 1" />
+<ChessBoard fen="B7/8/k7/P7/8/1K6/8/1b6 b - - 0 1" />
 
 When the defending bishop can sacrifice for the pawn:
 

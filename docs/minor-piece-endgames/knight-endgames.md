@@ -85,11 +85,11 @@ When the defending knight is poorly placed:
 
 ### Connected Passed Pawns
 
-<ChessBoard fen="8/8/8/2PP4/8/4k3/8/3NK3 w - - 0 1" />
+<ChessBoard fen="8/8/8/2PP4/4k3/8/8/3NK3 w - - 0 1" />
 
 With connected passers, the knight escorts them forward:
 
-**1.Nc3! Kd4 2.Nb5+ Kd3 3.d6!** — The pawns advance while the knight covers key squares.
+**1.Nc3+! Kd4 2.Nb5+ Kd3 3.d6!** — The pawns advance while the knight covers key squares.
 
 ### Isolated Pawns
 
@@ -115,7 +115,7 @@ See [Bishop vs Knight](./bishop-vs-knight) for detailed analysis. Key points:
 
 ## The Centralized Knight
 
-<ChessBoard fen="8/pp2k3/8/3N4/8/8/PP2K3/8 w - - 0 1" />
+<ChessBoard fen="8/pp3k2/8/3N4/8/8/PP2K3/8 w - - 0 1" />
 
 A centralized knight is powerful—it controls many squares and can quickly attack either wing.
 
