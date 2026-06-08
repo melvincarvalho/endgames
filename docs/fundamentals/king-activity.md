@@ -34,9 +34,9 @@ Both kings are passive. First one to centralize gains advantage.
 
 ### After
 
-<ChessBoard fen="8/5pk1/5p1p/4K3/8/5P1P/5P2/8 b - - 0 1" />
+<ChessBoard fen="8/5pk1/5p1p/8/4K3/5P1P/5P2/8 b - - 0 1" />
 
-White's king reached e5 first. This is winning.
+White's king reached the centre (e4) first. It breaks through with **Kf5** and **Kxf6** — winning. (The king can't sit on e5 itself: Black's f6-pawn covers it.)
 
 ## When to Activate
 
