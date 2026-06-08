@@ -15,10 +15,10 @@ Rook pawns (a-file and h-file) are **special**. They have unique drawing resourc
 
 ## Why Rook Pawns Are Different
 
-1. **Only 2 key squares** instead of 3 (edge of board)
-2. **Stalemate resources** in the corner
+1. **Only 2 [key squares](/pawn-endgames/key-squares)** instead of 3 (edge of board)
+2. **[Stalemate resources](/strategic-themes/stalemate-resources)** in the corner
 3. **Wrong bishop** drawing patterns
-4. **Defensive fortress** possibilities
+4. **Defensive [fortress](/strategic-themes/fortresses)** possibilities
 
 ## The Basic Drawing Pattern
 
