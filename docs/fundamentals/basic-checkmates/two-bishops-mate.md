@@ -56,9 +56,7 @@ The king is trapped in the corner.
 
 ### Step 5: Checkmate
 
-> ⚠️ **WARNING: FEN side-to-move** — This is the final mating position and IS checkmate: Bf6 (dark) checks Kh8 along f6-g7-h8, Bf7 (light) covers g8, and Kg6 covers g7/h7. The bishops are correctly opposite-coloured. The one defect: the FEN says `w` to move, but with Black checkmated it must be `b` (White cannot be to move while Black is in check).
-
-<ChessBoard fen="7k/5B2/5BK1/8/8/8/8/8 w - - 0 1" />
+<ChessBoard fen="7k/5B2/5BK1/8/8/8/8/8 b - - 0 1" />
 
 **Bf6#** — The bishops cover all escape squares.
 
