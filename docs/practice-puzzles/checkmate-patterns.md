@@ -154,3 +154,10 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
 **Congratulations!** You've completed all puzzle sets. Keep practicing to maintain your skills!
 
 [Back to Puzzle Overview](./)
+
+## Related theory
+
+- [Queen mate](/fundamentals/basic-checkmates/queen-mate)
+- [Rook mate](/fundamentals/basic-checkmates/rook-mate)
+- [Two bishops mate](/fundamentals/basic-checkmates/two-bishops-mate)
+- [Bishop + knight mate](/fundamentals/basic-checkmates/bishop-knight-mate)
