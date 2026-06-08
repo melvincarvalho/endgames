@@ -91,7 +91,7 @@ Black's weaknesses:
 
 White maneuvers: **1.Bf3 Nd6 2.Kd4 Nb5+ 3.Kc4 Nd6+ 4.Kb3!**
 
-> ⚠️ **WARNING:** `1...Nd6` is not a legal knight move from d5 (d5→d6 = 1 square, not an L-shape). Legal knight moves from d5: b6, c3, c7, f4, f6. This move sequence needs correction.
+> ⚠️ **WARNING:** `1...Nd6` is not a legal knight move from d5 (d5→d6 = 1 square, not an L-shape). Legal knight moves from d5: b4 (xP), b6, c3, c7, f4, f6. This move sequence needs correction.
 
 Now **a4-a5** creates threats on the queenside while the bishop controls the light squares.
 
