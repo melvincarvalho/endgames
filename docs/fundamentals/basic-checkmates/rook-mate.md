@@ -54,11 +54,9 @@ The enemy king is on the edge. Now use opposition to deliver mate.
 
 ### Step 5: Checkmate
 
-> ⚠️ **WARNING: diagram is illegal** — The FEN puts the White rook on e7, which already checks Black's king on e8 (same file) while it is White to move — an illegal position. And "Re8#" is impossible: e8 is occupied by the Black king. A correct K+R back-rank mate has the rook checking along the 8th rank **from a distance** so the king can't capture it — e.g. White Ke6, Black Ke8, **Ra8#**. Needs re-authoring.
+<ChessBoard fen="4k3/8/4K3/8/8/8/8/R7 w - - 0 1" />
 
-<ChessBoard fen="4k3/4R3/4K3/8/8/8/8/8 w - - 0 1" />
-
-**Re8#** — Checkmate! ⚠️ *move impossible, e8 occupied*
+**Ra8#** — Checkmate! The rook checks along the 8th rank from a distance, while the king covers the escape squares d7, e7, and f7.
 
 ## The Waiting Move
 
