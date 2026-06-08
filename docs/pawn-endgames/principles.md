@@ -13,8 +13,8 @@ Pawn endgames are "the endgame of endgames." Master these principles.
 ## Core Concepts
 
 1. **King activity** — The king is the star of pawn endgames
-2. **Opposition** — The fundamental tool for king battles
-3. **Key squares** — Control these and the pawn promotes
+2. **[Opposition](/fundamentals/opposition)** — The fundamental tool for king battles
+3. **[Key squares](/pawn-endgames/key-squares)** — Control these and the pawn promotes
 4. **Pawn structure** — Passed pawns, connected pawns, isolated pawns
 
 ## The Golden Rule

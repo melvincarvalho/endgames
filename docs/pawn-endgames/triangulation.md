@@ -11,7 +11,7 @@ import ChessBoard from '@site/src/components/ChessBoard';
 <span className="badge badge--intermediate">Intermediate</span>
 <span className="badge badge--must-know">Must Know</span>
 
-Triangulation is the art of **transferring the move to your opponent**. You reach a position that would be winning if only it were *their* turn — so you "lose a tempo," either by walking your king in a triangle or by spending a spare pawn move. With no such waiting move of their own, the opponent falls into zugzwang.
+Triangulation is the art of **transferring the move to your opponent**. You reach a position that would be winning if only it were *their* turn — so you "lose a tempo," either by walking your king in a triangle or by spending a spare pawn move. With no such waiting move of their own, the opponent falls into [zugzwang](/strategic-themes/zugzwang).
 
 ## The Concept
 
@@ -21,7 +21,7 @@ In many king-and-pawn endings the player *to move* is worse off — moving their
 
 <ChessBoard fen="8/3k4/8/3Pp3/4P3/3K4/8/8 w - - 0 1" />
 
-White has a **protected passed pawn** on d5 (guarded by e4), but Black's king blockades from d7. Charging straight ahead achieves nothing — so White's king sidesteps to lose a tempo and outflank:
+White has a **[protected passed pawn](/pawn-endgames/protected-passed-pawn)** on d5 (guarded by e4), but Black's king blockades from d7. Charging straight ahead achieves nothing — so White's king sidesteps to lose a tempo and outflank:
 
 **1.Kc4! Kd6 2.Kb5 Kd7 3.Kc5** — White's king has worked its way to c5. Black cannot keep guarding the d-pawn *and* meet the king's invasion. White wins (Stockfish: decisive).
 
