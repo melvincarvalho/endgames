@@ -1,4 +1,4 @@
-name: Chess content check
+name: Content checks
 
 on:
   pull_request:
@@ -19,3 +19,5 @@ jobs:
       - run: pip install chess
       - name: Verify every FEN, puzzle and move-line with the engine
         run: python scripts/chess-check.py
+      - name: Verify every internal link resolves
+        run: python scripts/link-check.py
