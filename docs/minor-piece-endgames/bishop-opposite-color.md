@@ -197,7 +197,7 @@ White to move. How should White proceed?
 
 **1.Ke3 Kf6 2.Kd4 Ke6 3.Kc5 Kd7 4.Kb6!** — The king invades.
 
-**4...Kc8 5.a5!** — Creating the breakthrough.
+**4...Kc8 5.a5!** — Creating the [breakthrough](/pawn-endgames/breakthroughs).
 
 **5...Bf2 6.b5 axb5 7.a6** — The pawn promotes.
 

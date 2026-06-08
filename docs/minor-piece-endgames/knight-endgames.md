@@ -89,7 +89,7 @@ When the defending knight is poorly placed:
 
 With connected passers, the knight escorts them forward:
 
-**1.Nc3+! Kd4 2.Nb5+ Kd3 3.d6!** — The pawns advance while the knight covers key squares.
+**1.Nc3+! Kd4 2.Nb5+ Kd3 3.d6!** — The pawns advance while the knight covers [key squares](/pawn-endgames/key-squares).
 
 ### Isolated Pawns
 
