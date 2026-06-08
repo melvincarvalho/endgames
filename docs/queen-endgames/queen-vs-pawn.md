@@ -35,7 +35,7 @@ Two pawn types can hold a draw **if the defending king is already next to the pa
 
 **Draw.** The black king shuffles a1–b2. Whenever it reaches a1 it threatens ...a1=Q, so White must keep checking — but the checks never gain a tempo:
 
-**1.Kg7 Kb2 2.Qh2+ Kb1 3.Qg1+ Kb2** — no progress. White's king can never come closer, and forcing the king onto a1 only invites stalemate.
+**1.Kg7 Kb2 2.Qh2+ Kb1 3.Qg1+ Kb2** — no progress. White's king can never come closer, and forcing the king onto a1 only invites [stalemate](/strategic-themes/stalemate-resources).
 
 ### Bishop Pawn (c- or f-file)
 
@@ -43,7 +43,7 @@ Two pawn types can hold a draw **if the defending king is already next to the pa
 
 **Draw**, for the same reason. When White pins the pawn, ...Kc1 threatens ...c1=Q, and capturing the pawn stalemates the king in the corner:
 
-**1.Qa1+ Kd2 2.Qa5+ Kd1 3.Qd5+ Kc1** — the king keeps slipping back to the c1/c2 fortress.
+**1.Qa1+ Kd2 2.Qa5+ Kd1 3.Qd5+ Kc1** — the king keeps slipping back to the c1/c2 [fortress](/strategic-themes/fortresses).
 
 ### Central Pawn (d- or e-file)
 

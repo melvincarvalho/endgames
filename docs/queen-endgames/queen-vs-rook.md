@@ -14,7 +14,7 @@ The queen wins against the rook, but the technique requires precision and can ta
 
 ## The Advantage
 
-The queen is worth approximately 9 points, the rook 5. But unlike material advantages with minor pieces, the queen vs rook is almost always winning (with rare fortress exceptions).
+The queen is worth approximately 9 points, the rook 5. But unlike material advantages with minor pieces, the queen vs rook is almost always winning (with rare [fortress](/strategic-themes/fortresses) exceptions).
 
 ## The Winning Method
 
