@@ -30,3 +30,9 @@ A single tempo can decide the game. Calculate precisely.
 2. [Rule of the Square](/pawn-endgames/rule-of-the-square) — Can the king catch the pawn?
 3. [Opposition (Deep)](/pawn-endgames/opposition-deep) — Advanced applications
 4. [Triangulation](/pawn-endgames/triangulation) — Gaining tempi
+
+## Related topics
+
+- [Key squares](/pawn-endgames/key-squares)
+- [Opposition](/fundamentals/opposition)
+- [King & pawn vs king](/pawn-endgames/king-pawn-vs-king)
