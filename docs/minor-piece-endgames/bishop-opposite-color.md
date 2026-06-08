@@ -127,7 +127,7 @@ Not **1...Bf3?** which locks the bishop in.
 
 ### Use Your King
 
-<ChessBoard fen="8/1p4k1/1P4p1/6P1/8/8/4K3/B6b w - - 0 1" />
+<ChessBoard fen="8/1p4k1/1P4p1/6P1/8/8/4K3/B6b b - - 0 1" />
 
 **1...Kf7! 2.Kd3 Ke6 3.Kc4 Kd6** — The king blockades b6.
 

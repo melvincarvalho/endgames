@@ -29,7 +29,7 @@ However, knowing the technique demonstrates deep endgame understanding and will 
 
 Drive the enemy king to a corner that matches your bishop's color.
 
-<ChessBoard fen="k7/8/1K6/8/8/5B2/8/7N w - - 0 1" />
+<ChessBoard fen="k7/8/1K6/8/8/5B2/8/7N b - - 0 1" />
 
 With a light-squared bishop, you must drive the king to a8 or h1 (light corners).
 
