@@ -109,7 +109,7 @@ White to move. What's the drawing technique?
 | Lucena | Pawn on 2nd rank (near queening), king in front | Win |
 | Philidor | Pawn several ranks from promoting | Draw |
 
-The battle in R+P vs R is often: Can the attacker reach a Lucena? Can the defender maintain a Philidor?
+The battle in R+P vs R is often: Can the attacker reach a [Lucena](/rook-endgames/lucena-position)? Can the defender maintain a Philidor?
 
 ## Summary
 
@@ -118,7 +118,7 @@ The battle in R+P vs R is often: Can the attacker reach a Lucena? Can the defend
 3. **Switch to checking** — When pawn reaches the 2nd rank (near queening), check from behind
 4. **Infinite checks** — The king cannot escape without losing the pawn
 
-This is the counterpart to Lucena. Know both positions cold.
+This is the counterpart to [Lucena](/rook-endgames/lucena-position). Know both positions cold.
 
 ## Related topics
 
