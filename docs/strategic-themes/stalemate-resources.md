@@ -160,3 +160,9 @@ The queen alone can only stalemate the cornered king — **the king must help**.
 3. **Pin or trap** = a pinned pawn or a cornered king can produce stalemate
 4. **Rook-pawn + distant king** = even a queen may only draw
 5. **For the attacker** = always verify the opponent has a legal move — especially with the king in the corner
+
+## Related topics
+
+- [Zugzwang](/strategic-themes/zugzwang)
+- [Triangulation](/pawn-endgames/triangulation)
+- [Fortresses](/strategic-themes/fortresses)

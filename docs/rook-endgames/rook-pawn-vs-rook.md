@@ -146,3 +146,9 @@ White cannot get the king in front of the pawn without losing it. Draw.
 3. **Long side escape**: Attacker needs room to flee checks
 4. **Vancura position**: Side attack on the 6th rank holds
 5. **King position**: Must be in front for winning chances
+
+## Related topics
+
+- [Lucena position](/rook-endgames/lucena-position)
+- [Philidor position](/rook-endgames/philidor-position)
+- [Rook vs pawn](/rook-endgames/rook-vs-pawn)

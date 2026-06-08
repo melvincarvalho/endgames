@@ -149,3 +149,9 @@ Where should White's rook go?
 3. **7th rank**: Ideal for rook domination
 4. **Behind passed pawns**: The golden rule of rook placement
 5. **Activity over material**: An active rook can be worth a pawn
+
+## Related topics
+
+- [Lucena position](/rook-endgames/lucena-position)
+- [Rook vs pawn](/rook-endgames/rook-vs-pawn)
+- [Rook endgame principles](/rook-endgames/principles)
