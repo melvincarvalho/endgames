@@ -11,7 +11,7 @@ import ChessBoard from '@site/src/components/ChessBoard';
 <span className="badge badge--intermediate">Intermediate</span>
 <span className="badge badge--must-know">Must Know</span>
 
-> "Opposition and such are merely tools to get to the key squares." — Fundamental endgame principle
+> "[Opposition](/fundamentals/opposition) and such are merely tools to get to the key squares." — Fundamental endgame principle
 
 Key squares are the **real goal** in king and pawn endgames. Opposition is just a means to reach them.
 

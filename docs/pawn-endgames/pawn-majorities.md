@@ -208,7 +208,7 @@ White's majority is already advanced. Find the winning plan.
 
 **1.b4!** — Continuing the advance.
 
-**1...Kd6 2.a4 Kc6 3.b5+ Kb6 4.c5+!** — Breakthrough.
+**1...Kd6 2.a4 Kc6 3.b5+ Kb6 4.c5+!** — [Breakthrough](/pawn-endgames/breakthroughs).
 
 **4...Kxc5 5.a5** — And the a-pawn promotes.
 

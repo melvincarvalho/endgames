@@ -134,7 +134,7 @@ White to move. Is there a winning breakthrough?
 
 **1.d5! exd5** (best) **2.c5! dxc5 3.e5!** — The e-pawn runs.
 
-Now **3...Ke6 4.Ke3 Kxe5 5.Kd3** and White wins the c5 and d5 pawns, but must calculate if Black's c-pawn is dangerous. In fact, White wins the pawn race.
+Now **3...Ke6 4.Ke3 Kxe5 5.Kd3** and White wins the c5 and d5 pawns, but must calculate if Black's c-pawn is dangerous. In fact, White wins the [pawn race](/pawn-endgames/pawn-races).
 
 </details>
 
