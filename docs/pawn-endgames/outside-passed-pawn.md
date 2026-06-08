@@ -48,7 +48,7 @@ Think of the outside passed pawn as a **decoy**:
 
 <ChessBoard fen="8/8/5k2/P4p2/5P2/5K2/8/8 w - - 0 1" />
 
-Sometimes the passer simply outruns the king. Count the moves with the **rule of the square**:
+Sometimes the passer simply outruns the king. Count the moves with the **[rule of the square](/pawn-endgames/rule-of-the-square)**:
 
 **1.a6 Ke7 2.a7 Kd6 3.a8=Q** — Black's king started too far away; the pawn queens by itself. Always check whether the enemy king is inside the pawn's "square" before relying on it.
 
