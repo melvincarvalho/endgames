@@ -22,7 +22,7 @@ The king can only be checkmated in a corner. Use the bishops to drive the king t
 1. **Bishops work together** — They control adjacent diagonals, creating an impassable barrier
 2. **Drive to the corner** — Checkmate only occurs in the corner
 3. **King must help** — Your king assists in restricting the enemy king
-4. **Avoid stalemate** — The corner creates stalemate risks
+4. **Avoid [stalemate](/strategic-themes/stalemate-resources)** — The corner creates stalemate risks
 
 ## The Technique
 

@@ -20,7 +20,7 @@ Drive the enemy king to the edge of the board, then deliver checkmate with your 
 ## Key Principles
 
 1. **Restrict the king** — Use the queen to cut off squares
-2. **Avoid stalemate** — Always leave the enemy king a legal move until mate
+2. **Avoid [stalemate](/strategic-themes/stalemate-resources)** — Always leave the enemy king a legal move until mate
 3. **Bring up your king** — The king must help deliver the final blow
 
 ## The Technique
