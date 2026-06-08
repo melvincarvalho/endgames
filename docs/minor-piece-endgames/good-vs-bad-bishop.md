@@ -121,8 +121,6 @@ If possible, advance or trade pawns to free the bishop:
 
 White's bishop is completely useless—it cannot move without allowing ...Kd6 or ...Kf6.
 
-> ⚠️ **WARNING: This is NOT a tall pawn.** Bf1 is light-squared (6+1=7). ALL six White pawns (a5, b4, c5, d4, e5, f4) are on dark squares — the **opposite** color. A true tall pawn has pawns on the **same** color as the bishop, blocking its diagonals. Here the bishop has open light diagonals. To demonstrate a tall pawn, the pawns should be on light squares.
-
 Despite material equality, **Black is effectively a piece up** because the bishop does nothing.
 
 ## The "Active Bad Bishop"
