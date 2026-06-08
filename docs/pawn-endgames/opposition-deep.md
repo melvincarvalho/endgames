@@ -38,7 +38,7 @@ Black to move. White has distant opposition.
 After **1...Kd5 2.Kd1!** (maintaining distant opposition — 3 squares between: d2, d3, d4)
 Or **1...Ke4 2.Ke2!** (taking direct opposition)
 
-White maintains the opposition throughout and eventually reaches a key square.
+White maintains the opposition throughout and eventually reaches a [key square](/pawn-endgames/key-squares).
 
 ## Diagonal Opposition
 

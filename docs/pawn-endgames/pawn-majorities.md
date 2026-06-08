@@ -29,7 +29,7 @@ The side that creates a passed pawn first often wins.
 **Queenside majorities are generally more valuable because:**
 
 1. **Kings usually castle kingside** — Queenside is farther from defensive resources
-2. **Outside passed pawn** — A queenside passer decoys the king
+2. **[Outside passed pawn](/pawn-endgames/outside-passed-pawn)** — A queenside passer decoys the king
 3. **Safer king** — Your king stays on the kingside, protected by pawns
 
 ## Creating a Passed Pawn from a Majority
@@ -133,7 +133,7 @@ The rook supports the advance and can later move behind the passed pawn.
 
 **1.c4!** — Same principle.
 
-The bishop supports the advance from a distance and can control key squares.
+The bishop supports the advance from a distance and can control [key squares](/pawn-endgames/key-squares).
 
 ### With Knights
 
@@ -231,7 +231,7 @@ Both sides have 4 vs 3. Who stands better?
 
 White plays: **1.c4 f5 2.b4 f4 3.gxf4 gxf4 4.a4 a6 5.b5!**
 
-Even if Black creates a passed f-pawn, White's queenside passer is an **outside passed pawn**, which is more dangerous.
+Even if Black creates a passed f-pawn, White's queenside passer is an **[outside passed pawn](/pawn-endgames/outside-passed-pawn)**, which is more dangerous.
 
 The queenside majority wins the race because it's farther from the kings.
 
