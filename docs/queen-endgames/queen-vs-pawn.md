@@ -11,74 +11,51 @@ import ChessBoard from '@site/src/components/ChessBoard';
 <span className="badge badge--intermediate">Intermediate</span>
 <span className="badge badge--must-know">Must Know</span>
 
-Can a queen stop an advanced pawn? Usually yes—but the technique matters, and there are important exceptions.
+Can a queen stop an advanced pawn? Usually yes — but the technique matters, and there are important exceptions.
 
 ## The Winning Technique
 
-### Step 1: Give Checks to Approach
+The queen alone cannot win — it must **bring its king to the pawn**. The method: check the enemy king so that it is forced to block its own pawn, which gives White a free tempo to march the king closer.
 
-The queen uses checks to bring the king closer to the pawn.
+<ChessBoard fen="4K3/8/8/8/7Q/8/3p4/3k4 w - - 0 1" />
 
-<ChessBoard fen="8/1P6/8/8/8/2k5/8/4K2Q w - - 0 1" />
+The black king shields its d2-pawn. White wins by repeatedly gaining tempi with checks and walking the king in:
 
-**1.Qc6+!** — Check, forcing the king to block.
+**1.Kd7! Ke2 2.Qe4+ Kf2 3.Qd3** — pinning the pawn down. With the king approaching square by square, White rounds up the d-pawn and wins.
 
-**1...Kb2 2.Qb5+!** — Another check, coming closer.
+A central (d- or e-) pawn always loses this way: the queen has plenty of checking room.
 
-**2...Kc2 3.Qa4+** — And again.
+## The Exceptions
 
-### Step 2: Pin or Win the Pawn
+Two pawn types can hold a draw **if the defending king is already next to the pawn near the promotion square** — the queen runs out of useful checks.
 
-Eventually the queen reaches a position to either:
-- Pin the pawn with the king approaching
-- Win the pawn with a fork
-- Force the king to block, allowing Kf2-e3-d4, etc.
+### Rook Pawn (a- or h-file)
 
-<ChessBoard fen="8/1Pk5/8/8/Q7/8/5K2/8 w - - 0 1" />
+<ChessBoard fen="7K/7Q/8/8/8/8/p7/k7 w - - 0 1" />
 
-**1.Qf4+!** (or many other checks) forcing **1...Kb6 2.Qb8!** — Pinning the pawn. Now White's king approaches.
+**Draw.** The black king shuffles a1–b2. Whenever it reaches a1 it threatens ...a1=Q, so White must keep checking — but the checks never gain a tempo:
 
-## The Three Exceptions
+**1.Kg7 Kb2 2.Qh2+ Kb1 3.Qg1+ Kb2** — no progress. White's king can never come closer, and forcing the king onto a1 only invites stalemate.
 
-There are three pawn types that can sometimes draw:
+### Bishop Pawn (c- or f-file)
 
-### 1. Rook Pawn (a or h file)
+<ChessBoard fen="7K/8/8/8/3Q4/8/2p5/2k5 w - - 0 1" />
 
-<ChessBoard fen="8/8/8/8/8/K7/p7/k7 b - - 0 1" />
+**Draw**, for the same reason. When White pins the pawn, ...Kc1 threatens ...c1=Q, and capturing the pawn stalemates the king in the corner:
 
-**Draw!** The king can hide in the corner:
+**1.Qa1+ Kd2 2.Qa5+ Kd1 3.Qd5+ Kc1** — the king keeps slipping back to the c1/c2 fortress.
 
-**1...Kb1 2.Qb4+ Ka1!** — The queen has no check that doesn't allow promotion or lead to stalemate.
+### Central Pawn (d- or e-file)
 
-### 2. Bishop Pawn (c or f file)
+Central pawns **always lose** — the queen has the checking room to drive the king away and bring its own king in.
 
-<ChessBoard fen="8/8/8/8/8/2K5/2p5/2k5 b - - 0 1" />
+## Beating the Exception
 
-Black to move: **1...Kb1!** — Defending the pawn.
+The draws only work when the strong king is **far away**. If it is already close, even a rook-pawn falls:
 
-Now **2.Qb4+ Ka2! 3.Qc4+ Kb2!** — The king oscillates, and the checking distance is too short.
+<ChessBoard fen="7Q/8/8/8/8/2K5/p7/k7 w - - 0 1" />
 
-If **4.Qb4+ Kc1!** threatening c1=Q. The queen cannot prevent promotion without allowing stalemate.
-
-**Draw!** (But only if the defending king reaches this ideal setup.)
-
-### 3. Central Pawn in Specific Positions
-
-Central pawns (d and e files) almost always lose—the queen has more checking room. But rare positions with stalemate can draw.
-
-## Why Rook/Bishop Pawns Draw
-
-The key is the **lack of checking distance**. With the king in front of these pawns and near the corner, the queen runs out of useful checks.
-
-## Winning Against Exceptions
-
-The winning side must prevent the king from reaching the "fortress" position:
-
-<ChessBoard fen="8/8/8/8/K7/8/p7/4Q2k w - - 0 1" />
-
-Here the king is too far. **1.Qe1+! Kh2 2.Qa1!** — Stopping promotion.
-
-**2...Kg3 3.Kb3** — The king approaches, and White wins.
+With White's king on c3, the corner is no refuge: **1.Qh1#** — the king and queen combine to mate at once. The defender draws *only* if it reaches the fortress before the enemy king arrives.
 
 ## Practical Guidelines
 
@@ -88,41 +65,35 @@ Here the king is too far. **1.Qe1+! Kh2 2.Qa1!** — Stopping promotion.
 | c/f pawn | King NOT in front | Queen wins |
 | c/f pawn | King in front, near promotion | Draw |
 | a/h pawn | King NOT in corner | Queen wins |
-| a/h pawn | King in corner | Draw |
+| a/h pawn | King in corner, enemy king far | Draw |
 
 ## Exercises
 
 ### Exercise 1
 
-<ChessBoard fen="8/8/8/8/8/1K6/1p6/1k6 w - - 0 1" />
+<ChessBoard fen="7K/8/8/8/4Q3/8/2p5/2k5 w - - 0 1" />
 
 White to move. What's the result?
 
 <details>
 <summary>Solution</summary>
 
-**Draw!** This is the bishop pawn exception.
+**Draw.** This is the bishop-pawn exception: the black king sits in front of the c2-pawn near the corner.
 
-The black king is perfectly placed. **1.Qc4+ Kb2 2.Qb4+ Ka1!** and White cannot prevent ...b1=Q without stalemate.
+**1.Qb4 Kd1 2.Qb3 Kd2** — White cannot make progress: pinning the pawn allows ...Kc1 with the promotion threat, and taking it stalemates. With White's king stuck on h8, it's a draw.
 
 </details>
 
 ### Exercise 2
 
-> ⚠️ **WARNING: FEN missing the queen** — The FEN below has only a White king on f5 and Black king/pawn on a1/a2. No White queen is present, but the solution plays 3.Qf4+. FEN needs a queen added (e.g. on f4 or another square). Melvin to correct.
-
-<ChessBoard fen="8/8/8/5K2/8/8/p7/k7 w - - 0 1" />
+<ChessBoard fen="7K/8/8/8/8/5Q2/p7/k7 w - - 0 1" />
 
 White to move. Can White win?
 
 <details>
 <summary>Solution</summary>
 
-**Yes!** The black king is in the corner (good for Black), but White's king is close enough.
-
-**1.Ke4! Kb1 2.Kd3 Kc1 3.Qf4+ Kb1 4.Qb4+ Ka1 5.Kc2** — White wins the pawn.
-
-The key: White's king got close before Black could set up the fortress.
+**No — draw.** Black already has the rook-pawn fortress (king on a1, pawn on a2), and White's king is all the way back on h8. The queen can check forever, but it can never gain the tempo to bring the king in. **Draw.**
 
 </details>
 
@@ -135,18 +106,16 @@ White to move. What's the result?
 <details>
 <summary>Solution</summary>
 
-**White wins!**
+**White wins.** Here the king is already close (f2), so the rook-pawn fortress fails.
 
-**1.Qe4+** (or many other approaches) **1...Ka2 2.Qc2** — Not allowing ...Kb1.
-
-**2...Ka1 3.Qc1+** — The king must leave. **3...Ka2 4.Qb2#** (or **4.Kf1** and wins the pawn).
+**1.Ke2!** — marching in. Black cannot hold a1 *and* push the pawn; White's king arrives and White wins the pawn (or mates). It's the mirror of the "Beating the Exception" idea — proximity beats the fortress.
 
 </details>
 
 ## Summary
 
-1. **Queen usually wins** — Use checks to bring the king closer
-2. **Rook pawns** — Draw if king reaches the corner
-3. **Bishop pawns** — Draw if king is perfectly placed in front
-4. **Central pawns** — Always lose (queen has checking room)
-5. **Prevent the fortress** — Win by keeping the king away from the safe zone
+1. **Queen usually wins** — but only by using checks to bring the *king* closer
+2. **Rook pawns** — draw if the king reaches the corner before the enemy king
+3. **Bishop pawns** — draw if the king sits in front near promotion
+4. **Central pawns** — always lose (the queen has checking room)
+5. **Proximity decides** — a close enemy king beats every fortress
