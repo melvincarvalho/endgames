@@ -20,7 +20,7 @@ The queen is worth approximately 9 points, the rook 5. But unlike material advan
 
 ### Step 1: Centralize
 
-<ChessBoard fen="8/8/8/3Q4/8/8/5rk1/4K3 w - - 0 1" />
+<ChessBoard fen="6k1/5r2/8/3Q4/8/8/8/4K3 w - - 0 1" />
 
 Keep the queen centralized where it controls maximum squares.
 
@@ -115,18 +115,16 @@ White to move. Win the rook.
 
 ### Exercise 2
 
-<ChessBoard fen="8/8/8/4Q3/8/8/1k1r4/4K3 w - - 0 1" />
+<ChessBoard fen="6r1/8/8/Q7/8/4K3/8/6k1 w - - 0 1" />
 
 White to move. How should White proceed?
 
 <details>
 <summary>Solution</summary>
 
-**1.Qe5+!** — Checking and attacking the rook.
+**1.Qg5+!** — A skewer: Black's king and rook share the g-file.
 
-**1...Kc3 2.Qxd2** — Won, or **1...Kb3 2.Qe3+ Ka2 3.Qxd2** — Won.
-
-Central queen with active checks wins quickly.
+**1...Kh1** (or **1...Kf1**) **2.Qxg8** — winning the rook. Queen versus a lone king then mates quickly.
 
 </details>
 
