@@ -78,3 +78,9 @@ Usually bad. Avoid passive rook positions when possible.
 
 1. [Learn the Lucena Position →](/rook-endgames/lucena-position)
 2. [Learn the Philidor Position →](/rook-endgames/philidor-position)
+
+## Related topics
+
+- [Lucena position](/rook-endgames/lucena-position)
+- [Philidor position](/rook-endgames/philidor-position)
+- [Active rook](/rook-endgames/active-rook)

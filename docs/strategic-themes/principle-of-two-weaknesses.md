@@ -109,3 +109,9 @@ White's rook is active; Black's rook on a1 is passive. Attack the backward **b7-
 3. **Creating the second** = a passed pawn, a weak square, or a piece target
 4. **Attack, retreat, attack elsewhere** = the technique in action
 5. **Apply everywhere** = pawn endings, rook endings, any endgame
+
+## Related topics
+
+- [Fortresses](/strategic-themes/fortresses)
+- [Do not hurry](/strategic-themes/do-not-hurry)
+- [Zugzwang](/strategic-themes/zugzwang)

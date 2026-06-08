@@ -164,3 +164,9 @@ Better: **1.Kb4!** — Controlling c5, preparing Kc5 or Ka5.
 3. **Restrict opponent** = before breaking through
 4. **Exceptions exist** = counterplay, time pressure, forced wins
 5. **Patience wins games** = premature action loses them
+
+## Related topics
+
+- [Two weaknesses](/strategic-themes/principle-of-two-weaknesses)
+- [Fortresses](/strategic-themes/fortresses)
+- [Zugzwang](/strategic-themes/zugzwang)
