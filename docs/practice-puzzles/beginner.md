@@ -19,8 +19,8 @@ Master these fundamental positions before moving on. Each puzzle tests a critica
 ### Puzzle 1: Back Rank Mate
 
 <PuzzleBoard
-  fen="6k1/8/6K1/8/8/8/8/7Q w - - 0 1"
-  solution={['h1h8']}
+  fen="6k1/8/6K1/8/8/8/8/Q7 w - - 0 1"
+  solution={['a1a8']}
   title="Deliver Checkmate"
   description="White to move. Find the checkmate in one!"
   hint="Use the back rank."
@@ -29,8 +29,8 @@ Master these fundamental positions before moving on. Each puzzle tests a critica
 ### Puzzle 2: Box Method Setup
 
 <PuzzleBoard
-  fen="8/8/8/3k4/8/8/8/K6Q w - - 0 1"
-  solution={['h1d1', 'd5e5', 'd1d4']}
+  fen="8/8/8/3k4/8/5K2/8/7Q w - - 0 1"
+  solution={['h1c1', 'd5e6', 'c1c6']}
   title="Restrict the King"
   description="Start the box method - cut off the king's escape."
   hint="Use the queen to create a barrier."
@@ -43,19 +43,18 @@ Master these fundamental positions before moving on. Each puzzle tests a critica
 ### Puzzle 3: Rook Mate
 
 <PuzzleBoard
-  fen="8/8/8/8/8/k7/8/KR6 w - - 0 1"
-  solution={['b1b3']}
+  fen="7k/8/6K1/8/8/8/8/R7 w - - 0 1"
+  solution={['a1a8']}
   title="Checkmate in One"
   description="White to move and checkmate."
   hint="The rook delivers mate with king support."
-  note="⚠️ WARNING: Rb3 is NOT checkmate — Ka3 can escape to a4 (not attacked by Rb3 on b-file/rank-3, nor by Ka1). This puzzle needs a corrected FEN or solution."
 />
 
 ### Puzzle 4: Pushing the King
 
 <PuzzleBoard
   fen="8/8/8/8/3k4/8/8/KR6 w - - 0 1"
-  solution={['b1b4', 'd4c3', 'a1b2']}
+  solution={['b1b3', 'd4c4', 'a1b2']}
   title="Drive the King Back"
   description="Use your rook to push the enemy king to the edge."
   hint="Cut off ranks or files, then bring your king closer."
@@ -68,8 +67,8 @@ Master these fundamental positions before moving on. Each puzzle tests a critica
 ### Puzzle 5: Opposition Win
 
 <PuzzleBoard
-  fen="8/8/8/3k4/8/3PK3/8/8 w - - 0 1"
-  solution={['e3e4', 'd5d6', 'e4e5']}
+  fen="3k4/8/3K4/3P4/8/8/8/8 w - - 0 1"
+  solution={['d6c6', 'd8e7', 'd5d6', 'e7e6', 'd6d7']}
   title="Win with Opposition"
   description="White to move. Use opposition to promote the pawn."
   hint="Move your king forward to gain opposition."
@@ -78,8 +77,8 @@ Master these fundamental positions before moving on. Each puzzle tests a critica
 ### Puzzle 6: Key Square
 
 <PuzzleBoard
-  fen="8/8/3k4/8/3PK3/8/8/8 w - - 0 1"
-  solution={['e4e5', 'd6d7', 'e5d5']}
+  fen="3k4/8/3K4/8/3P4/8/8/8 w - - 0 1"
+  solution={['d4d5', 'd8e8', 'd6c7', 'e8e7', 'd5d6']}
   title="Seize the Key Square"
   description="White to move. Reach a key square to guarantee promotion."
   hint="Key squares for a d-pawn on d4 are c6, d6, and e6."
@@ -92,19 +91,18 @@ Master these fundamental positions before moving on. Each puzzle tests a critica
 ### Puzzle 7: Two Rooks Mate
 
 <PuzzleBoard
-  fen="6k1/8/8/8/8/8/R7/R3K3 w - - 0 1"
-  solution={['a1a8']}
+  fen="6k1/R7/8/8/8/8/8/1R2K3 w - - 0 1"
+  solution={['b1b8']}
   title="Ladder Mate"
   description="Finish the ladder checkmate!"
   hint="Alternate rooks on ranks."
-  note="⚠️ WARNING: Ra8 is NOT checkmate — Kg8 can escape to f7 (not attacked by Ra8 on a-file/rank-8, nor by Ra2 on a-file/rank-2, nor by Ke1). For a ladder mate, the second rook needs to be on rank 7 (e.g., Ra7)."
 />
 
 ### Puzzle 8: Queen + King Teamwork
 
 <PuzzleBoard
-  fen="7k/8/5K2/8/8/8/8/7Q w - - 0 1"
-  solution={['h1h2', 'h8g8', 'h2h8']}
+  fen="7k/8/5K2/8/8/8/8/6Q1 w - - 0 1"
+  solution={['g1g7']}
   title="Cornered King"
   description="Force checkmate in the corner."
   hint="Use queen checks to push the king, then deliver mate."
