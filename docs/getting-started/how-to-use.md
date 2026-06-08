@@ -64,7 +64,7 @@ When your games reach an endgame, analyse it thoroughly. Did you know the correc
 | Rating | Time/Week | Focus |
 |--------|-----------|-------|
 | Under 1200 | 1–2 hours | Basic checkmates, K+P vs K |
-| 1200–1600 | 2–3 hours | Lucena/Philidor, basic rook endings |
+| 1200–1600 | 2–3 hours | [Lucena](/rook-endgames/lucena-position)/[Philidor](/rook-endgames/philidor-position), basic rook endings |
 | 1600–2000 | 3–4 hours | Complex pawn endings, minor-piece endings |
 | 2000+ | 4+ hours | Exceptions, rare positions, practical play |
 

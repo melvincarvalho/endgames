@@ -31,7 +31,7 @@ Deepen your understanding with complex positions, exceptions, and strategic them
    A position where any move worsens your situation — learn to recognize and exploit this powerful theme.
 
 7. **[Stalemate resources](/strategic-themes/stalemate-resources)**
-   Defensive tricks using stalemate threats to save positions that otherwise seem lost.
+   Defensive tricks using [stalemate](/strategic-themes/stalemate-resources) threats to save positions that otherwise seem lost.
 
 ---
 
