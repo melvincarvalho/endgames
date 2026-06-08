@@ -157,15 +157,11 @@ White's break didn't work because Black's king was well-placed.
 
 ### Example 2: Successful Outflanking
 
-<ChessBoard fen="8/8/8/5pkp/5p1P/5P2/5KP1/8 w - - 0 1" />
+<ChessBoard fen="8/8/5k2/4pP2/4P3/6K1/8/8 w - - 0 1" />
 
-**1.Ke2! Ke5 2.Kd3 Kd5 3.g4!** — Breaking through.
+**1.Kg4! Kg7 2.Kg5 Kf7 3.f6** — White's king goes *around* the defender to a dominant square, escorting the passed f-pawn through. White wins.
 
-**3...hxg4 4.fxg4 Ke5 5.h5!** — Now the h-pawn decides.
-
-**5...Kf6 6.Kd4 Kg5 7.Kxf4** — White wins.
-
-White's king reached a dominant position first.
+That sidestep is outflanking in its purest form: when you can't go through, go around.
 
 ## Exercises
 
