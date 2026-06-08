@@ -145,3 +145,9 @@ A true rook fortress requires the rook to be trapped or the geometry to prevent 
 3. **Rook vs Queen** = possible fortress with perpetual checking
 4. **Knight blockades** = fortress through pawn freezing
 5. **Know both sides** = when to build and when to break
+
+## Related topics
+
+- [Zugzwang](/strategic-themes/zugzwang)
+- [Two weaknesses](/strategic-themes/principle-of-two-weaknesses)
+- [Opposite-colour bishops](/minor-piece-endgames/bishop-opposite-color)

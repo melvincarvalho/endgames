@@ -67,3 +67,9 @@ Know these patterns:
 2. Control the key squares
 3. Use opposition to gain ground
 4. Beware of rook pawns—they often draw
+
+## Related topics
+
+- [Key squares](/pawn-endgames/key-squares)
+- [Rule of the square](/pawn-endgames/rule-of-the-square)
+- [Opposition](/fundamentals/opposition)
