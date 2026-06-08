@@ -36,7 +36,7 @@ Start by centralizing your bishops and king.
 
 > ⚠️ **WARNING: FEN has two same-color bishops** — Bf5 (6+5=11, light) and Be4 (5+4=9, light) are both on light squares. Two same-color bishops cannot deliver checkmate (they only control one square color). One bishop must be on a dark square.
 
-<ChessBoard fen="8/8/4k3/5B2/4B3/8/4K3/8 w - - 0 1" />
+<ChessBoard fen="8/8/4k3/5B2/4B3/8/4K3/8 b - - 0 1" />
 
 Place the bishops on adjacent diagonals. The king cannot cross this barrier.
 
@@ -44,7 +44,7 @@ Place the bishops on adjacent diagonals. The king cannot cross this barrier.
 
 > ⚠️ **WARNING: FEN has two same-color bishops** — Be6 (5+6=11, light) and Bf5 (6+5=11, light) are both on light squares. Same issue as Step 2.
 
-<ChessBoard fen="8/5k2/4B3/5B2/8/4K3/8/8 w - - 0 1" />
+<ChessBoard fen="8/5k2/4B3/5B2/8/4K3/8/8 b - - 0 1" />
 
 Coordinate your king and bishops to restrict the enemy king further.
 

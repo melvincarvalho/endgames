@@ -49,7 +49,7 @@ White's king approaches to assist with the checkmate.
 
 ### Step 4: Deliver Checkmate
 
-<ChessBoard fen="4k3/4Q3/4K3/8/8/8/8/8 w - - 0 1" />
+<ChessBoard fen="4k3/4Q3/4K3/8/8/8/8/8 b - - 0 1" />
 
 **Qe7#** — The queen delivers checkmate with the king's support.
 
