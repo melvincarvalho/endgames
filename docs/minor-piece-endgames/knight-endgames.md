@@ -27,7 +27,7 @@ Knights have unique properties that make knight endgames distinct from all other
 1. **Slow** — Takes multiple moves to cross the board
 2. **Poor at stopping passed pawns** — Cannot control long diagonals
 3. **Edge pieces are weak** — "A knight on the rim is grim"
-4. **Cannot lose a tempo** — This matters in zugzwang positions
+4. **Cannot lose a tempo** — This matters in [zugzwang](/strategic-themes/zugzwang) positions
 
 ## "Knight on the Rim is Grim"
 
@@ -41,7 +41,7 @@ The knight on d5 dominates—controlling c3, e3, b4, f4, b6, f6, c7, e7.
 
 ## Knights Cannot Lose Tempo
 
-Unlike bishops, knights cannot triangulate. This creates zugzwang issues.
+Unlike bishops, knights cannot [triangulate](/pawn-endgames/triangulation). This creates zugzwang issues.
 
 <ChessBoard fen="8/8/8/1k6/1P6/1K6/1N6/8 w - - 0 1" />
 
