@@ -74,11 +74,6 @@ Usually bad. Avoid passive rook positions when possible.
 | Checking Distance | Rook needs space to give checks |
 | Pawn Race | When both sides push passed pawns |
 
-## Next Steps
-
-1. [Learn the Lucena Position →](/rook-endgames/lucena-position)
-2. [Learn the Philidor Position →](/rook-endgames/philidor-position)
-
 ## Related topics
 
 - [Lucena position](/rook-endgames/lucena-position)
