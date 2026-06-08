@@ -45,7 +45,7 @@ Almost any king position works. The pawn is very close to promotion.
 
 White's goal: reach c4, d4, or e4 (key squares for the d2 pawn).
 
-After **Ke3 Ke5 Kd3 Kd5 Kc3!** — White takes the opposition and will reach a key square.
+After **Ke3 Ke5 Kd3 Kd5 Kc3!** — White takes the [opposition](/fundamentals/opposition) and will reach a key square.
 
 ## Why Key Squares Work
 
