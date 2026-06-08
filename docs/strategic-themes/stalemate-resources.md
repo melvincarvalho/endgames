@@ -24,115 +24,85 @@ Result: **Draw**
 
 ### King in the Corner
 
-<ChessBoard fen="7k/5Q2/6K1/8/8/8/8/8 w - - 0 1" />
+<ChessBoard fen="7k/8/6K1/5Q2/8/8/8/8 w - - 0 1" />
 
-White to move. **Qf8?? or Qg7??** = Stalemate!
+White is winning (K+Q vs K), but must take care. With the king on g6 covering g7 and h7, the only escape left is g8.
 
-Correct: **Qg7#** or **Qf6+ Kg8 Qg7#**.
+**Qf7??** = **Stalemate!** The queen covers g8 (along the f7–g8 diagonal) without checking h8 — Black has no move and isn't in check.
 
-> ⚠️ **WARNING:** Both "stalemate" claims are wrong — Qf8 gives CHECK on h8 (same rank), and Qg7 gives CHECK on h8 (diagonal). Qg7 IS checkmate (#), which contradicts calling it stalemate above. This section needs a rewritten FEN where both moves actually cause stalemate instead of check.
-
-The attacker must always check for stalemate.
+Correct: **Qf8#** — the same idea, but now the queen checks along the 8th rank. Always ask whether your "winning" move leaves the enemy stalemated.
 
 ### Piece Sacrifice for Stalemate
 
-<ChessBoard fen="4k3/R7/4K3/8/8/8/8/r7 b - - 0 1" />
+<ChessBoard fen="7k/5K2/4Q3/8/8/8/8/6r1 b - - 0 1" />
 
-Black is losing (White threatens Ra8#). But:
+Black is lost — but the king is boxed in by White's king (g8, g7 covered) and queen (h7 covered).
 
-**1...Ra6+!! 2.Rxa6** — Stalemate! Black has no legal moves.
+**1...Rg6+!!** — Offering the rook with check.
 
-> ⚠️ **WARNING:** NOT stalemate — after 2.Rxa6, Ke8 can escape to d8 (not attacked by Ra6 or Ke6).
-
-Black sacrificed the rook to force stalemate.
+**2.Qxg6** = **Stalemate!** With the rook gone and the queen now on g6 (covering h7), Black has no legal move. Black gave away the rook to draw.
 
 ## Stalemate Traps
 
 ### The Deliberate Pin
 
-<ChessBoard fen="6k1/5ppp/8/8/8/7r/6PP/5RK1 b - - 0 1" />
+<ChessBoard fen="R7/8/8/8/8/8/p7/k1K5 b - - 0 1" />
 
-Black is losing the exchange. But:
+Black is down a whole rook, but look closely: the king is cornered on a1 (b1 and b2 covered by White's king), and the a2-pawn is **pinned** to the king by the rook on a8 — it cannot move.
 
-**1...Rg3!** — Threatening nothing... except stalemate!
+Black has no legal move and isn't in check: **stalemate**, a draw.
 
-If **2.hxg3**, Black is stalemated!
+## Throwing Away Material — When It Fails
 
-> ⚠️ **WARNING:** NOT stalemate — after hxg3, Kg8 can escape to h8 (not attacked by Rf1, Kg1, or pg3).
+<ChessBoard fen="4k3/8/2K5/8/8/8/8/7Q w - - 0 1" />
 
-White must be careful: **2.Rf3!** breaks the trap.
+White wins easily here (K+Q vs K). Sacrificing for stalemate only works if the king is truly trapped — otherwise it just loses faster:
 
-### Throwing Away Material
+<ChessBoard fen="4k3/8/2K5/8/8/8/8/r6Q b - - 0 1" />
 
-<ChessBoard fen="4k3/8/2K5/8/8/8/8/4Q3 w - - 0 1" />
+Black tries: **1...Ra6+ 2.Kb5 Ra5+ 3.Kxa5** — but this is **not** stalemate: Black's king still has d7, d8, e7, f7 and f8. The sacrifice only throws away the rook.
 
-White wins easily. But if Black had a rook:
-
-<ChessBoard fen="4k3/8/2K5/8/8/8/8/r3Q3 w - - 0 1" />
-
-Black tries: **1...Ra6+ 2.Kb5 Ra5+ 3.Kxa5** — NOT stalemate (Kd8 is legal).
-
-But in some positions, sacrificing all pieces creates stalemate.
+The lesson: a stalemate sacrifice needs the king already boxed in.
 
 ## Positional Stalemate
 
 ### King Trapped by Own Pawns
 
-<ChessBoard fen="5k2/5P2/5PK1/8/8/8/8/8 w - - 0 1" />
+<ChessBoard fen="5k2/5P2/5K2/8/8/8/8/8 b - - 0 1" />
 
-White is winning, but careless play can allow:
+**Black to move — stalemate!** The pawn covers e8 and g8, White's king covers e7 and g7, and f8 is the king's own square. This is the trap the *winning* side must avoid.
 
-**1.f8=Q+?? Kxf8**
+To win the same material, keep the king on the right square first:
 
-> ⚠️ **WARNING:** `f8=Q+` is ILLEGAL — Kf8 occupies f8, so the pawn cannot push there. The entire line needs a corrected FEN.
+<ChessBoard fen="5k2/8/4KP2/8/8/8/8/8 w - - 0 1" />
 
-Also, the "Correct" line is broken: after `2.f8=Q+ Kxf8`, White's `3.Kf6` is illegal because White's own pawn already stands on f6. The position needs a corrected FEN.
-
-Correct: **1.Ke6!** (take opposition) **1...Ke8 2.f8=Q+ Kxf8 3.Kf6 Kg8 4.f7+** — This time White wins.
+**1.f7!** — With the king on **e6** (not f6), Black's king has the g7-square. **1...Kg7 2.Ke7** and the pawn promotes. No stalemate.
 
 ### Pawn Barriers
 
 <ChessBoard fen="8/5pkp/6p1/8/8/5PPK/7P/8 w - - 0 1" />
 
-White wants to break through, but after exchanging pawns, Black's king may be stalemated.
-
-**1.f4? gxf3 2.g4 f2 3.g5 f1=Q 4.gxh6**
-
-> ⚠️ **WARNING:** Move sequence garbled — `1.f4 gxf3` is impossible. No Black g-pawn can capture on f3 in one move (pg6 captures on f5, not f3). This line needs rewriting.
+White would like to break through, but the pawn structure is a fortress — **the position is a draw**. Pushing pawns to force matters only helps Black liquidate into a dead-drawn (and sometimes stalemated) ending. Sometimes the right plan is to make no progress at all.
 
 ## Stalemate in Queen Endgames
 
-<ChessBoard fen="8/8/8/8/8/1k6/p7/KQ6 w - - 0 1" />
+<ChessBoard fen="7K/8/8/8/8/5Q2/p7/k7 b - - 0 1" />
 
-Black threatens ...a1=Q#. White plays:
+A queen normally crushes a lone pawn — but **not a rook-pawn (or bishop-pawn) when the attacking king is too far away**. Here Black's king shelters on a1 in front of the a2-pawn. Every time the queen comes close enough to control b1, Black is **stalemated** unless White concedes the draw. With the king on h8, White cannot arrive in time: **it's a draw.**
 
-**1.Qb3+! Kc1 2.Qa2!**
-
-> ⚠️ **WARNING:** `1.Qb3+` is ILLEGAL — Kb3 occupies b3, the queen cannot move there. This line and the whole section needs a corrected FEN where the queen can actually reach b3.
-
-— Pinning the pawn. Now if **2...Kb1 3.Qb3+ Kc1 4.Qa3!** — perpetual.
-
-But watch for: **1.Qc2+?? Kb4** and Black escapes.
+(If White's king were near the corner, the queen *would* win — the draw depends entirely on the king's distance.)
 
 ## For the Winning Side: Avoiding Stalemate
 
 ### Always Check Escapes
 
-Before every move, ask: "Does my opponent have any legal moves?"
+Before every move, ask: **"Does my opponent have any legal move?"**
 
 ### Common Stalemate Blunders
 
-1. **King in corner + wrong queen placement** = most common
-2. **Pinned piece = only move** = stalemate possible
-3. **Capturing into stalemate** = check before taking!
-
-<ChessBoard fen="6k1/6P1/5K2/8/8/8/8/8 w - - 0 1" />
-
-**1.g8=Q??**
-
-> ⚠️ **WARNING:** `g8=Q` is ILLEGAL — Kg8 occupies g8, the pawn cannot push there. Similarly `g8=R+` is illegal for the same reason. This position needs a corrected FEN (e.g., king on h8 so g8 is empty).
-
-= Stalemate! **1.g8=R+!** or **1.Kf5** wins.
+1. **King in the corner + a quiet queen move** — the most common (see above)
+2. **Capturing the opponent's last mobile piece** — check for stalemate *before* you take
+3. **Pushing a pawn that removes the enemy's only move**
 
 ## Exercises
 
@@ -140,33 +110,31 @@ Before every move, ask: "Does my opponent have any legal moves?"
 
 <ChessBoard fen="8/6R1/7p/5k2/8/8/8/4K3 w - - 0 1" />
 
-Black to move. Can Black save the game?
+Black to move. Can Black find stalemate chances?
 
 <details>
 <summary>Solution</summary>
 
-After White's next move, probably not. But Black should try **1...Kf4** heading toward the corner, looking for stalemate chances.
+Probably not enough — but it's worth trying. **1...Kf4** heads toward the corner, hoping White gets careless when grabbing the h6-pawn.
 
-If **2.Rxh6 Kg3 3.Rg6+ Kh2** — Black has drawing chances if White is careless.
+The defender's job in a lost position: steer toward positions where one careless capture or pawn push could stalemate you.
 
 </details>
 
 ### Exercise 2
 
-<ChessBoard fen="7k/5R1P/8/8/8/8/8/4K3 w - - 0 1" />
+<ChessBoard fen="7k/5R1P/8/8/8/8/8/6K1 w - - 0 1" />
 
-White to move and win.
+White to move and win — carefully!
 
 <details>
 <summary>Solution</summary>
 
-**1.Rf8+?**
+Black's king is already nearly stalemated (g7 is covered by the rook, g8 by the h7-pawn, h7 is defended). A **quiet move loses the win**:
 
-> ⚠️ **WARNING:** NOT stalemate — after Rf8+, Kh8 can escape to g7 (not attacked by Rf8 on f-file/rank-8, nor by Ph7 which attacks g8 not g7).
+**1.Kg2??** = **Stalemate!** Black has no legal move.
 
-= Stalemate!
-
-**1.Kg2!** (or other waiting move) **1...Kg7 2.Rf8** — Now it's check, not stalemate, and **2...Kxf8 3.h8=Q+** wins.
+Instead, **give a check**: **1.Rf8+! Kg7 2.h8=Q+** and White is up a queen and rook. When the enemy king has no moves, you must check, not wait.
 
 </details>
 
@@ -174,29 +142,21 @@ White to move and win.
 
 <ChessBoard fen="7k/4Q3/8/8/8/8/8/4K3 w - - 0 1" />
 
-White to move. Find the quickest win without stalemate.
+White to move. Find the win without stalemating.
 
 <details>
 <summary>Solution</summary>
 
-**1.Kf2!** (approach first) **1...Kg8 2.Qe8#**
+The queen alone can only stalemate the cornered king — **the king must help**.
 
-> ⚠️ **WARNING:** `2.Qe8#` is NOT checkmate — Kg8 can escape to g7 (not attacked by Qe8 on rank 8 / e-file / diagonals d7-c6 / f7-g6).
-
-or **1...Kh7 2.Qg7#**.
-
-NOT **1.Qg7??** = Stalemate!
-
-> ⚠️ **WARNING:** `1.Qg7` is NOT stalemate — it gives CHECK on Kh8 via diagonal g7-h8.
-
-NOT **1.Qe8+? Kh7 2.Qf7+?? Kh6 3.Qf8+ Kh7** — Slow and risks errors.
+**1.Kf2! Kg8 2.Ke3 Kh8 3.Ke4** — White marches the king toward the corner. Once it reaches the 6th rank, White mates (checkmate in six from the start). At every move, confirm Black still has a legal reply.
 
 </details>
 
 ## Summary
 
 1. **Stalemate** = no legal moves, not in check, = draw
-2. **Sacrifice material** = create stalemate by giving away pieces
-3. **Corner traps** = king trapped with no escape squares
-4. **For attacker** = always verify opponent has legal moves
-5. **Last resort** = even "lost" positions may have stalemate resources
+2. **Sacrifice material** = give away pieces *only when the king is already boxed in*
+3. **Pin or trap** = a pinned pawn or a cornered king can produce stalemate
+4. **Rook-pawn + distant king** = even a queen may only draw
+5. **For the attacker** = always verify the opponent has a legal move — especially with the king in the corner
