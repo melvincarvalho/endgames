@@ -15,9 +15,9 @@ An outside passed pawn is a passed pawn far from the main pawn mass. It acts as 
 
 ## The Concept
 
-<ChessBoard fen="8/8/1p2k3/1P2p3/4P3/4K3/8/8 w - - 0 1" />
+<ChessBoard fen="8/8/4k3/5p2/P3KP2/8/8/8 w - - 0 1" />
 
-White's b5 pawn is an **outside passed pawn**—it's far from the e4/e5 pawn pair. Black's king must stop it, but that takes it far from the kingside.
+White's a4-pawn is an **outside passed pawn** — far away on the queenside, while the kings sit next to the locked f-pawns. Black's king must leave the kingside to stop it, and that decision loses the game.
 
 ## Why It's Powerful
 
@@ -30,25 +30,11 @@ The defender cannot be in two places at once.
 
 ## Classic Example
 
-<ChessBoard fen="8/8/1p2k3/1P2p3/4P3/4K3/8/8 w - - 0 1" />
+<ChessBoard fen="8/8/4k3/5p2/P3KP2/8/8/8 w - - 0 1" />
 
-**1.Kd3!** — White's king heads toward the kingside pawns.
+**1.Kd4!** — White's king heads for the queenside *and* the centre. **1...Kd6 2.a5 Kc6** — Black's king is dragged over to halt the runner.
 
-**1...Kd6** — Black guards the e-pawn but ignores the b-pawn.
-
-**2.b6!** — The outside passer advances.
-
-> ⚠️ **WARNING: Illegal move.** b6 is occupied by Black's pawn (pb6). A pawn cannot move forward into an occupied square. This move and the entire Classic Example line need the FEN corrected (e.g., remove pb6 or shift the pawn structure).
-
-**2...Kc6 3.Ke3!** — White's king prepares to take e5 if Black captures b6.
-
-**3...Kxb6 4.Kf4!** — Now White wins e5.
-
-**4...Kc5 5.Kxe5** — White has won a pawn.
-
-<ChessBoard fen="8/8/1p6/2k1K3/4P3/8/8/8 b - - 0 1" />
-
-White's king is active, and the e4 pawn will advance to victory.
+**3.Ke5! Kb5 4.Kxf5** — While Black chews on the a-pawn, White's king grabs f5 and the kingside falls. White is winning.
 
 ## The Decoy Mechanism
 
@@ -60,107 +46,87 @@ Think of the outside passed pawn as a **decoy**:
 
 ## Calculating the Win
 
-<ChessBoard fen="8/p7/P4k2/5p2/5P2/5K2/8/8 w - - 0 1" />
+<ChessBoard fen="8/8/5k2/P4p2/5P2/5K2/8/8 w - - 0 1" />
 
-Count the tempi:
-- Black's king needs ~5 moves to capture a6 and return
-- White's king needs ~3 moves to capture f5
+Sometimes the passer simply outruns the king. Count the moves with the **rule of the square**:
 
-White wins the race: **1.Ke3 Ke6 2.Kd4 Kd6 3.Kc4!**
-
-Now Black must choose: stop White's king or capture a6?
-
-> ⚠️ **WARNING: Impossible move.** After 3.Kc4, Black's king is on d6. "3...Kxa6" requires jumping from d6 to a6 (3 files apart) — kings move one square at a time. The move sequence needs to be extended (e.g., 3...Kc6-d7-c6... or similar king path to reach a6).
-
-**3...Kxa6 4.Kd5 Kb5 5.Ke5** — White wins f5 and has a won king + pawn endgame.
+**1.a6 Ke7 2.a7 Kd6 3.a8=Q** — Black's king started too far away; the pawn queens by itself. Always check whether the enemy king is inside the pawn's "square" before relying on it.
 
 ## Creating an Outside Passed Pawn
 
-Sometimes you must trade pawns to create the outside passer.
+Sometimes you must trade pawns to *create* the outside passer.
 
-<ChessBoard fen="8/5k2/p1p5/P1P5/8/5K2/8/8 w - - 0 1" />
+<ChessBoard fen="8/5k2/p7/P7/1P6/5K2/8/8 w - - 0 1" />
 
-**1.c6!** — Sacrificing to create an outside passer.
-
-> ⚠️ **WARNING: Illegal move.** c6 is occupied by Black's pawn (pc6). A pawn on c5 cannot move forward to c6, and there is no capture target on b6 or d6 (both empty) — so the position itself needs correcting.
-
-**1...Kxc6 2.Ke4!** — Now the a-pawn is an outside passer, and White's king heads for Black's a-pawn.
+**1.b5! axb5 2.a6!** — The point: the b-pawn deflects Black's a-pawn off the a-file, and now White's a-pawn runs unopposed. **2...Ke6 3.Ke4** and the a-pawn promotes while Black's king is nowhere near.
 
 ## When It Doesn't Work
 
-The outside passed pawn is not always winning:
+The outside passed pawn is not always winning.
 
-### King Can Guard Both Sides
+### Rook Pawns and Counterplay
 
-<ChessBoard fen="8/8/1p1k4/1P1p4/3P4/3K4/8/8 w - - 0 1" />
+<ChessBoard fen="8/8/k7/P7/8/5K2/5p2/8 w - - 0 1" />
 
-Here Black's king on d6 can guard both b6 and the d-pawns. The position is drawn.
+Here White's outside passer is a **rook pawn**, blockaded by Black's king, and Black has a dangerous f-pawn of his own. **1.Kxf2 Kxa5** — both passers fall and it's a **draw**. A rook-pawn decoy that the enemy king can simply blockade often isn't enough.
 
-### Pawns Too Close
+### Locked Pawns
 
-<ChessBoard fen="8/8/2pk4/2Pp4/3P4/3K4/8/8 w - - 0 1" />
+<ChessBoard fen="8/8/3k4/1p1p4/1P1P4/3K4/8/8 w - - 0 1" />
 
-The c5 pawn is not "outside" enough—it's adjacent to the main pawns. Less decoy value.
+When the pawns are fixed head-to-head, no one has a passer at all — neither king can break in. **A draw.** The decoy only works if the outside pawn is genuinely *passed* and far enough from the defending king.
 
 ## Exercises
 
 ### Exercise 1
 
-<ChessBoard fen="8/8/1p2k3/1P6/6p1/6P1/6K1/8 w - - 0 1" />
+<ChessBoard fen="8/8/4k3/1P4p1/6P1/5K2/8/8 w - - 0 1" />
 
 White to move. Win with the outside passed pawn.
 
 <details>
 <summary>Solution</summary>
 
-**1.Kf3!** (heading to the queenside)
+**1.Ke4!** — Heading for the g5-pawn, using the b-passer as bait.
 
-**1...Kd6 2.Ke4 Kc5 3.b6!**
-
-> ⚠️ **WARNING: Illegal move.** b6 is occupied by Black's pawn (pb6). Same issue as the Classic Example — pawn can't move forward into an occupied square. The FEN or move needs correction.
-
-If the b6 pawn were absent, **3...Kxb6 4.Kf4** would win the g-pawn, or **3...Kc6 4.Kf4 Kxb6 5.Kxg4** and White wins.
+**1...Kd7 2.Kf5 Kc7 3.Kxg5** — Black's king chases the b-pawn while White's king wins the kingside. White is winning.
 
 </details>
 
 ### Exercise 2
 
-<ChessBoard fen="8/p7/k7/P7/8/8/4Kp2/8 w - - 0 1" />
+<ChessBoard fen="8/8/k7/P7/8/5K2/5p2/8 w - - 0 1" />
 
 Can White win with the outside passed pawn?
 
 <details>
 <summary>Solution</summary>
 
-No! Black's f-pawn is too close to promotion. After **1.Ke2 Kb5 2.Kxf2 Kxa5**, the game is drawn (a-pawn vs nothing, but king is close enough).
+**No.** The a-pawn is a rook pawn that Black's king already blockades, and Black has counterplay with the f-pawn.
 
-White must first deal with the f-pawn: **1.Kf1! Kb5 2.Kf2 Kxa5 3.Kf1!** (opposition) — but this is still drawn.
+**1.Kxf2 Kxa5** — both pawns disappear and the bare kings draw. The "outside passer" never got going.
 
 </details>
 
 ### Exercise 3
 
-<ChessBoard fen="8/5k2/p7/P2p4/3P4/3K4/8/8 w - - 0 1" />
+<ChessBoard fen="8/5k2/8/P2p4/3P4/3K4/8/8 w - - 0 1" />
 
 White to move. How does White win?
 
 <details>
 <summary>Solution</summary>
 
-**1.Ke3!** (preparing to go kingside or queenside)
+**1.a6!** — The passer is far from Black's king on f7; it simply runs.
 
-**1...Ke6 2.Kf4 Kd6 3.Kg5!** (heading for the a6 pawn)
-
-**3...Kc6** (to protect a6) **4.Kf6! Kb5 5.Ke5** — White wins the d5 pawn.
-
-Or **3...Kc5 4.Kf5! Kxd4 5.Ke6** — White wins the race (d-pawn vs a-pawn).
+**1...Ke6 2.a7 Kd7 3.Kc3** — Black's king cannot catch the a-pawn and also hold d5. The pawn queens (or White wins d5). White is winning.
 
 </details>
 
 ## Summary
 
-1. **Outside passed pawn** = passed pawn far from the main action
-2. **Decoy effect** = forces enemy king away, freeing your king
-3. **Two-front war** = defender cannot be everywhere
+1. **Outside passed pawn** = a *passed* pawn far from the main action
+2. **Decoy effect** = forces the enemy king away, freeing your king
+3. **Two-front war** = the defender cannot be everywhere
 4. **Key technique** = push the outside passer while your king invades
-5. **Not always winning** = calculate whether the decoy gains enough time
+5. **Not always winning** = a rook-pawn the king can blockade, or fully locked pawns, may only draw — count the tempi first
