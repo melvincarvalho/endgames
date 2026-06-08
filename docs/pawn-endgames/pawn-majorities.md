@@ -245,3 +245,9 @@ The queenside majority wins the race because it's farther from the kings.
 4. **Healthy vs crippled** — Doubled pawns neutralize a majority
 5. **Race dynamics** — More advanced majority usually wins
 6. **Standard technique** — 3 vs 2 always creates a passer (if healthy)
+
+## Related topics
+
+- [Breakthroughs](/pawn-endgames/breakthroughs)
+- [Outside passed pawn](/pawn-endgames/outside-passed-pawn)
+- [Same-side pawns](/pawn-endgames/same-side-pawns)

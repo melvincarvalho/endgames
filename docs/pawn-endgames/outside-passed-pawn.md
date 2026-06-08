@@ -130,3 +130,9 @@ White to move. How does White win?
 3. **Two-front war** = the defender cannot be everywhere
 4. **Key technique** = push the outside passer while your king invades
 5. **Not always winning** = a rook-pawn the king can blockade, or fully locked pawns, may only draw — count the tempi first
+
+## Related topics
+
+- [Protected passed pawn](/pawn-endgames/protected-passed-pawn)
+- [Pawn races](/pawn-endgames/pawn-races)
+- [Pawn majorities](/pawn-endgames/pawn-majorities)

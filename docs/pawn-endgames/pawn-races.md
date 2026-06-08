@@ -159,3 +159,9 @@ White cannot escape checks while defending the pawn. But after **6...Qc1+ 7.Kd4 
 3. **Queen vs pawn** — Queen usually wins unless pawn is on 7th with king
 4. **King position** — Determines check possibilities
 5. **Two pawns** — Often beat one even when behind in the race
+
+## Related topics
+
+- [Rule of the square](/pawn-endgames/rule-of-the-square)
+- [Outside passed pawn](/pawn-endgames/outside-passed-pawn)
+- [Breakthroughs](/pawn-endgames/breakthroughs)

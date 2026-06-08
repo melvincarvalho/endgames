@@ -177,3 +177,9 @@ White to move. Find the winning plan.
 4. **Frees your king** — The real value: your king roams while theirs is stuck
 5. **Create one** — Advance a pawn phalanx or break to make a protected passer
 6. **Limits** — Blocked positions or a passer on the wrong wing may only draw
+
+## Related topics
+
+- [Outside passed pawn](/pawn-endgames/outside-passed-pawn)
+- [Pawn majorities](/pawn-endgames/pawn-majorities)
+- [Rook pawn special](/pawn-endgames/rook-pawn-special)

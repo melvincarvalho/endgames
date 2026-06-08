@@ -55,3 +55,9 @@ For any passed pawn position, ask:
 ## Summary
 
 The rule of the square is a quick visualization tool. Use it to assess pawn races at a glance.
+
+## Related topics
+
+- [King & pawn vs king](/pawn-endgames/king-pawn-vs-king)
+- [Key squares](/pawn-endgames/key-squares)
+- [Pawn races](/pawn-endgames/pawn-races)

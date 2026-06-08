@@ -218,3 +218,9 @@ The "wrong bishop" draw only happens when the bishop is the *opposite* colour to
 4. **Knight usually wins** — Can control the queening square
 5. **Know the patterns** — These saves appear constantly in practice
 6. **a-pawn = h-pawn** — Same principles, mirrored
+
+## Related topics
+
+- [King & pawn vs king](/pawn-endgames/king-pawn-vs-king)
+- [Rule of the square](/pawn-endgames/rule-of-the-square)
+- [Protected passed pawn](/pawn-endgames/protected-passed-pawn)

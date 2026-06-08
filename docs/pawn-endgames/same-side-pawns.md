@@ -254,3 +254,9 @@ Neither side can break through. The position is a fortress.
 5. **Key attacking ideas**: Pawn breaks (g4-g5, h4-h5), outflanking, trade pawns
 6. **With rooks**: Even more drawing chances
 7. **Know both sides**: Attack and defense techniques are equally important
+
+## Related topics
+
+- [Pawn majorities](/pawn-endgames/pawn-majorities)
+- [Principles](/pawn-endgames/principles)
+- [Breakthroughs](/pawn-endgames/breakthroughs)

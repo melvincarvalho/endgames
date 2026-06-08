@@ -160,3 +160,9 @@ The player who moves first in this structure wins the breakthrough.
 3. **First to move wins**: In mutual breakthrough positions, tempo is everything
 4. **Defense**: Avoid creating the vulnerable pawn structure
 5. **With kings**: Calculate whether the pawn promotes or gets stopped
+
+## Related topics
+
+- [Pawn races](/pawn-endgames/pawn-races)
+- [Pawn majorities](/pawn-endgames/pawn-majorities)
+- [Rule of the square](/pawn-endgames/rule-of-the-square)
