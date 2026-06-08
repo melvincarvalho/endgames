@@ -52,7 +52,9 @@ Black's rook on a2 is **passive**—it attacks f2 but White doesn't care.
 
 **1.h4!** — The pawn advances. Black's passive rook cannot stop it.
 
-**1...Ra4 2.h5 gxh5 3.Rxh5** — White has a strong passed pawn.
+> ⚠️ **WARNING: Non-existent pawn.** The FEN has no h-pawn — White's pawns are on g3 and f2 only. The move `1.h4!` and the continuation `2.h5 gxh5 3.Rxh5` are all impossible without an h-pawn. The FEN needs an h-pawn added (e.g., change FEN to include `h3` or `h4` pawn), or the moves need to reference g-pawn advances instead.
+
+~~**1...Ra4 2.h5 gxh5 3.Rxh5**~~ — Invalid without h-pawn.
 
 ## Activity Over Material
 
@@ -73,6 +75,8 @@ Black cannot defend everything.
 <ChessBoard fen="8/1P4k1/8/8/8/8/8/R3K3 w - - 0 1" />
 
 The rook on a1 supports the b-pawn from behind. As the pawn advances, the rook's power increases.
+
+> ⚠️ **WARNING: Rook on wrong file.** Ra1 is on the **a-file**, but the b-pawn is on the **b-file**. To be "behind" the passed pawn, the rook should be on b1 (same file as the pawn). Either the FEN should have `Rb1` or the text should say the rook needs to get to the b-file first.
 
 ### Opponent's Passed Pawn
 
@@ -143,7 +147,7 @@ Where should White's rook go?
 
 After **1.Rc1 b4 2.Rb1** — Now the rook attacks from behind, and White's king can approach to win.
 
-Wrong: **1.Rxb5+?? Kxb5** — Throwing away the win!
+> ⚠️ **WARNING: Contradictory solution.** "1.Rb5+!" is presented as correct, but b5 is occupied by Black's pawn, making this **Rxb5+** (a capture). Later the solution says "1.Rxb5+?? Kxb5" is wrong — but that's the **same move**. If capturing the pawn is correct, the "wrong" line shouldn't use the same notation. The intended "correct" move is likely just `1.Rc1!` (getting behind without capturing). (The existing continuation `1.Rc1 b4 2.Rb1` is also illegal — Black's ...b4 is blocked by the king already on b4 — so Exercise 2 needs full re-authoring.)
 
 </details>
 
