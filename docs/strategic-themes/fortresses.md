@@ -47,9 +47,9 @@ The rook keeps checking from behind along the c-file. The queen cannot simultane
 
 Bishop vs knight is drawn (insufficient material), but even with pawns, knights can create fortresses by blockading.
 
-<ChessBoard fen="8/4k3/8/3pP3/3N4/4K3/8/8 w - - 0 1" />
+<ChessBoard fen="8/4k3/8/3pp3/3N4/4K3/8/8 w - - 0 1" />
 
-The knight on d4 blockades the d5 pawn. Black cannot dislodge it without allowing e6. This is a fortress—White draws despite being a pawn down.
+The knight on d4 blockades Black's connected d- and e-pawns, and the king backs it up. Neither pawn can advance, and the king can't drive the knight away — a fortress. Despite facing two extra pawns, White holds the draw.
 
 ## Fortress: Bishop of Wrong Color + Rook Pawn
 
