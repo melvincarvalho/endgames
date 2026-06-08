@@ -99,7 +99,7 @@ White's rook is strong on c8, but the king is passive. Don't hurry with the rook
 
 Not every position allows patience:
 
-1. **Pawn races** — You must calculate and act
+1. **[Pawn races](/pawn-endgames/pawn-races)** — You must calculate and act
 2. **Opponent's counterplay is real** — Stop it before it develops
 3. **Time pressure** — Practical necessity
 4. **Clear forced win** — No need to show off

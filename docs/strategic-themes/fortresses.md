@@ -16,7 +16,7 @@ A **fortress** is a defensive setup that holds despite material disadvantage. Th
 
 Fortresses exploit:
 1. **Geometric limitations** — The attacker's pieces cannot access the [key squares](/pawn-endgames/key-squares)
-2. **Stalemate threats** — Breaking through causes stalemate
+2. **Stalemate threats** — Breaking through causes [stalemate](/strategic-themes/stalemate-resources)
 3. **Piece coordination** — Inferior material works perfectly together
 
 ## Classic Fortress: Wrong-Colored Bishop
