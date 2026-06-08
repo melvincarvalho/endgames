@@ -22,7 +22,7 @@ Build on your fundamentals with standard theoretical positions that every club p
    When one side has just a rook against a single pawn — learn when the rook can stop it and when it cannot.
 
 4. **[Triangulation](/pawn-endgames/triangulation)**
-   Lose a tempo by moving your king in a triangle, transferring the move to your opponent and forcing zugzwang.
+   Lose a tempo by moving your king in a triangle, transferring the move to your opponent and forcing [zugzwang](/strategic-themes/zugzwang).
 
 5. **[Outside passed pawn](/pawn-endgames/outside-passed-pawn)**
    A passed pawn far from the main action — use it as a decoy to divert the enemy king and win on the other side.
