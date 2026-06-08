@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: King + Queen vs King
-description: The simplest checkmate technique
+description: Checkmate technique for queen and king versus lone king
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';

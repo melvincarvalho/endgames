@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: King + Rook vs King
-description: The essential rook checkmate technique
+description: Checkmate technique for rook and king versus lone king
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';
