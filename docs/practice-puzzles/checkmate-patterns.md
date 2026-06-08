@@ -19,18 +19,18 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
 ### Puzzle 1: Diagonal Squeeze
 
 <PuzzleBoard
-  fen="8/8/8/8/8/1k6/8/KBB5 w - - 0 1"
-  solution={['c1d2', 'b3c4', 'b1a2']}
+  fen="7k/5K2/6B1/8/8/8/3B4/8 w - - 0 1"
+  solution={['d2c3']}
   title="Two Bishops Setup"
-  description="Start coordinating your bishops to push the king."
+  description="The two bishops cover every escape square — deliver mate."
   hint="Create a diagonal barrier to restrict the king."
 />
 
 ### Puzzle 2: Corner Mate
 
 <PuzzleBoard
-  fen="k7/8/1K6/8/8/8/1B6/2B5 w - - 0 1"
-  solution={['c1d2', 'a8b8', 'b2c3']}
+  fen="k7/8/1K6/8/5B2/7B/8/8 w - - 0 1"
+  solution={['h3g2']}
   title="Drive to the Corner"
   description="Force the king into the corner for mate."
   hint="Use both bishops to control key diagonals."
@@ -43,8 +43,8 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
 ### Puzzle 3: Wrong Corner Trap
 
 <PuzzleBoard
-  fen="8/8/8/8/3k4/8/1N6/KB6 w - - 0 1"
-  solution={['b2c4', 'd4d3', 'b1c2']}
+  fen="k7/2K5/8/8/8/8/2BN4/8 w - - 0 1"
+  solution={['d2e4', 'a8a7', 'c2d3']}
   title="B+N Coordination"
   description="Start pushing the king toward the correct corner."
   hint="The king must be driven to the corner matching your bishop's color."
@@ -53,10 +53,10 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
 ### Puzzle 4: Knight Dance
 
 <PuzzleBoard
-  fen="1k6/8/1K6/8/4B3/8/6N1/8 w - - 0 1"
-  solution={['g2f4', 'b8a8', 'f4d5']}
+  fen="7k/5K2/8/6N1/8/8/3B4/8 w - - 0 1"
+  solution={['d2c3']}
   title="Knight Maneuver"
-  description="Bring the knight into position for the final mate."
+  description="The bishop and knight combine to mate the cornered king."
   hint="The knight needs to control key escape squares."
 />
 
@@ -67,23 +67,21 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
 ### Puzzle 5: Staircase Mate
 
 <PuzzleBoard
-  fen="7k/6p1/5pK1/8/8/8/8/7Q w - - 0 1"
-  solution={['h1h6']}
+  fen="7k/8/6K1/8/8/8/8/1Q6 w - - 0 1"
+  solution={['b1b8']}
   title="Staircase Pattern"
   description="Deliver mate using the staircase pattern."
   hint="Control the escape squares with your queen."
-  note="⚠️ WARNING: Qh6 is NOT checkmate — Kh8 can escape to g8 (not attacked by Qh6 on h-file/rank-6/diagonals, nor by Kg6, nor by pg7). The FEN or solution needs correction."
 />
 
 ### Puzzle 6: Kiss of Death
 
 <PuzzleBoard
   fen="6k1/5ppp/8/8/8/8/5PPP/3Q2K1 w - - 0 1"
-  solution={['d1d8', 'g8h7', 'd8d3']}
+  solution={['d1d8']}
   title="Queen Infiltration"
   description="Infiltrate with the queen to create mating threats."
   hint="The queen is most powerful when close to the enemy king."
-  note="⚠️ WARNING: Qd8# is actually CHECKMATE IN 1 — Kg8 has no escape (all neighbors blocked by own pawns f7/g7/h7 or Qd8 on rank 8). The solution's 3-move line is wrong: g8h7 is ILLEGAL because h7 is occupied by Black's own pawn. This should be a mate-in-1 puzzle."
 />
 
 ---
@@ -94,18 +92,17 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
 
 <PuzzleBoard
   fen="6k1/5ppp/8/8/1B6/8/5PPP/R5K1 w - - 0 1"
-  solution={['a1a8', 'g8h7', 'a8a7']}
+  solution={['a1a8']}
   title="R+B Coordination"
   description="Use the bishop to support the rook's attack."
   hint="The bishop controls key diagonal squares."
-  note="⚠️ WARNING: Ra8# is actually CHECKMATE IN 1 — Kg8 has no escape (all neighbors blocked by own pawns f7/g7/h7 or Ra8 on rank 8). The solution's g8h7 is ILLEGAL because h7 is occupied by Black's own pawn. This should be a mate-in-1 puzzle."
 />
 
 ### Puzzle 8: Rook + Knight Mate
 
 <PuzzleBoard
-  fen="5rk1/5ppp/8/8/8/5N2/5PPP/R5K1 w - - 0 1"
-  solution={['a1a8', 'f8a8', 'f3e5']}
+  fen="2r3k1/8/8/5N2/8/8/8/R5K1 w - - 0 1"
+  solution={['f5e7', 'g8f7', 'e7c8']}
   title="R+N Attack"
   description="Coordinate rook and knight for threats."
   hint="Knights are great at forking!"
@@ -118,8 +115,8 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
 ### Puzzle 9: Anastasia's Mate
 
 <PuzzleBoard
-  fen="5rk1/4Nppp/8/8/8/8/5PPP/R5K1 w - - 0 1"
-  solution={['a1a8', 'f8a8', 'e7f5']}
+  fen="8/4N1pk/8/8/8/3R4/8/4K3 w - - 0 1"
+  solution={['d3h3']}
   title="Anastasia Pattern"
   description="A knight and rook deliver this famous mate."
   hint="The knight restricts the king on the h-file."
@@ -128,12 +125,11 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
 ### Puzzle 10: Arabian Mate
 
 <PuzzleBoard
-  fen="7k/7R/5N2/8/8/8/8/7K w - - 0 1"
-  solution={['h7h8']}
+  fen="7k/R7/5N2/8/8/8/6K1/8 w - - 0 1"
+  solution={['a7h7']}
   title="Arabian Mate"
   description="The classic knight and rook checkmate."
   hint="The knight covers the escape square."
-  note="⚠️ WARNING: This position is illegal — Black Kh8 is already in check from Rh7 with White to move — and h7h8 is illegal (h8 is occupied by the Black king). A correct Arabian mate keeps Black Kh8 and Nf6 but starts the rook off h7 (e.g. Rh1), solved by Rh7# (knight guards g8, rook covers g7/h8)."
 />
 
 ---
