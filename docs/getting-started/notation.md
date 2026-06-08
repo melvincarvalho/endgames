@@ -42,7 +42,7 @@ When two identical pieces can move to the same square:
 
 ## FEN Notation
 
-FEN (Forsyth-Edwards Notation) describes a position in a single line.
+FEN (Forsyth-Edwards Notation) describes a position in a single line of text.
 
 ### Example
 
@@ -58,17 +58,12 @@ This is the starting position.
 [piece placement] [side to move] [castling] [en passant] [halfmove] [fullmove]
 ```
 
-1. **Piece placement**: Ranks 8 to 1, separated by `/`. Lowercase = black, uppercase = white. Numbers = empty squares.
-
-2. **Side to move**: `w` (white) or `b` (black)
-
-3. **Castling rights**: `K` (white kingside), `Q` (white queenside), `k` (black kingside), `q` (black queenside), or `-` if none
-
-4. **En passant target**: The square behind a pawn that just moved two squares, or `-`
-
-5. **Halfmove clock**: Moves since last pawn move or capture (for 50-move rule)
-
-6. **Fullmove number**: Increments after black's move
+1. **Piece placement** — Ranks 8 to 1, separated by `/`. Lowercase = black, uppercase = white. Numbers = empty squares.
+2. **Side to move** — `w` (white) or `b` (black).
+3. **Castling rights** — `K` (white kingside), `Q` (white queenside), `k` (black kingside), `q` (black queenside), or `-` if none.
+4. **En passant target** — The square behind a pawn that just moved two squares, or `-`.
+5. **Halfmove clock** — Moves since the last pawn move or capture (for the 50-move rule).
+6. **Fullmove number** — Increments after black's move.
 
 ### Endgame FEN Examples
 
@@ -80,6 +75,10 @@ This is the starting position.
 
 ## Using FEN
 
-1. Copy the FEN string from any position in this guide
-2. Paste into [Lichess Analysis](https://lichess.org/analysis) or your preferred tool
-3. Analyze with engine assistance or practice against Stockfish
+1. Copy the FEN string from any position in this guide.
+2. Paste it into [Lichess Analysis](https://lichess.org/analysis) or your preferred tool.
+3. Analyze with engine assistance or practice against Stockfish.
+
+---
+
+**Next:** [How to Use This Guide →](/getting-started/how-to-use)
