@@ -35,7 +35,7 @@ Three squares separate the kings (e2, e3, e4). White to move does NOT have the o
 
 Black to move. White has distant opposition.
 
-After **1...Kd5 2.Kd2!** (maintaining opposition — 2 squares between)
+After **1...Kd5 2.Kd1!** (maintaining distant opposition — 3 squares between: d2, d3, d4)
 Or **1...Ke4 2.Ke2!** (taking direct opposition)
 
 White maintains the opposition throughout and eventually reaches a key square.
@@ -50,7 +50,7 @@ The kings are diagonally opposed with one square between them. The player NOT to
 
 ### Diagonal Distant Opposition
 
-<ChessBoard fen="8/8/7k/8/8/8/8/K7 w - - 0 1" />
+<ChessBoard fen="8/6k1/8/8/8/8/8/K7 w - - 0 1" />
 
 The kings are on the same color with 5 squares between on the diagonal (b2, c3, d4, e5, f6). White to move does not have opposition.
 
@@ -93,7 +93,7 @@ A special mutual zugzwang position where whoever moves loses.
 
 Whoever moves must give way, allowing the opponent's king to advance.
 
-- White to move: **Kc4** then Black **Kc4** — impossible (both on c4). Likely meant: **Kc3** then **...Kc4**, Black invades and wins. Or **Ke3** then **...Ke4**, same result.
+- This is a mutual zugzwang: whoever is to move must give way with their king, letting the opponent's king advance past the pawn barrier and win. (The original move notation here was garbled — see the warning below.)
 - Black to move: **Kc5** then White **Kc3**, or **Ke5** then **Ke3** — White maintains opposition and wins
 
 > ⚠️ **WARNING: Move notation errors.** "Kc4 Kc4" and "Ke4 Ke4" are impossible — both kings can't occupy the same square. The intended meaning is that whoever must move first gives way, allowing the opponent's king to advance past the pawn barrier.
