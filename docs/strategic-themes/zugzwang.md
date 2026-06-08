@@ -35,7 +35,7 @@ When BOTH players would be worse off moving, it's called **mutual zugzwang**.
 
 <ChessBoard fen="8/8/8/2k5/3p4/3K4/3P4/8 w - - 0 1" />
 
-- White to move loses: **1.Kc3 Kd5** (or similar) — Black wins the pawn race
+- White to move loses: **1.Kc3 Kd5** (or similar) — Black wins the [pawn race](/pawn-endgames/pawn-races)
 - Black to move loses: **1...Kd5 2.Kb4** — White wins the d4 pawn
 
 This is why [triangulation](/pawn-endgames/triangulation) is so powerful—it transfers the move to the opponent.
