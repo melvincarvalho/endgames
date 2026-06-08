@@ -21,7 +21,7 @@ In most chess positions, having the move is an advantage. But in zugzwang, havin
 
 <ChessBoard fen="8/8/8/4k3/8/4K3/4P3/8 w - - 0 1" />
 
-White to move: **1.Kd3? Kd5!** — Black takes opposition, draws.
+White to move: **1.Kd3? Kd5!** — Black takes [opposition](/fundamentals/opposition), draws.
 
 But if Black had to move:
 - **1...Kd5 2.Kf4!** — White flanks and wins

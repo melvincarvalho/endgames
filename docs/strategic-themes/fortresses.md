@@ -15,7 +15,7 @@ A **fortress** is a defensive setup that holds despite material disadvantage. Th
 ## Why Fortresses Work
 
 Fortresses exploit:
-1. **Geometric limitations** — The attacker's pieces cannot access the key squares
+1. **Geometric limitations** — The attacker's pieces cannot access the [key squares](/pawn-endgames/key-squares)
 2. **Stalemate threats** — Breaking through causes stalemate
 3. **Piece coordination** — Inferior material works perfectly together
 
