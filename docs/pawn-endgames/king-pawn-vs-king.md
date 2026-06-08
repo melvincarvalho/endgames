@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: King + Pawn vs King
-description: The most fundamental pawn endgame
+description: Winning and drawing technique for king and pawn versus king
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';

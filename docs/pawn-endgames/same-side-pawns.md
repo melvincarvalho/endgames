@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Same-Side Pawns (4v3, 3v2)
-description: When extra pawns aren't enough
+description: Endgame technique when both sides have pawns on the same flank — breakthroughs, opposition, and fortress themes
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Protected Passed Pawn
-description: More than half a victory
+description: A passed pawn defended by another pawn — one of the most powerful structural advantages in endgames
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';
