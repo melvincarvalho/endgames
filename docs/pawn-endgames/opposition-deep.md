@@ -107,7 +107,7 @@ This is why gaining the opposition (putting your opponent in this situation) is 
 White to move. How should White play?
 
 **1.Ke2!** — Taking the opposition. Now:
-- **1...Ke5 2.Ke3** — Maintaining opposition
+- **1...Ke5 2.Kd2** — Ke3 is impossible (the d4-pawn covers it), but stepping back to d2 still holds the draw
 - **1...Kf4 2.Kf2** — Maintaining opposition
 - **1...Kd5 2.Kd3** — Maintaining opposition
 
