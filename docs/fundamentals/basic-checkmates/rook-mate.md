@@ -28,7 +28,7 @@ Use the rook to cut off the enemy king, shrink its space, and deliver checkmate 
 
 ### Step 1: Cut Off the King
 
-<ChessBoard fen="8/8/8/4k3/8/8/4R3/4K3 w - - 0 1" />
+<ChessBoard fen="8/8/8/3k4/8/8/4R3/4K3 w - - 0 1" />
 
 The rook on e2 cuts off the king from ranks 1-2. The king is confined to a "box."
 
