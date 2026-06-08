@@ -147,7 +147,7 @@ Where should White's rook go?
 
 After **1.Rc1 b4 2.Rb1** — Now the rook attacks from behind, and White's king can approach to win.
 
-> ⚠️ **WARNING: Contradictory solution.** "1.Rb5+!" is presented as correct, but b5 is occupied by Black's pawn, making this **Rxb5+** (a capture). Later the solution says "1.Rxb5+?? Kxb5" is wrong — but that's the **same move**. If capturing the pawn is correct, the "wrong" line shouldn't use the same notation. The intended "correct" move is likely just `1.Rc1!` (getting behind without capturing).
+> ⚠️ **WARNING: Contradictory solution.** "1.Rb5+!" is presented as correct, but b5 is occupied by Black's pawn, making this **Rxb5+** (a capture). Later the solution says "1.Rxb5+?? Kxb5" is wrong — but that's the **same move**. If capturing the pawn is correct, the "wrong" line shouldn't use the same notation. The intended "correct" move is likely just `1.Rc1!` (getting behind without capturing). (The existing continuation `1.Rc1 b4 2.Rb1` is also illegal — Black's ...b4 is blocked by the king already on b4 — so Exercise 2 needs full re-authoring.)
 
 </details>
 
