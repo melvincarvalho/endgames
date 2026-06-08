@@ -50,11 +50,7 @@ White's rook on h3 is **active**—it supports the h-pawn and controls the h-fil
 
 Black's rook on a2 is **passive**—it attacks f2 but White doesn't care.
 
-**1.h4!** — The pawn advances. Black's passive rook cannot stop it.
-
-> ⚠️ **WARNING: Non-existent pawn.** The FEN has no h-pawn — White's pawns are on g3 and f2 only. The move `1.h4!` and the continuation `2.h5 gxh5 3.Rxh5` are all impossible without an h-pawn. The FEN needs an h-pawn added (e.g., change FEN to include `h3` or `h4` pawn), or the moves need to reference g-pawn advances instead.
-
-~~**1...Ra4 2.h5 gxh5 3.Rxh5**~~ — Invalid without h-pawn.
+**1.g4!** — White expands on the kingside, the active h-file rook backing the advance. **1...Ra4 2.g5** — Black's passive rook can only shuffle along the a-file. Material is equal, but the activity makes White's position far easier to play.
 
 ## Activity Over Material
 
@@ -72,11 +68,10 @@ Black cannot defend everything.
 
 ### Your Passed Pawn
 
-<ChessBoard fen="8/1P4k1/8/8/8/8/8/R3K3 w - - 0 1" />
+<ChessBoard fen="8/6k1/8/8/1P6/8/8/1R2K3 w - - 0 1" />
 
-The rook on a1 supports the b-pawn from behind. As the pawn advances, the rook's power increases.
+The rook on b1 supports the b-pawn from behind. As the pawn advances, the rook stays behind it and its power increases.
 
-> ⚠️ **WARNING: Rook on wrong file.** Ra1 is on the **a-file**, but the b-pawn is on the **b-file**. To be "behind" the passed pawn, the rook should be on b1 (same file as the pawn). Either the FEN should have `Rb1` or the text should say the rook needs to get to the b-file first.
 
 ### Opponent's Passed Pawn
 
@@ -104,7 +99,7 @@ If your rook is passive, find a way to activate it!
 
 Black's rook is passive. Solution:
 
-**1...Ra7!** — Getting to the 7th rank. Now **2.Rh7+ Kg8 3.Rb7 Ra2** — Black's rook is now active, attacking f2.
+**1...Ra7!** — Getting the rook to the active 7th rank. From a passive defender on a2, it becomes Black's best piece — eyeing White's back rank and second rank instead of sitting idle.
 
 ## Practical Guidelines
 
@@ -136,18 +131,14 @@ The 7th rank rook ties Black down completely.
 
 ### Exercise 2
 
-<ChessBoard fen="8/8/8/1pR5/1k6/8/8/4K3 w - - 0 1" />
+<ChessBoard fen="7R/8/8/8/1p6/1k6/8/4K3 w - - 0 1" />
 
 Where should White's rook go?
 
 <details>
 <summary>Solution</summary>
 
-**1.Rb5+!** or **1.Rc1!** — Either gets behind the pawn.
-
-After **1.Rc1 b4 2.Rb1** — Now the rook attacks from behind, and White's king can approach to win.
-
-> ⚠️ **WARNING: Contradictory solution.** "1.Rb5+!" is presented as correct, but b5 is occupied by Black's pawn, making this **Rxb5+** (a capture). Later the solution says "1.Rxb5+?? Kxb5" is wrong — but that's the **same move**. If capturing the pawn is correct, the "wrong" line shouldn't use the same notation. The intended "correct" move is likely just `1.Rc1!` (getting behind without capturing). (The existing continuation `1.Rc1 b4 2.Rb1` is also illegal — Black's ...b4 is blocked by the king already on b4 — so Exercise 2 needs full re-authoring.)
+**1.Rb8+!** — Getting *behind* the passed pawn (the Tarrasch rule). The rook attacks the b-pawn from behind and restrains it, while White's king marches over to round it up. With the rook in front the pawn would shield the king from checks; from behind, it cannot advance without being lost.
 
 </details>
 
