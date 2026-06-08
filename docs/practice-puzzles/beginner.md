@@ -126,3 +126,10 @@ Master these fundamental positions before moving on. Each puzzle tests a critica
 ---
 
 **Completed all puzzles?** Move on to [Intermediate Puzzles](./intermediate)!
+
+## Related theory
+
+- [Opposition](/fundamentals/opposition)
+- [Key squares](/fundamentals/key-squares)
+- [King & pawn vs king](/pawn-endgames/king-pawn-vs-king)
+- [Rule of the square](/pawn-endgames/rule-of-the-square)

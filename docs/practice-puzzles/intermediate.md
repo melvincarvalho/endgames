@@ -130,3 +130,10 @@ These puzzles test your knowledge of critical rook endgame techniques.
 ---
 
 **Ready for more?** Try [Checkmate Patterns](./checkmate-patterns)!
+
+## Related theory
+
+- [Lucena position](/rook-endgames/lucena-position)
+- [Philidor position](/rook-endgames/philidor-position)
+- [Triangulation](/pawn-endgames/triangulation)
+- [Outside passed pawn](/pawn-endgames/outside-passed-pawn)
