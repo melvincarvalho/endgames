@@ -72,6 +72,7 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
   title="Staircase Pattern"
   description="Deliver mate using the staircase pattern."
   hint="Control the escape squares with your queen."
+  note="⚠️ WARNING: Qh6 is NOT checkmate — Kh8 can escape to g8 (not attacked by Qh6 on h-file/rank-6/diagonals, nor by Kg6, nor by pg7). The FEN or solution needs correction."
 />
 
 ### Puzzle 6: Kiss of Death
@@ -82,6 +83,7 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
   title="Queen Infiltration"
   description="Infiltrate with the queen to create mating threats."
   hint="The queen is most powerful when close to the enemy king."
+  note="⚠️ WARNING: Qd8# is actually CHECKMATE IN 1 — Kg8 has no escape (all neighbors blocked by own pawns f7/g7/h7 or Qd8 on rank 8). The solution's 3-move line is wrong: g8h7 is ILLEGAL because h7 is occupied by Black's own pawn. This should be a mate-in-1 puzzle."
 />
 
 ---
@@ -96,6 +98,7 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
   title="R+B Coordination"
   description="Use the bishop to support the rook's attack."
   hint="The bishop controls key diagonal squares."
+  note="⚠️ WARNING: Ra8# is actually CHECKMATE IN 1 — Kg8 has no escape (all neighbors blocked by own pawns f7/g7/h7 or Ra8 on rank 8). The solution's g8h7 is ILLEGAL because h7 is occupied by Black's own pawn. This should be a mate-in-1 puzzle."
 />
 
 ### Puzzle 8: Rook + Knight Mate
@@ -130,6 +133,7 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
   title="Arabian Mate"
   description="The classic knight and rook checkmate."
   hint="The knight covers the escape square."
+  note="⚠️ WARNING: This position is illegal — Black Kh8 is already in check from Rh7 with White to move — and h7h8 is illegal (h8 is occupied by the Black king). A correct Arabian mate keeps Black Kh8 and Nf6 but starts the rook off h7 (e.g. Rh1), solved by Rh7# (knight guards g8, rook covers g7/h8)."
 />
 
 ---
