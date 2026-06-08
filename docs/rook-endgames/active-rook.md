@@ -144,7 +144,7 @@ Where should White's rook go?
 
 ## Summary
 
-1. **Active rook**: Attacks, controls key squares, creates threats
+1. **Active rook**: Attacks, controls [key squares](/pawn-endgames/key-squares), creates threats
 2. **Passive rook**: Defends, restricted, creates no threats
 3. **7th rank**: Ideal for rook domination
 4. **Behind passed pawns**: The golden rule of rook placement
