@@ -14,6 +14,8 @@ description: Chess endgame terminology
 
 **Bad Bishop** — A bishop blocked by its own pawns on the same color squares.
 
+**Bishop Pair** — Two bishops working together — a lasting advantage in open positions with play on both wings.
+
 **Blockade** — Stopping a passed pawn by placing a piece directly in front of it. Knights are ideal blockaders because they can attack the pawn while remaining stable.
 
 **Breakthrough** — A pawn sacrifice that clears a path so another pawn can promote.
@@ -36,6 +38,8 @@ description: Chess endgame terminology
 
 ## F
 
+**Fifty-Move Rule** — A game is drawn if 50 consecutive moves pass with no pawn move and no capture. Important in endgames because many theoretical wins require more than 50 moves without a capture.
+
 **[Fortress](/strategic-themes/fortresses)** — A defensive position that cannot be broken despite material disadvantage.
 
 ## K
@@ -51,6 +55,8 @@ description: Chess endgame terminology
 **Minority Attack** — Advancing a smaller pawn group against a larger one to create a weakness, often used in pawn-majority and same-side-pawn endgames.
 
 ## O
+
+**[Opposite-Coloured Bishops](/minor-piece-endgames/bishop-opposite-color)** — Bishops travelling on opposite colours — endings with a strong drawing tendency even a pawn or two down.
 
 **[Opposition](/fundamentals/opposition)** — When kings face each other with one square between; the player not to move has the advantage.
 
