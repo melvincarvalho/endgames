@@ -69,8 +69,8 @@ Usually bad. Avoid passive rook positions when possible.
 
 | Theme | Description |
 |-------|-------------|
-| Building a Bridge | Lucena technique for pawn promotion |
-| Third Rank Defense | Philidor technique for drawing |
+| Building a Bridge | [Lucena](/rook-endgames/lucena-position) technique for pawn promotion |
+| Third Rank Defense | [Philidor](/rook-endgames/philidor-position) technique for drawing |
 | Checking Distance | Rook needs space to give checks |
 | Pawn Race | When both sides push passed pawns |
 
