@@ -21,7 +21,7 @@ The most important endgame. You will play this hundreds of times.
 
 ## Winning Conditions
 
-The attacking side wins if the king can reach a **key square** in front of the pawn.
+The attacking side wins if the king can reach a **[key square](/pawn-endgames/key-squares)** in front of the pawn.
 
 <ChessBoard fen="8/8/8/8/3k4/8/3PK3/8 w - - 0 1" />
 

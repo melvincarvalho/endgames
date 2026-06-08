@@ -199,7 +199,7 @@ White to move. Evaluate.
 
 **1.Kf3! Kf7 2.Ke4 Ke7 3.Kd5!** — Outflanking.
 
-**3...Kd7 4.Ke5** — Zugzwang approaching.
+**3...Kd7 4.Ke5** — [Zugzwang](/strategic-themes/zugzwang) approaching.
 
 **4...Ke7 5.Kd5 Kd7 6.Ke4 Ke7 7.Kf4 Kf7 8.Kxg5** — Won.
 
@@ -218,7 +218,7 @@ White to move. 3 vs 2, what's the result?
 
 **Draw.**
 
-**1.Ke2 Ke5 2.Kd3 Kd5 3.Kc3 Kc5** — Black has the opposition.
+**1.Ke2 Ke5 2.Kd3 Kd5 3.Kc3 Kc5** — Black has the [opposition](/fundamentals/opposition).
 
 **4.Kb3 Kb5 5.Ka3 Ka5** — White cannot outflank.
 
