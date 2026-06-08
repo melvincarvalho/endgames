@@ -82,7 +82,7 @@ Rook pawns (a/h files) are special because the king can hide in the corner.
 
 <ChessBoard fen="k7/P7/8/8/8/8/8/R6K w - - 0 1" />
 
-**Draw!** Black's king reaches a8. White's rook cannot drive it away without allowing ...Kxa7 or stalemate.
+**Draw!** Black's king reaches a8. White's rook cannot drive it away without allowing ...Kxa7 or [stalemate](/strategic-themes/stalemate-resources).
 
 ## Exercises
 
@@ -143,7 +143,7 @@ White cannot make progress. **1.Kg2 Kg7 2.Kf3 Kf7** etc.—the king escapes but 
 2. **Pawn on 6th**: Usually the rook wins with correct technique
 3. **Pawn on 7th**: Depends on king position—king in front often draws
 4. **Long side principle**: Attack from the side with more squares
-5. **Rook pawn exception**: Often draws due to corner stalemate
+5. **Rook pawn exception**: Often draws due to corner [stalemate](/strategic-themes/stalemate-resources)
 
 ## Related topics
 
