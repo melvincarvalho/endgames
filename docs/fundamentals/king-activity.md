@@ -111,3 +111,9 @@ Where should White's king go?
 3. Use diagonal paths to save time
 4. Support your pawns and attack enemy pawns
 5. An active king can be worth a pawn
+
+## Related topics
+
+- [Opposition](/fundamentals/opposition)
+- [Key squares](/fundamentals/key-squares)
+- [King & pawn vs king](/pawn-endgames/king-pawn-vs-king)

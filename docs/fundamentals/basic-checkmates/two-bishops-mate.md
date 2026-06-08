@@ -88,3 +88,9 @@ The enemy king cannot cross from the lower-left to the upper-right.
 3. Use your king to push the enemy king toward a corner
 4. Shrink the barrier as you approach the corner
 5. Deliver checkmate (watch for stalemate!)
+
+## Related topics
+
+- [Bishop + knight mate](/fundamentals/basic-checkmates/bishop-knight-mate)
+- [Queen mate](/fundamentals/basic-checkmates/queen-mate)
+- [Rook mate](/fundamentals/basic-checkmates/rook-mate)
