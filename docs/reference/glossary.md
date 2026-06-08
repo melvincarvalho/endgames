@@ -50,7 +50,6 @@ description: Chess endgame terminology
 
 **Minority Attack** — Advancing a smaller pawn group against a larger one to create a weakness, often used in pawn-majority and same-side-pawn endgames.
 
-
 ## O
 
 **[Opposition](/fundamentals/opposition)** — When kings face each other with one square between; the player not to move has the advantage.
@@ -71,9 +70,9 @@ description: Chess endgame terminology
 
 ## R
 
-**Reti Manoeuvre** — The king takes a diagonal path to do two jobs at once — catch a pawn while supporting its own pawn promotion. Named after Richard Réti.
-
 **Reserve Tempo** — A held-back pawn move kept in reserve to lose a move on demand and put the opponent in zugzwang. Also called a *spare tempo*.
+
+**Reti Manoeuvre** — The king takes a diagonal path to do two jobs at once — catch a pawn while supporting its own pawn promotion. Named after Richard Réti.
 
 **[Rule of the Square](/pawn-endgames/rule-of-the-square)** — Visual method to determine if a king can catch a passed pawn.
 
@@ -111,6 +110,6 @@ description: Chess endgame terminology
 
 ## Z
 
-**Zwischenzug** — An in-between move, often a check, inserted before the expected recapture or continuation. Can change the evaluation of a line.
-
 **[Zugzwang](/strategic-themes/zugzwang)** — A position where any move worsens the position; the compulsion to move loses.
+
+**Zwischenzug** — An in-between move, often a check, inserted before the expected recapture or continuation. Can change the evaluation of a line.
