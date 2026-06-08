@@ -82,7 +82,7 @@ Sometimes you must trade pawns to create the outside passer.
 
 **1.c6!** — Sacrificing to create an outside passer.
 
-> ⚠️ **WARNING: Illegal move.** c6 is occupied by Black's pawn (pc6). A pawn on c5 cannot move forward to c6. To sacrifice, the move would need to be a diagonal capture (e.g., cxb6 or cxd6), not c6. The FEN or move needs correction.
+> ⚠️ **WARNING: Illegal move.** c6 is occupied by Black's pawn (pc6). A pawn on c5 cannot move forward to c6, and there is no capture target on b6 or d6 (both empty) — so the position itself needs correcting.
 
 **1...Kxc6 2.Ke4!** — Now the a-pawn is an outside passer, and White's king heads for Black's a-pawn.
 
