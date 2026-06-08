@@ -113,3 +113,9 @@ No! White must move, so Black has the opposition. Any king move allows Black to 
 2. The player NOT to move has the advantage
 3. Use opposition to advance your king or support pawn promotion
 4. Distant opposition follows the "odd squares" rule
+
+## Related topics
+
+- [Key squares](/fundamentals/key-squares)
+- [King activity](/fundamentals/king-activity)
+- [King & pawn vs king](/pawn-endgames/king-pawn-vs-king)

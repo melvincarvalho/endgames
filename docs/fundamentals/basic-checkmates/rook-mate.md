@@ -88,3 +88,9 @@ If the king were on e6, Re8 would be mate. But it's White's move. Solution: **Ra
 3. Use opposition to push the enemy king to the edge
 4. Shrink the box rank by rank
 5. Deliver checkmate on the back rank
+
+## Related topics
+
+- [Queen mate](/fundamentals/basic-checkmates/queen-mate)
+- [Opposition](/fundamentals/opposition)
+- [Bishop + knight mate](/fundamentals/basic-checkmates/bishop-knight-mate)

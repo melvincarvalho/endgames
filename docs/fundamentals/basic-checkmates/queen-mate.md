@@ -79,3 +79,9 @@ Set up these positions and practice delivering checkmate:
 2. Drive the king to the edge
 3. Bring up your king
 4. Deliver mate (avoid stalemate!)
+
+## Related topics
+
+- [Rook mate](/fundamentals/basic-checkmates/rook-mate)
+- [Opposition](/fundamentals/opposition)
+- [Two bishops mate](/fundamentals/basic-checkmates/two-bishops-mate)

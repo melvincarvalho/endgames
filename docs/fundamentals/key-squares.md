@@ -108,3 +108,9 @@ Key squares for a-pawn: only b7 and b8. Much harder to reach!
 2. For pawns on 2nd-4th ranks: key squares are 2 ranks ahead, 3 squares wide
 3. Use opposition to reach key squares
 4. Rook pawns have fewer key squares (harder to win)
+
+## Related topics
+
+- [Key squares (detailed)](/pawn-endgames/key-squares)
+- [Opposition](/fundamentals/opposition)
+- [King & pawn vs king](/pawn-endgames/king-pawn-vs-king)

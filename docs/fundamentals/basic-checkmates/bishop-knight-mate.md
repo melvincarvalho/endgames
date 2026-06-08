@@ -92,3 +92,9 @@ With perfect play, this checkmate requires up to 33 moves. Under time pressure, 
 3. Use the W-maneuver to transfer from the wrong corner
 4. Practice with online tools before attempting in games
 5. Prioritize other endgames unless you're 1800+
+
+## Related topics
+
+- [Queen mate](/fundamentals/basic-checkmates/queen-mate)
+- [Rook mate](/fundamentals/basic-checkmates/rook-mate)
+- [Two bishops mate](/fundamentals/basic-checkmates/two-bishops-mate)
