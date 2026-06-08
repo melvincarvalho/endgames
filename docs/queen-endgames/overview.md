@@ -19,8 +19,8 @@ Queen endgames are notoriously difficult. The queen's enormous range creates end
 
 1. **Calculate carefully** — Queen endings reward precise calculation over general principles.
 2. **Watch for stalemate** — Before playing what looks like a winning move, verify the opponent isn't stalemated.
-3. **Centralize the king** — Even with queens on the board, king safety matters. A exposed king invites perpetual check.
-4. **Advance passed pawns cautiously** — A pawn on the 7th supported by its king often draws or wins against a queen, but the geometry is tricky.
+3. **Centralize the king** — Even with queens on the board, king safety matters. An exposed king invites perpetual check.
+4. **Advance passed pawns cautiously** — A rook- or bishop-pawn on the 7th supported by its king can often hold a draw against a lone queen, but the geometry is tricky.
 
 ## In this section
 
