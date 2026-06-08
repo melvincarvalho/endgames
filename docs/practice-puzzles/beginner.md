@@ -48,6 +48,7 @@ Master these fundamental positions before moving on. Each puzzle tests a critica
   title="Checkmate in One"
   description="White to move and checkmate."
   hint="The rook delivers mate with king support."
+  note="⚠️ WARNING: Rb3 is NOT checkmate — Ka3 can escape to a4 (not attacked by Rb3 on b-file/rank-3, nor by Ka1). This puzzle needs a corrected FEN or solution."
 />
 
 ### Puzzle 4: Pushing the King
@@ -96,6 +97,7 @@ Master these fundamental positions before moving on. Each puzzle tests a critica
   title="Ladder Mate"
   description="Finish the ladder checkmate!"
   hint="Alternate rooks on ranks."
+  note="⚠️ WARNING: Ra8 is NOT checkmate — Kg8 can escape to f7 (not attacked by Ra8 on a-file/rank-8, nor by Ra2 on a-file/rank-2, nor by Ke1). For a ladder mate, the second rook needs to be on rank 7 (e.g., Ra7)."
 />
 
 ### Puzzle 8: Queen + King Teamwork
