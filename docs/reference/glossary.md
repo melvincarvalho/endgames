@@ -46,6 +46,11 @@ description: Chess endgame terminology
 
 **[Lucena Position](/rook-endgames/lucena-position)** — The winning R+P vs R position with pawn on 7th rank.
 
+## M
+
+**Minority Attack** — Advancing a smaller pawn group against a larger one to create a weakness, often used in pawn-majority and same-side-pawn endgames.
+
+
 ## O
 
 **[Opposition](/fundamentals/opposition)** — When kings face each other with one square between; the player not to move has the advantage.
@@ -65,6 +70,8 @@ description: Chess endgame terminology
 **[Protected Passed Pawn](/pawn-endgames/protected-passed-pawn)** — A passed pawn defended by a friendly pawn, making it harder to block.
 
 ## R
+
+**Reti Manoeuvre** — The king takes a diagonal path to do two jobs at once — catch a pawn while supporting its own pawn promotion. Named after Richard Réti.
 
 **Reserve Tempo** — A held-back pawn move kept in reserve to lose a move on demand and put the opponent in zugzwang. Also called a *spare tempo*.
 
@@ -103,5 +110,7 @@ description: Chess endgame terminology
 **Wrong Rook Pawn** — A rook pawn whose promotion square is the opposite color to the bishop; with the defending king in the corner it draws even a piece down.
 
 ## Z
+
+**Zwischenzug** — An in-between move, often a check, inserted before the expected recapture or continuation. Can change the evaluation of a line.
 
 **[Zugzwang](/strategic-themes/zugzwang)** — A position where any move worsens the position; the compulsion to move loses.
