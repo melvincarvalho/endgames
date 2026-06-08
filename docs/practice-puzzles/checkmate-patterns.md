@@ -133,7 +133,7 @@ These mating patterns appear constantly in endgames. Burn them into your memory!
   title="Arabian Mate"
   description="The classic knight and rook checkmate."
   hint="The knight covers the escape square."
-  note="⚠️ WARNING: Rh8 is ILLEGAL — Kh8 occupies h8 (rook cannot move to the enemy king's square). For Arabian mate, the FEN should have the Black king on g8 (not h8), so that Rh8# works with Nf6 covering g8."
+  note="⚠️ WARNING: This position is illegal — Black Kh8 is already in check from Rh7 with White to move — and h7h8 is illegal (h8 is occupied by the Black king). A correct Arabian mate keeps Black Kh8 and Nf6 but starts the rook off h7 (e.g. Rh1), solved by Rh7# (knight guards g8, rook covers g7/h8)."
 />
 
 ---
