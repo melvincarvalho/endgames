@@ -56,7 +56,7 @@ Black's pawns on b7 and e6 are on light squares—the same color as both bishops
 
 ## The "Wrong Rook Pawn" Exception
 
-Even with same-colored bishops, the **wrong rook pawn** draws:
+Even with same-colored bishops, the **[wrong rook pawn](/pawn-endgames/rook-pawn-special)** draws:
 
 <ChessBoard fen="8/8/8/8/p7/K7/B7/k7 w - - 0 1" />
 
