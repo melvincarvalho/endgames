@@ -25,80 +25,46 @@ The defender's pieces have limited mobility. They can cover one sector of the bo
 
 <ChessBoard fen="8/5pk1/6p1/1P4P1/5K2/8/8/8 w - - 0 1" />
 
-Black's weakness #1: The g6 pawn is backward.
+Black's weakness #1: the backward **g6-pawn**, fixed by White's g5. Weakness #2 is the **outside b-passer**, far from Black's king:
 
-White creates weakness #2 by advancing on the queenside:
-
-**1.Kf3!** (maneuvering) **1...Kf8 2.Ke4 Ke7 3.Kd5 Kd7 4.b6!**
-
-Now Black's king must choose:
-- Guard g6 (allows b7-b8=Q)
-- Guard b7 (allows Ke5-Kf6 winning g6)
-
-**4...Kc8 5.Ke6!** — White attacks g6, and Black cannot defend both weaknesses.
+**1.Ke5! Kf8 2.b6 Ke8 3.b7 Kd7 4.b8=Q** — Black's king cannot stop the b-pawn *and* defend g6 — it's simply too far away. White wins.
 
 ## Creating the Second Weakness
 
 ### Passed Pawn Creation
 
-<ChessBoard fen="8/pp3k2/2p5/2P5/PP6/5K2/8/8 w - - 0 1" />
+<ChessBoard fen="8/pp3k2/8/2P5/PP6/4K3/8/8 w - - 0 1" />
 
-Black's weakness #1: The a7-b7-c6 pawn chain.
+White has a queenside pawn majority. By advancing it, White manufactures a passed pawn — a second front for Black to worry about:
 
-White creates a passed pawn (weakness #2):
-
-**1.b5! cxb5 2.axb5**
-
-Now Black must deal with:
-- The passed b-pawn
-- The c5 pawn attacking b6 after b6 falls
+**1.Ke4 Ke6 2.b5** — The majority rolls forward and creates a passer. With Black tied to it, White's king mops up. White is winning.
 
 ## Attack, Retreat, Attack Elsewhere
 
-<ChessBoard fen="8/5pkp/r5p1/1R6/6PP/8/5K2/8 w - - 0 1" />
-
-**1.Rb7!** — Attacking h7.
-
-**1...Kg8 2.Rb4!** — Threatening h5 to create a second weakness.
-
-**2...Kf7 3.h5!** — Now h5 and the attack on a6 create two fronts.
-
-**3...gxh5 4.gxh5** — The h-pawn is a dangerous passer (weakness #2), while a6 remains vulnerable.
+The core technique is a rhythm: **attack the first weakness, force the defender to commit, then switch to the second.** The defender's pieces cannot retreat from one front and reach the other in time. The rook endgame below shows it in action.
 
 ## Endgame Application: Rooks
 
 <ChessBoard fen="3R4/pp3k1p/4p1p1/4P3/1r6/6PP/P4PK1/8 w - - 0 1" />
 
-Black's weakness #1: The a7 pawn.
+Black's weakness #1: the backward **b7-pawn**. White's active rook strikes:
 
-**1.Rd7+! Kg8 2.Ra7** — Attacking a7.
-
-Black defends: **2...Rb7 3.Ra3!** — Switching targets.
-
-Now create weakness #2: **3...Kf7 4.h4!** — Threatening to create a passed h-pawn.
-
-Black cannot defend a7 AND stop the h-pawn advance.
+**1.Rd7+ Kg8 2.Re7** — Hitting the second target, the **e6-pawn**. Black cannot defend e6 and b7 at once: **2...Ra4 3.Rxb7** and White is up a pawn with a dominant rook. Winning.
 
 ## Positional Two Weaknesses
 
-Not just pawns—weak squares count too:
+Not just pawns — weak squares count too.
 
-<ChessBoard fen="8/pp2k3/2p1p3/2PnP3/1P6/P3K3/8/3B4 w - - 0 1" />
+<ChessBoard fen="8/p3k3/2p1p3/2PnP3/1P6/P2B4/4K3/8 w - - 0 1" />
 
-Black's weaknesses:
-1. The a7 pawn (can be attacked via a-file)
-2. The light squares around the king (bishop dominates)
+Black's weaknesses: (1) the **c6-pawn** and the light squares around it, (2) the **a7-pawn**. White's bishop is far stronger than the knight:
 
-White maneuvers: **1.Bf3 Nd6 2.Kd4 Nb5+ 3.Kc4 Nd6+ 4.Kb3!**
-
-> ⚠️ **WARNING:** `1...Nd6` is not a legal knight move from d5 (d5→d6 = 1 square, not an L-shape). Legal knight moves from d5: b4 (xP), b6, c3, c7, f4, f6. This move sequence needs correction.
-
-Now **a4-a5** creates threats on the queenside while the bishop controls the light squares.
+**1.Be4! a5 2.bxa5 Nc7 3.Bxc6** — The bishop wins the c6-pawn while the queenside crumbles. White is winning.
 
 ## When One Weakness Suffices
 
 Sometimes one weakness is enough if:
-- It's a decisive material weakness (winning piece)
+- It's a decisive material weakness (winning a piece)
 - The attacker has overwhelming force
 - The weakness is immediately winning (promotion)
 
@@ -108,51 +74,38 @@ The "two weaknesses" principle applies when the position is balanced enough that
 
 ### Exercise 1
 
-<ChessBoard fen="8/1p4pk/p5p1/P5PP/1P6/8/5K2/8 w - - 0 1" />
+<ChessBoard fen="8/1p4k1/p5p1/P5P1/1P3K2/8/8/8 w - - 0 1" />
 
-White to move. Identify weaknesses and win.
+White to move. Exploit the two weaknesses and win.
 
 <details>
 <summary>Solution</summary>
 
-Weakness #1: Black's a6 pawn (fixed, backward).
-Create weakness #2: **1.h6!** — Creates a potential passed pawn.
+The fixed **a6- and b7-pawns** are weakness #1; **g6** is weakness #2. Black's king is stuck guarding g6, so White's king invades the queenside:
 
-**1...Kh8** (if gxh6 then g6 creates a passer)
-
-> ⚠️ **WARNING:** After `...gxh6` (g7xh6), the g6 square is still occupied by Black's own pawn (pg6). White's g5 pawn cannot push to g6. This annotation needs correction.
-
-**2.Ke3 Kg8 3.Kd4 Kf7 4.Kc5** — Now attacking both b7 and a6.
-
-Black cannot defend both wings.
+**1.Ke5! Kf8 2.Kd6 Kf7 3.Kd7** — heading for c7. Black cannot release the kingside to come back in time. White wins the queenside pawns and the game.
 
 </details>
 
 ### Exercise 2
 
-<ChessBoard fen="8/pp1r2kp/6p1/3R4/8/6PP/PP3PK1/8 w - - 0 1" />
+<ChessBoard fen="8/pp4kp/6p1/8/3R4/6PP/PP3PK1/r7 w - - 0 1" />
 
-White to move. Apply the two weaknesses principle.
+White to move. Apply the two-weaknesses principle.
 
 <details>
 <summary>Solution</summary>
 
-Attack weakness #1: **1.Rd6!** — Attacking a6 (a-pawn is backward).
+White's rook is active; Black's rook on a1 is passive. Attack the backward **b7-pawn** (weakness #1):
 
-**1...Ra7 2.h4!** — Creating weakness #2
-
-> ⚠️ **WARNING:** `1...Ra7` is illegal — a7 is occupied by Black's own pawn (pa7). The rook on d7 cannot move to a7. This move needs correction (perhaps `1...Rd6` or another defense).
-
-**2...Kf7 3.h5!** — Now Black must defend both a6 and prevent h6.
-
-**3...gxh5 4.Ra6 Ke7 5.Rxa7** — Won a pawn, game winning.
+**1.Rd7+ Kh8 2.Rxb7** — White wins the backward b7-pawn while the passive black rook on a1 can only watch. With the extra pawn and the dominant rook, White is winning.
 
 </details>
 
 ## Summary
 
 1. **One weakness** = usually defensible
-2. **Two weaknesses** = defense stretches and breaks
-3. **Creating the second** = passed pawn, weak square, or piece target
+2. **Two weaknesses** = the defense stretches and breaks
+3. **Creating the second** = a passed pawn, a weak square, or a piece target
 4. **Attack, retreat, attack elsewhere** = the technique in action
 5. **Apply everywhere** = pawn endings, rook endings, any endgame
