@@ -60,7 +60,7 @@ description: Chess endgame terminology
 
 **[Opposition](/fundamentals/opposition)** — When kings face each other with one square between; the player not to move has the advantage.
 
-**Outflanking** — A king maneuver that sidesteps around the enemy king to gain ground, typically after winning the opposition.
+**Outflanking** — A king maneuver that sidesteps around the enemy king to gain ground, typically after winning the [opposition](/fundamentals/opposition).
 
 **[Outside Passed Pawn](/pawn-endgames/outside-passed-pawn)** — A passed pawn far from the main action, acting as a decoy.
 
@@ -76,7 +76,7 @@ description: Chess endgame terminology
 
 ## R
 
-**Reserve Tempo** — A held-back pawn move kept in reserve to lose a move on demand and put the opponent in zugzwang. Also called a *spare tempo*.
+**Reserve Tempo** — A held-back pawn move kept in reserve to lose a move on demand and put the opponent in [zugzwang](/strategic-themes/zugzwang). Also called a *spare tempo*.
 
 **Reti Manoeuvre** — The king takes a diagonal path to do two jobs at once — catch a pawn while supporting its own pawn promotion. Named after Richard Réti.
 
@@ -96,13 +96,13 @@ description: Chess endgame terminology
 
 **Tempo** — A single move viewed as a unit of time; "gaining a tempo" means making progress while the opponent does not.
 
-**Trebuchet** — A mutual-zugzwang position where whoever is to move loses. Also called a full-point zugzwang.
+**Trebuchet** — A mutual-[zugzwang](/strategic-themes/zugzwang) position where whoever is to move loses. Also called a full-point zugzwang.
 
 **[Triangulation](/pawn-endgames/triangulation)** — Moving the king in a triangle to transfer the move to the opponent.
 
 ## U
 
-**Underpromotion** — Promoting a pawn to a knight, bishop, or rook instead of a queen, sometimes needed to avoid stalemate or to deliver mate.
+**Underpromotion** — Promoting a pawn to a knight, bishop, or rook instead of a queen, sometimes needed to avoid [stalemate](/strategic-themes/stalemate-resources) or to deliver mate.
 
 ## V
 
