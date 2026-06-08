@@ -71,3 +71,7 @@ Topics include:
 2. **Review periodically** — spaced repetition aids retention
 3. **Apply in games** — analyze your endgames to find gaps
 4. **Be patient** — endgame mastery takes time
+
+---
+
+**Next:** [Beginner Path →](/study-paths/beginner)
