@@ -6,75 +6,35 @@ description: Essential endgames for players under 1200
 
 # Beginner Path (Under 1200)
 
-Master these fundamentals before moving on. These positions appear constantly in games at all levels.
+Master these fundamentals in order. Each topic builds on the last, and every one of these positions appears constantly in games at all levels.
 
-## Learning Objectives
+## Learning Path
 
-By completing this path, you will be able to:
+1. **[Queen mate](/fundamentals/basic-checkmates/queen-mate)**
+   The most basic checkmate — learn to drive the enemy king to the edge without stalemating.
 
-- ✅ Checkmate with King + Queen vs King
-- ✅ Checkmate with King + Rook vs King
-- ✅ Know when King + Pawn vs King wins or draws
-- ✅ Understand and use the opposition
+2. **[Rook mate](/fundamentals/basic-checkmates/rook-mate)**
+   Slightly more technical — use the rook to cut off the king and deliver mate on the edge.
 
----
+3. **[Opposition](/fundamentals/opposition)**
+   The fundamental king battle — when kings face each other, the player who does *not* move has the advantage.
 
-## 1. Basic Checkmates
+4. **[Key squares](/pawn-endgames/key-squares)**
+   The squares the attacking king must reach to escort a pawn to promotion.
 
-### King + Queen vs King
+5. **[King & pawn vs king](/pawn-endgames/king-pawn-vs-king)**
+   The single most important pawn endgame — can the pawn promote or can the defender stop it?
 
-The easiest checkmate. Learn to drive the enemy king to the edge without stalemate.
+6. **[Rule of the square](/pawn-endgames/rule-of-the-square)**
+   A quick way to tell whether the defending king can catch a runaway pawn.
 
-**Key technique**: Use the queen to restrict the king, then bring your king to help deliver mate.
+7. **[Lucena position](/rook-endgames/lucena-position)**
+   The classic method for winning rook + pawn vs rook — build the bridge and promote.
 
-[Learn Queen Checkmate →](/fundamentals/basic-checkmates/queen-mate)
-
-### King + Rook vs King
-
-Slightly more technical. Requires understanding of "building a box."
-
-**Key technique**: Cut off the enemy king with your rook, push it to the edge, then checkmate.
-
-[Learn Rook Checkmate →](/fundamentals/basic-checkmates/rook-mate)
+8. **[Philidor position](/rook-endgames/philidor-position)**
+   The classic defensive method for holding rook + pawn vs rook — keep the rook on the third rank.
 
 ---
-
-## 2. King + Pawn vs King
-
-The most important endgame. You will encounter this hundreds of times in your chess career.
-
-### Critical Questions
-
-1. Can the pawn promote?
-2. Can the defending king stop it?
-3. Where should the attacking king be?
-
-### Key Concepts
-
-- **The Rule of the Square** — Can the king catch the pawn?
-- **The Opposition** — Who has to move loses
-- **Key Squares** — Control these and the pawn promotes
-
-[Learn King + Pawn vs King →](/pawn-endgames/king-pawn-vs-king)
-
----
-
-## 3. The Opposition
-
-When kings face each other with one square between them, the player **not** to move has the opposition—an advantage.
-
-Understanding opposition is fundamental to all king and pawn endgames.
-
-[Learn Opposition →](/fundamentals/opposition)
-
----
-
-## Practice Checklist
-
-- [ ] Can deliver mate with K+Q vs K in under 20 moves
-- [ ] Can deliver mate with K+R vs K in under 30 moves
-- [ ] Can identify winning vs drawing K+P vs K positions
-- [ ] Can take and use the opposition
 
 ## Next Steps
 
