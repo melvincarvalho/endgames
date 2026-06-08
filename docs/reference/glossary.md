@@ -48,6 +48,8 @@ description: Chess endgame terminology
 
 **Passed Pawn** — A pawn with no enemy pawns blocking or able to capture it.
 
+**Protected Passed Pawn** — A passed pawn defended by a friendly pawn, making it harder to block.
+
 **Philidor Position** — The drawing R+P vs R defense with third rank technique.
 
 ## R
