@@ -124,7 +124,7 @@ White to move. How should White proceed?
 
 <ChessBoard fen="8/8/8/1pp5/1Pp5/2P5/5k2/2K5 w - - 0 1" />
 
-White to move. Find the winning breakthrough.
+White to move. Find the winning [breakthrough](/pawn-endgames/breakthroughs).
 
 <details>
 <summary>Solution</summary>

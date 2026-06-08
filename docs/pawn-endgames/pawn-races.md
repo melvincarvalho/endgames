@@ -62,7 +62,7 @@ Can the queen stop it? **4...Qh1!** — Yes, easily.
 
 ### Queen Stops Pawn
 
-A queen can always stop a pawn on the 6th rank or below (with rare exceptions involving stalemate).
+A queen can always stop a pawn on the 6th rank or below (with rare exceptions involving [stalemate](/strategic-themes/stalemate-resources)).
 
 ### Pawn on 7th Rank
 
