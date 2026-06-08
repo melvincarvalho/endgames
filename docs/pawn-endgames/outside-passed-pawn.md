@@ -38,6 +38,8 @@ The defender cannot be in two places at once.
 
 **2.b6!** — The outside passer advances.
 
+> ⚠️ **WARNING: Illegal move.** b6 is occupied by Black's pawn (pb6). A pawn cannot move forward into an occupied square. This move and the entire Classic Example line need the FEN corrected (e.g., remove pb6 or shift the pawn structure).
+
 **2...Kc6 3.Ke3!** — White's king prepares to take e5 if Black captures b6.
 
 **3...Kxb6 4.Kf4!** — Now White wins e5.
@@ -68,6 +70,8 @@ White wins the race: **1.Ke3 Ke6 2.Kd4 Kd6 3.Kc4!**
 
 Now Black must choose: stop White's king or capture a6?
 
+> ⚠️ **WARNING: Impossible move.** After 3.Kc4, Black's king is on d6. "3...Kxa6" requires jumping from d6 to a6 (3 files apart) — kings move one square at a time. The move sequence needs to be extended (e.g., 3...Kc6-d7-c6... or similar king path to reach a6).
+
 **3...Kxa6 4.Kd5 Kb5 5.Ke5** — White wins f5 and has a won king + pawn endgame.
 
 ## Creating an Outside Passed Pawn
@@ -77,6 +81,8 @@ Sometimes you must trade pawns to create the outside passer.
 <ChessBoard fen="8/5k2/p1p5/P1P5/8/5K2/8/8 w - - 0 1" />
 
 **1.c6!** — Sacrificing to create an outside passer.
+
+> ⚠️ **WARNING: Illegal move.** c6 is occupied by Black's pawn (pc6). A pawn on c5 cannot move forward to c6, and there is no capture target on b6 or d6 (both empty) — so the position itself needs correcting.
 
 **1...Kxc6 2.Ke4!** — Now the a-pawn is an outside passer, and White's king heads for Black's a-pawn.
 
@@ -111,7 +117,9 @@ White to move. Win with the outside passed pawn.
 
 **1...Kd6 2.Ke4 Kc5 3.b6!**
 
-Now **3...Kxb6 4.Kf4** wins the g-pawn, or **3...Kc6 4.Kf4 Kxb6 5.Kxg4** and White wins.
+> ⚠️ **WARNING: Illegal move.** b6 is occupied by Black's pawn (pb6). Same issue as the Classic Example — pawn can't move forward into an occupied square. The FEN or move needs correction.
+
+If the b6 pawn were absent, **3...Kxb6 4.Kf4** would win the g-pawn, or **3...Kc6 4.Kf4 Kxb6 5.Kxg4** and White wins.
 
 </details>
 
