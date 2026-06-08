@@ -19,8 +19,8 @@ These puzzles test your knowledge of critical rook endgame techniques.
 ### Puzzle 1: Building the Bridge
 
 <PuzzleBoard
-  fen="1K6/5R2/8/8/8/8/1kp5/8 w - - 0 1"
-  solution={['f7f2', 'b2c3', 'f2f4']}
+  fen="1K1k4/1P6/8/8/8/8/r7/5R2 w - - 0 1"
+  solution={['f1d1', 'd8e7', 'd1d4']}
   title="Lucena: Bridge Building"
   description="Build the famous bridge to shelter your king from checks."
   hint="Bring the rook to the 4th rank to create a shield."
@@ -30,8 +30,8 @@ These puzzles test your knowledge of critical rook endgame techniques.
 ### Puzzle 2: King March
 
 <PuzzleBoard
-  fen="4K3/3PR3/8/8/8/8/3rk3/8 w - - 0 1"
-  solution={['e8f7', 'e2f3', 'e7e4']}
+  fen="2K5/2P5/4k3/8/8/8/r7/3R4 w - - 0 1"
+  solution={['d1d4', 'a2c2', 'c8d8']}
   title="Lucena: Shelter the King"
   description="March your king out, using the rook as a shield."
   hint="Step forward with the king, then prepare the rook shield."
@@ -45,8 +45,8 @@ These puzzles test your knowledge of critical rook endgame techniques.
 ### Puzzle 3: Third Rank Defense
 
 <PuzzleBoard
-  fen="8/8/8/8/3Pk3/8/3K4/r7 b - - 0 1"
-  solution={['a1a6']}
+  fen="4k3/r7/8/3KP3/8/8/8/1R6 b - - 0 1"
+  solution={['a7a6', 'b1b8', 'e8d7']}
   title="Philidor: Cut Off the King"
   description="Black to move. Establish the drawing setup."
   hint="Place your rook on the 6th rank to prevent king advancement."
@@ -56,8 +56,8 @@ These puzzles test your knowledge of critical rook endgame techniques.
 ### Puzzle 4: Checking from Behind
 
 <PuzzleBoard
-  fen="8/3P4/3K4/8/4k3/8/8/r7 b - - 0 1"
-  solution={['a1a8', 'd6c7', 'a8a7', 'c7c8', 'a7a8']}
+  fen="4k3/1R6/r3P3/3K4/8/8/8/8 b - - 0 1"
+  solution={['a6a1', 'b7b8', 'e8e7']}
   title="Philidor: Perpetual Checks"
   description="Black draws with checks from behind."
   hint="Once the pawn advances, switch to checking from behind."
@@ -71,19 +71,18 @@ These puzzles test your knowledge of critical rook endgame techniques.
 ### Puzzle 5: Active Rook
 
 <PuzzleBoard
-  fen="8/8/4k3/r7/R7/4K3/4P3/8 w - - 0 1"
-  solution={['a4a6', 'e6e5', 'a6a5']}
+  fen="8/R7/8/4k3/8/8/4P3/r5K1 w - - 0 1"
+  solution={['a7a1', 'e5d4', 'g1f2']}
   title="Activate Your Rook"
   description="Use your rook actively to tie down the enemy king."
   hint="Cut off the king with your rook."
-  note="⚠️ WARNING: Ra4→a6 is ILLEGAL — Black's rook on a5 blocks the a-file. Rooks cannot jump over pieces. This puzzle needs a corrected FEN (e.g., remove ra5 or place it elsewhere)."
 />
 
 ### Puzzle 6: Rook Behind Passer
 
 <PuzzleBoard
-  fen="8/8/8/k7/8/1P6/8/1R2K3 w - - 0 1"
-  solution={['b1b2', 'a5a4', 'e1d2']}
+  fen="r7/8/8/P7/8/8/4K1k1/R7 w - - 0 1"
+  solution={['a5a6', 'a8e8', 'e2d3']}
   title="Rook Behind the Pawn"
   description="The golden rule: place your rook behind passed pawns."
   hint="Support the pawn from behind, then advance your king."
@@ -96,22 +95,21 @@ These puzzles test your knowledge of critical rook endgame techniques.
 ### Puzzle 7: Back Rank Threat
 
 <PuzzleBoard
-  fen="8/5pk1/5Rp1/8/6PP/8/6K1/1r6 w - - 0 1"
-  solution={['f6a6', 'b1b2', 'g2f3']}
+  fen="6k1/5ppp/8/8/8/8/8/R5K1 w - - 0 1"
+  solution={['a1a8']}
   title="Use the Back Rank"
-  description="The threat of mate creates winning chances."
+  description="Black's king is boxed in by its own pawns — deliver mate on the back rank."
   hint="Threaten the back rank to gain freedom."
 />
 
 ### Puzzle 8: Skewer
 
 <PuzzleBoard
-  fen="8/8/8/8/8/R4k2/5r2/5K2 w - - 0 1"
-  solution={['a3a8', 'f2f7', 'a8f8']}
+  fen="8/8/8/2k3r1/8/8/8/R3K3 w - - 0 1"
+  solution={['a1a5', 'c5d4', 'a5g5']}
   title="Rook Skewer"
   description="Use a skewer to win material."
   hint="Check the king and win the rook."
-  note="⚠️ WARNING: (1) Ra3→a8 gives no check — nothing on rank 8 or a-file to check. Skewer concept fails. (2) Black's Rf2→f7 is also illegal — Kf3 blocks the f-file. This puzzle needs a corrected FEN where the rook can actually skewer."
 />
 
 ---
