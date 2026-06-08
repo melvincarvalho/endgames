@@ -116,9 +116,9 @@ Having **two passed pawns** often wins pawn races even when behind initially.
 
 Compare to:
 
-<ChessBoard fen="8/8/8/8/8/p5k1/7P/7K w - - 0 1" />
+<ChessBoard fen="8/8/8/8/p4k2/8/7P/2K5 w - - 0 1" />
 
-**1.h4 a2 2.h5 a1=Q 3.h6 Qa8 4.h7** — The queen stops the pawn easily, but Black's king is safer.
+With both kings clear of the promotion squares, the pawns race and both sides queen — but neither king can be harried into a perpetual. It's a balanced race: **a draw.** Compared with the position above, only the king placement changed the result.
 
 ## Exercises
 

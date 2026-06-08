@@ -171,20 +171,16 @@ Connected passed pawns on the 5th rank win if they can advance together.
 
 ### Exercise 2
 
-<ChessBoard fen="8/p6p/8/1Pk5/1P6/8/6K1/2B3b1 w - - 0 1" />
+<ChessBoard fen="8/p6p/1k6/1P6/1P2b3/8/6K1/2B5 w - - 0 1" />
 
 White to move. What's the result?
 
 <details>
 <summary>Solution</summary>
 
-**Draw with correct defense.**
+**Draw.** With opposite-coloured bishops, White's dark-squared bishop and the b-pawns can never force past Black's light-squared blockade.
 
-**1.Kf3 Bd4 2.Ke4 Bc3 3.Kd3 Kb6** — Black's bishop and king cover everything.
-
-**4.Kc4 Bf6 5.Bd2 Bg7** — The bishop covers b2 from the long diagonal.
-
-White cannot make progress. The pawns don't span enough files.
+**1.Kf2 Kxb5 2.Be3 a6 3.Bd2** — Black even rounds up a pawn; the bishops of opposite colour guarantee the draw.
 
 </details>
 
