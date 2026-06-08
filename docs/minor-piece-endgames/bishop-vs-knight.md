@@ -33,53 +33,47 @@ Neither piece is universally superior. The position determines which is better.
 
 <ChessBoard fen="8/1p4k1/p5p1/P5B1/1P4K1/8/8/5n2 w - - 0 1" />
 
-White's bishop controls both sides of the board simultaneously. The knight on f1 is far from the action.
+The knight on f1 is stranded in the corner, far from the action, while the bishop covers both wings. White's king simply walks over and wins it:
 
-**1.Kf4!** — White's king attacks the kingside while the bishop guards a5.
-
-The knight cannot be in two places at once.
+**1.Kf3 Kf7 2.Kg2 Ke6 3.Kxf1** — A whole piece for nothing. A short-range knight stuck offside is a serious liability.
 
 ## The Knight's Advantage: Outposts
 
-<ChessBoard fen="8/1p2k3/p3p3/P1p1P3/2P1N3/8/6K1/3b4 w - - 0 1" />
+<ChessBoard fen="8/3k4/3Np3/2p1P3/2P5/P4K2/8/3b4 w - - 0 1" />
 
-> ⚠️ **WARNING: example needs replacing** — Black is actually up a pawn here (4 vs 3), so "White will win" is not correct; and the e4 knight (a light square) faces a light-squared bishop, so it isn't truly safe from it. Flagged for a corrected knight-outpost position.
+The knight on **d6** is a textbook outpost: a dark square the light-squared bishop can *never* attack, supported by the e5-pawn. Black's bishop is "bad," hemmed in by its own pawns. Crucially, White's extra a3-pawn sits on a **dark** square — also untouchable by the light bishop.
 
-The knight on e4 is perfectly placed—centralized on a strong square, unassailable by the bishop. Black's bishop is "bad" (blocked by pawns on e6, c5).
-
-White will win by bringing the king to support the knight.
+**1.Ke3** — The king joins in. With a dominant knight and a safe extra pawn, White is winning (Stockfish: about +3).
 
 ## Pawns on Both Flanks: Bishop Wins
 
 <ChessBoard fen="8/5k2/p4n1p/P5p1/6P1/5B1P/5K2/8 w - - 0 1" />
 
-Pawns are spread across both wings. The bishop covers both sides; the knight must choose one.
+Pawns are spread across both wings, and the bishop's long reach lets it strike where the knight cannot defend:
 
-**1.Bd5+ Ke7 2.Kg3!** — White's king improves while the bishop guards everything.
+**1.Bb7! Ke6 2.Bxa6** — The bishop reaches across the board and wins a pawn. The knight could never have covered both flanks at once. White is winning.
 
-## Closed Position: Knight Wins
+## Closed Position: Knight is Better
 
 <ChessBoard fen="8/1p2k3/p1p1p3/P1PpPp2/1P1P1P2/8/2N5/4K2b w - - 0 1" />
 
-All diagonals are blocked. The bishop is useless ("tall pawn"). The knight can jump over the pawns and dominate.
+Every diagonal is blocked — the bishop on h1 is a glorified "tall pawn." The knight hops around the fixed structure to reach an outpost:
 
-**1.Nd4!** — The knight maneuvers to f3 or e6, creating threats.
+**1.Ne3!** — (1.Nd4 is impossible — White's own pawn sits on d4.) The knight reroutes via d1 toward c3 and the holes in Black's position. White is clearly better (about +2); the bishop has nothing to do.
 
 ## Wrong-Colored Bishop
 
-<ChessBoard fen="8/8/5k2/8/p7/8/B4K2/8 w - - 0 1" />
+A bishop is **colour-bound**. With a rook-pawn whose promotion square is the *wrong* colour, even bishop + pawn cannot win:
 
-The bishop cannot control a1 (the promotion square). This is a draw—the king and bishop cannot drive Black's king from a1.
+<ChessBoard fen="7k/8/6KP/8/8/8/B7/8 w - - 0 1" />
 
-A knight would win this position:
+The promotion square h8 is **dark**, but the bishop is **light** — it can never control h8 or drive Black's king from the corner. **Draw.**
 
-<ChessBoard fen="8/8/5k2/8/p7/8/N4K2/8 w - - 0 1" />
+A knight is not colour-bound, so the same material **wins**:
 
-**1.Ke3 Ke5 2.Kd3 Kd5 3.Kc4!** — White wins the pawn.
+<ChessBoard fen="7k/8/6KP/8/8/8/N7/8 w - - 0 1" />
 
-## Opposite-Colored Bishop Comparison
-
-Bishop vs knight with opposite-colored bishops creates unique dynamics. See [Opposite-Color Bishops](/minor-piece-endgames/bishop-opposite-color).
+**1.Nc3!** — The knight escorts the pawn, covering the squares the king needs. White drives the black king away and promotes. **White wins.**
 
 ## Practical Evaluation Checklist
 
@@ -102,31 +96,31 @@ Bobby Fischer famously converted bishop vs knight advantages by:
 
 ### Exercise 1
 
-<ChessBoard fen="8/5k2/2p3p1/1pP1Np1p/1P3P1P/6P1/8/5K2 w - - 0 1" />
+<ChessBoard fen="8/4k3/2p1b1p1/1pP1Np1p/1P3P1P/6P1/8/5K2 w - - 0 1" />
 
-Evaluate: Who stands better?
+Evaluate: who stands better, and why?
 
 <details>
 <summary>Solution</summary>
 
-**White is better.** The knight on e5 is dominant—secure, centralized, and unassailable. If Black had a bishop, it would be "bad" (pawns on light squares).
+**White is much better.** The knight on e5 is a monster — secure, central, and supported — while Black's bishop on e6 is "bad," boxed in by its own pawns on light squares.
 
-White wins by maneuvering the king to support the knight invasion.
+In fact White wins material at once: **1.Nxc6+!** forks the king and wins the c6-pawn. White is winning.
 
 </details>
 
 ### Exercise 2
 
-<ChessBoard fen="8/pp3k2/8/2p1B3/8/P7/1P3K2/2n5 w - - 0 1" />
+<ChessBoard fen="8/pp3k2/7p/4B3/8/P6P/1P3K2/2n5 w - - 0 1" />
 
-Evaluate: Who stands better?
+Evaluate: which side would you rather have?
 
 <details>
 <summary>Solution</summary>
 
-**White is better.** Pawns on both sides favor the bishop. The knight cannot cover a3 and the kingside simultaneously.
+**White is somewhat better.** With pawns on both wings, the bishop is the more useful piece — it can shift from defending the queenside to attacking the kingside in a single move, while the knight on c1 is offside.
 
-White plays **Ke3** and **Kd4**, dominating the center while the bishop controls both wings.
+**1.Ke3** and **2.Kd4** centralises the king; the bishop holds both flanks. It's only a small edge (the engine calls it roughly half a pawn), but it's White who presses.
 
 </details>
 
@@ -135,5 +129,5 @@ White plays **Ke3** and **Kd4**, dominating the center while the bishop controls
 1. **No universal winner** — Position determines piece value
 2. **Open + both wings** = Bishop better
 3. **Closed + outpost** = Knight better
-4. **Bad bishop** = Often worse than knight
-5. **Practical skill** = Recognizing which positions favor which piece
+4. **Bad bishop** = Often worse than a knight
+5. **Colour-bound** = A wrong-coloured bishop can't win a rook-pawn; a knight can
