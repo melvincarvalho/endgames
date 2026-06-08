@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: King + Two Bishops vs King
-description: Coordinating two bishops for checkmate
+description: Checkmate technique for two bishops and king versus lone king
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';

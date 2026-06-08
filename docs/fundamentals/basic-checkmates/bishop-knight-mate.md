@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: King + Bishop + Knight vs King
-description: The most difficult basic checkmate
+description: Checkmate technique for bishop and knight versus lone king — the hardest of the basic checkmates
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';

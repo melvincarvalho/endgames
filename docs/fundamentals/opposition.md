@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Opposition
-description: The fundamental concept of king vs king battles
+description: When two kings face each other on the same file or rank, the player who does NOT have to move holds the opposition — a key advantage in king-and-pawn endgames
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';
