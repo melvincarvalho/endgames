@@ -108,3 +108,8 @@ After 1. Rc4 Ke7:
 4. **Promote** — Victory!
 
 The Lucena is the single most important rook endgame pattern. Know it by heart.
+
+## Related topics
+
+- [Philidor position](/rook-endgames/philidor-position)
+- [Rook vs pawn](/rook-endgames/rook-vs-pawn)

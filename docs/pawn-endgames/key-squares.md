@@ -215,3 +215,9 @@ The key squares shift as the pawn advances!
 4. **Rook pawns** — Only 2 key squares (edge of board)
 5. **Opposition is a tool** — Key squares are the goal
 6. **Squares shift** — As the pawn advances, key squares change
+
+## Related topics
+
+- [Opposition](/fundamentals/opposition)
+- [King & pawn vs king](/pawn-endgames/king-pawn-vs-king)
+- [Opposition deep](/pawn-endgames/opposition-deep)

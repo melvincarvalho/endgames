@@ -76,3 +76,8 @@ Can White win with triangulation here?
 3. **The result**: the opponent is in zugzwang and must give way
 4. **Requirement**: *you* have a waiting move and *they* don't
 5. **Counter**: if the opponent has equal waiting moves, it's a draw
+
+## Related topics
+
+- [Opposition deep](/pawn-endgames/opposition-deep)
+- [Key squares](/pawn-endgames/key-squares)
