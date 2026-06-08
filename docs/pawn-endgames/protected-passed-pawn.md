@@ -17,13 +17,13 @@ A **protected passed pawn** is a passed pawn defended by another pawn. It's one 
 
 ## What Makes It Special
 
-<ChessBoard fen="8/8/8/3Pp3/3P4/8/5k2/2K5 w - - 0 1" />
+<ChessBoard fen="8/8/8/2Pp4/3P4/8/5k2/2K5 w - - 0 1" />
 
-The d5-pawn is a **protected passed pawn**:
-- It's passed (no enemy pawn can block or capture it)
-- It's protected by the d4-pawn
+The c5-pawn is a **protected passed pawn**:
+- It's passed (no enemy pawn can stop it on the b-, c-, or d-file)
+- It's protected by the d4-pawn, which guards c5 *diagonally*
 
-> ⚠️ **WARNING: Core concept error.** A pawn on d4 captures diagonally on **c5** and **e5** — it does **NOT** protect d5 (which is directly ahead, not on a diagonal). For d5 to be a protected passed pawn, it would need a friendly pawn on c4 or e4. The Pd4/Pd5 structure appears throughout this page and is NOT a protected passed pawn. A correct example would be Pc5 + Pd4 (c5 protected by d4 which captures on c5).
+Because d4 covers c5, **Black's king can never capture the c5-pawn** — stepping onto c5 would walk straight into the d4-pawn.
 
 ### Key Properties
 
@@ -34,93 +34,65 @@ The d5-pawn is a **protected passed pawn**:
 
 ## The Basic Winning Technique
 
-<ChessBoard fen="8/8/4k3/3Pp3/3P4/8/8/4K3 w - - 0 1" />
+<ChessBoard fen="8/8/4k3/2Pp4/3P4/8/8/4K3 w - - 0 1" />
 
-Black's king is tied to stopping d5. White's king is free:
+Black's king is tied to watching the c5-pawn. White's king is free to roam:
 
-**1.Kd2 Kd6 2.Kc3 Kc7 3.Kb4!** — Heading for the e5-pawn.
+**1.Kf2 Kf6 2.Ke3** — White's king heads for the kingside. Black's king cannot both shadow it and guard the passer forever.
 
-**3...Kd6 4.Kb5 Kd7 5.Kc5** — Now threatening both d6 and Kxe5.
-
-**5...Kc7 6.Kxe5 Kd7 7.Kf6** — White wins.
-
-> ⚠️ **WARNING: Impossible move at move 6.** White king is on c5 after move 5. "6.Kxe5" requires jumping from c5 to e5 — that's 2 files apart. Kings move one square. The move sequence needs correction.
-
-The protected passed pawn occupied Black's king while White's king invaded.
+White is winning: the protected passer is a permanent asset that occupies Black while White's king creates a second front.
 
 ## Creating a Protected Passed Pawn
 
-### Method 1: Pawn Sacrifice
+### Method 1: Advance a Phalanx
 
-<ChessBoard fen="8/8/4k3/2p5/1pPp4/1P1P4/8/4K3 w - - 0 1" />
+<ChessBoard fen="8/8/4k3/2p1p3/1PPP4/8/8/4K3 w - - 0 1" />
 
-**1.c5!** — Sacrificing to create a protected passer.
+**1.d5!** — Advancing the centre pawn. Now the d5-pawn is **protected by c4** and passed — Black's king cannot touch it.
 
-> ⚠️ **WARNING: Illegal move.** c5 is occupied by Black's pawn (pc5). A pawn on c4 cannot push forward to c5. This needs a FEN correction (e.g., remove pc5 or change the move to a diagonal capture).
+From here White's extra, untouchable passer decides the game.
 
-**1...bxc5** (if **1...Kxc5 2.bxc4** wins the d4-pawn)
-
-**2.b4! cxb4 3.d4** — Now d4 is a protected passed pawn!
-
-### Method 2: Pawn Exchange
+### Method 2: A Free King
 
 <ChessBoard fen="8/3k4/8/2pP4/2P5/8/8/4K3 w - - 0 1" />
 
-**1.d6!** — Not taking.
+Here the d5-pawn is already a protected passer (guarded by c4). It needs no babysitting:
 
-**1...Kxd6 2.Kd2 Kd7 3.Kc3 Kc6 4.Kd4** — White wins the c5-pawn and the game.
-
-If **1...Kc8 2.Kd2 Kd7 3.Kc3 Kxd6 4.Kd4** — Same result.
-
-The passed pawn forced a winning king position.
+**1.Ke2!** — White's king sets off for the kingside. Black's king is glued to the d5-pawn's promotion path, so White invades and wins on the other wing.
 
 ## Protected Passed Pawn vs King + Pawn
 
-<ChessBoard fen="8/8/3k4/3Pp3/3P4/8/6p1/6K1 w - - 0 1" />
+<ChessBoard fen="8/8/4k3/2Pp4/3P4/8/6p1/6K1 w - - 0 1" />
 
-Both sides have passed pawns. Who wins?
+Both sides have an extra pawn — White the protected passer on c5, Black a runner on g2. Who wins?
 
-**1.Kxg2 Kxd5 2.Kf3 Kxd4 3.Ke2** — Draw (K+P vs K, Black's e-pawn).
+**1.Kxg2!** — White scoops the runner. Now White's king is active **and** the protected c5-pawn still ties Black down — White is winning.
 
-Wrong approach! The protected passed pawn shouldn't be captured so easily.
-
-**1.d6!! Kxd6 2.d5!** — Now White has a simple passed pawn, but Black's king is far.
-
-> ⚠️ **WARNING: Illegal move.** Black's king is on d6 (per the FEN). "1.d6!!" pushes Pd5 to d6, but d6 is occupied by the Black king. A pawn cannot move to a square occupied by any piece, including the enemy king. The FEN or move needs correction.
-
-**2...exd5?? 3.Kxg2** — White wins the pawn race!
-
-Or **2...Kxd5 3.Kxg2 Ke4 4.Kf2** — Drawn, but better than losing.
-
-The protected passer's real value: **tying down the enemy king**.
+The lesson: the protected passer's real value is that it **shackles the enemy king**, freeing yours to decide matters elsewhere.
 
 ## The "Squeeze" Technique
 
-<ChessBoard fen="8/8/4k3/p2Pp3/P2P4/8/6K1/8 w - - 0 1" />
+<ChessBoard fen="8/8/4k3/p1Pp4/P2P4/8/6K1/8 w - - 0 1" />
 
-White has a protected passed pawn on d5. The a-pawns are balanced.
+White has a protected passer on c5 (the a-pawns are balanced).
 
-**1.Kf3 Kf6 2.Ke4 Ke6 3.d6!** — Breaking through.
-
-**3...Kxd6 4.Kxe5** — Now White's king dominates.
-
-**4...Kc5 5.Ke6 Kb4 6.d5 Kxa4 7.d6** — White promotes first.
+**1.Kg3 Kf5 2.Kf3** — White manoeuvres the free king toward the queenside. With Black tied to c5, White outflanks and breaks through.
 
 ## When Protected Passed Pawns Don't Win
 
 ### Blocked Position
 
-<ChessBoard fen="8/8/3k4/3Pp3/3Pp3/4P3/8/4K3 w - - 0 1" />
+<ChessBoard fen="8/8/2k5/2Pp4/2pP4/8/8/4K3 w - - 0 1" />
 
-White has a protected passer, but the position is blocked. Neither side can make progress.
+White has a protected passer on c5, but the position is locked (Black's c4- and d5-pawns jam the structure) and neither king can break in.
 
-> ⚠️ **NOTE:** Same core concept issue — Pd4 does not protect Pd5 (pawns protect diagonally, not forward).
+**1.Kd2 Kd7 2.Kc3 Ke7 3.Kc2 Kd8** — Just shuffling; it's a draw. A protected passer is only decisive if your king can make progress *somewhere*.
 
 ### Wrong Side of the Board
 
-<ChessBoard fen="8/8/8/7p/3Pp2P/3P4/8/2K2k2 w - - 0 1" />
+<ChessBoard fen="8/8/8/7p/3Pp2P/2P5/8/2K2k2 w - - 0 1" />
 
-White's protected passer is on d4, but Black's king is on the kingside with a pawn. This could be a race that Black wins.
+White's protected passer (d4, guarded by c3) is far from the action, while Black's king and h-pawn fight on the kingside. A passer marooned on the wrong wing may not be enough — here Black's kingside counterplay holds the balance.
 
 ## Practical Guidelines
 
@@ -142,15 +114,9 @@ White to move. How should White proceed?
 <details>
 <summary>Solution</summary>
 
-**1.Ke3!** — King heads toward the d5-pawn.
+**1.Kf3!** — With Black's king tied to the c5-passer, White's king marches to the kingside.
 
-**1...Kd6** (defending d5)
-
-**2.Kd3 Kc6 3.Kc3 Kb5 4.Kb3!** — Threatening Ka4-Ka5-Kb6.
-
-**4...Kc6 5.Ka4 Kd6 6.Kb5** — The protected passer on c5 allowed White's king to invade.
-
-**6...Kc7 7.Kxd5** — Won.
+**1...Kd7 2.Kf4 Ke6 3.Kg5** — White infiltrates and wins. The protected passer on c5 did its job: it pinned Black's king to one side of the board.
 
 </details>
 
@@ -158,22 +124,14 @@ White to move. How should White proceed?
 
 <ChessBoard fen="8/8/8/1pp5/1Pp5/2P5/5k2/2K5 w - - 0 1" />
 
-White to move. Create a protected passed pawn.
+White to move. Find the winning breakthrough.
 
 <details>
 <summary>Solution</summary>
 
-**1.c4!!** — The key break.
+**1.bxc5!** — The breakthrough. White wins a pawn, and the resulting passed c-pawn runs while Black's king is stuck on the kingside.
 
-> ⚠️ **WARNING: Illegal move.** c4 is occupied by Black's pawn (pc4 in FEN rank 4: `1Pp5` = b4=P, c4=p). A pawn on c3 cannot push forward to c4. Needs FEN or move correction.
-
-**1...bxc4** (forced, otherwise cxb5)
-
-**2.b5!** — Now b5 is a protected passed pawn!
-
-**2...Ke3 3.Kf1 Kd3 4.Ke1 Kc3 5.Kd1** — White holds the c4-pawn at bay.
-
-The b5-pawn will eventually decide the game.
+**1...Ke3 2.c6 Kf4 3.c7 Kg5 4.c8=Q** — White promotes. (Note that the natural-looking 1.c4 is impossible — c4 is occupied by Black's pawn.)
 
 </details>
 
@@ -188,11 +146,9 @@ Evaluate the position. Does White's protected passed pawn win?
 
 **Draw with correct play.**
 
-White has a protected passer on e5, but the position is too blocked.
+White has a protected passer on e5 (guarded by d4 and f4), but the position is completely blocked.
 
 **1.Kf2 Kf7 2.Ke3 Ke7 3.Kd3 Kd7 4.Kc3 Kc7** — Neither king can break through.
-
-If **5.Kb4 Kb6** — Black defends.
 
 The pawns on both sides are fixed, creating a fortress.
 
@@ -200,32 +156,24 @@ The pawns on both sides are fixed, creating a fortress.
 
 ### Exercise 4
 
-<ChessBoard fen="8/8/8/2Ppk3/3P4/8/8/2K5 w - - 0 1" />
+<ChessBoard fen="8/8/4k3/2Pp4/3P4/8/8/2K5 w - - 0 1" />
 
 White to move. Find the winning plan.
 
 <details>
 <summary>Solution</summary>
 
-**1.Kc2!** — Not rushing.
+**1.Kc2!** — Not rushing. The c5-passer is guarded by d4 and Black's king is pinned to it, so White's king sets off:
 
-**1...Kd6 2.Kc3 Kc7 3.Kc4!** — Attacking d5.
-
-**3...Kc6 4.d5+!** — The breakthrough.
-
-**4...Kxc5** (if Kxd5, c6 and promotes)
-
-**5.d6 Kc6 6.d7** — White promotes. Won.
-
-The protected passer supported the breakthrough sacrifice.
+**1...Kf5 2.Kc3 Ke6 3.Kb4 Kd7 4.Kb5** — White's king reaches the queenside and breaks through. The protected passer made the invasion possible.
 
 </details>
 
 ## Summary
 
-1. **Protected passed pawn** — Passed pawn defended by another pawn
+1. **Protected passed pawn** — A passed pawn defended diagonally by another pawn
 2. **Cannot be captured** — The enemy king can't take it
-3. **Ties down the opponent** — Their king must babysit
-4. **Frees your king** — To attack elsewhere
-5. **Winning technique** — Use king freedom to win other pawns
-6. **"More than half a victory"** — Often decisive in practice
+3. **Ties down the opponent** — Their king must babysit it
+4. **Frees your king** — The real value: your king roams while theirs is stuck
+5. **Create one** — Advance a pawn phalanx or break to make a protected passer
+6. **Limits** — Blocked positions or a passer on the wrong wing may only draw
