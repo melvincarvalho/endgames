@@ -152,3 +152,9 @@ Or **1...Kh6 2.Kf6 Kh7 3.g7** — Same.
 3. **Common in endgames** = fewer pieces, less flexibility
 4. **Create it** = through triangulation or tempo moves
 5. **Recognize it** = optimal positions where any change is bad
+
+## Related topics
+
+- [Triangulation](/pawn-endgames/triangulation)
+- [Fortresses](/strategic-themes/fortresses)
+- [Stalemate resources](/strategic-themes/stalemate-resources)

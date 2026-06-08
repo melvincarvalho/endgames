@@ -148,3 +148,9 @@ White to move. How does White take the diagonal opposition?
 3. **Corresponding squares**: Advanced technique for complex positions
 4. **Trebuchet**: Mutual zugzwang where moving loses
 5. **Practice**: The only way to internalize these concepts
+
+## Related topics
+
+- [Opposition](/fundamentals/opposition)
+- [Key squares](/pawn-endgames/key-squares)
+- [Triangulation](/pawn-endgames/triangulation)

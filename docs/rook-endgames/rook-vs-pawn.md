@@ -144,3 +144,9 @@ White cannot make progress. **1.Kg2 Kg7 2.Kf3 Kf7** etc.—the king escapes but 
 3. **Pawn on 7th**: Depends on king position—king in front often draws
 4. **Long side principle**: Attack from the side with more squares
 5. **Rook pawn exception**: Often draws due to corner stalemate
+
+## Related topics
+
+- [Lucena position](/rook-endgames/lucena-position)
+- [Philidor position](/rook-endgames/philidor-position)
+- [Protected passed pawn](/pawn-endgames/protected-passed-pawn)
