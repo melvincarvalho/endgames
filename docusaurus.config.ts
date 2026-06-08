@@ -14,7 +14,7 @@ const config: Config = {
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
 
   future: {
     v4: true,
