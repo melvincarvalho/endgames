@@ -25,6 +25,8 @@ description: Comprehensive chess endgame documentation
 
 <h2 className="section-title">
   <span className="section-icon">&#127919;</span>
+
+Every position, puzzle and analysis line on this site is verified with Stockfish, and a [CI engine-gate (chess-check)](https://github.com/melvincarvalho/endgames/actions/workflows/chess-check.yml) re-checks every change.
   Choose Your Path
 </h2>
 
