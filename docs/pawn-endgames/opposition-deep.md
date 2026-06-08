@@ -18,7 +18,7 @@ When kings are separated by 3, 5, or 7 squares (odd numbers) on a rank, file, or
 
 <ChessBoard fen="8/8/8/4k3/8/8/8/4K3 w - - 0 1" />
 
-Five squares separate the kings. White to move does NOT have the opposition. Black does.
+Three squares separate the kings (e2, e3, e4). White to move does NOT have the opposition. Black does.
 
 ### The Rule of Odd Squares
 
@@ -35,7 +35,7 @@ Five squares separate the kings. White to move does NOT have the opposition. Bla
 
 Black to move. White has distant opposition.
 
-After **1...Kd5 2.Kd2!** (maintaining opposition with 3 squares)
+After **1...Kd5 2.Kd1!** (maintaining distant opposition — 3 squares between: d2, d3, d4)
 Or **1...Ke4 2.Ke2!** (taking direct opposition)
 
 White maintains the opposition throughout and eventually reaches a key square.
@@ -50,9 +50,9 @@ The kings are diagonally opposed with one square between them. The player NOT to
 
 ### Diagonal Distant Opposition
 
-<ChessBoard fen="8/8/7k/8/8/8/8/K7 w - - 0 1" />
+<ChessBoard fen="8/6k1/8/8/8/8/8/K7 w - - 0 1" />
 
-The kings are on the same diagonal (a1-h8) with an odd number of squares between. White to move does not have opposition.
+The kings are on the same color with 5 squares between on the diagonal (b2, c3, d4, e5, f6). White to move does not have opposition.
 
 ## Rectangular Opposition
 
@@ -93,8 +93,10 @@ A special mutual zugzwang position where whoever moves loses.
 
 Whoever moves must give way, allowing the opponent's king to advance.
 
-- White to move: **Kc3 Kc4** or **Ke3 Ke4** — Black wins
-- Black to move: **Kc4 Kc4** or **Ke4 Ke4** — White wins
+- This is a mutual zugzwang: whoever is to move must give way with their king, letting the opponent's king advance past the pawn barrier and win. (The original move notation here was garbled — see the warning below.)
+- Black to move: **Kc5** then White **Kc3**, or **Ke5** then **Ke3** — White maintains opposition and wins
+
+> ⚠️ **WARNING: Move notation errors.** "Kc4 Kc4" and "Ke4 Ke4" are impossible — both kings can't occupy the same square. The intended meaning is that whoever must move first gives way, allowing the opponent's king to advance past the pawn barrier.
 
 This is why gaining the opposition (putting your opponent in this situation) is so valuable.
 
@@ -105,9 +107,9 @@ This is why gaining the opposition (putting your opponent in this situation) is 
 White to move. How should White play?
 
 **1.Ke2!** — Taking the opposition. Now:
-- **1...Kd4 2.Kd2** — Maintaining opposition
-- **1...Kf4 2.Kf2** — Maintaining opposition
 - **1...Ke5 2.Ke3** — Maintaining opposition
+- **1...Kf4 2.Kf2** — Maintaining opposition
+- **1...Kd5 2.Kd3** — Maintaining opposition
 
 White keeps the opposition and prevents Black's king from advancing.
 
