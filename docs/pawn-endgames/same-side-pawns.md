@@ -52,7 +52,7 @@ White's pawns are more advanced. Black's structure is compromised.
 
 **1.g5+! Ke6 2.Kg3 Kf5 3.Kh4!** — Threatening Kxh5.
 
-**3...Kg6 4.f5+!** — The breakthrough.
+**3...Kg6 4.f5+!** — The [breakthrough](/pawn-endgames/breakthroughs).
 
 **4...gxf5 5.Kxh5** — White wins the pawn ending.
 
