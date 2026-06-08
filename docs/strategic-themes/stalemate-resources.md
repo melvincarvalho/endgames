@@ -86,7 +86,7 @@ White is winning, but careless play can allow:
 
 > ⚠️ **WARNING:** `f8=Q+` is ILLEGAL — Kf8 occupies f8, so the pawn cannot push there. The entire line needs a corrected FEN.
 
-Also, after the "Correct" line `2.f8=Q+ Kxf8`, the continuation `4.f7+` is impossible — the f7 pawn was already promoted and captured.
+Also, the "Correct" line is broken: after `2.f8=Q+ Kxf8`, White's `3.Kf6` is illegal because White's own pawn already stands on f6. The position needs a corrected FEN.
 
 Correct: **1.Ke6!** (take opposition) **1...Ke8 2.f8=Q+ Kxf8 3.Kf6 Kg8 4.f7+** — This time White wins.
 
