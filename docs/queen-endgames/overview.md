@@ -6,14 +6,21 @@ description: The most complex endgame type
 
 # Queen Endgames
 
-Queen endgames are notoriously difficult. The queen's power creates endless tactical possibilities.
+Queen endgames are notoriously difficult. The queen's enormous range creates endless tactical possibilities — perpetual checks, fork threats, and stalemate traps are always lurking. Unlike rook or minor-piece endgames, queen endings are rarely quiet: both sides must constantly calculate long forcing lines.
 
 ## Characteristics
 
-- Many checks and counterattacks
-- Stalemate traps
-- Perpetual check drawing resources
-- Extremely sharp play
+- **Many checks and counterattacks** — The queen can deliver checks from almost any distance, making it easy to generate perpetual check or gain tempi.
+- **Stalemate traps** — The defending side often has stalemate resources that can save a lost position. Always check whether the opponent has any legal moves before celebrating.
+- **Sharp play** — Material balance can shift quickly. A single miscalculation can turn a win into a draw or a draw into a loss.
+- **Pawn promotion races** — With queens on the board, passed pawns are extremely dangerous because the queen alone often cannot stop a supported pawn on the 7th rank.
+
+## General Advice
+
+1. **Calculate carefully** — Queen endings reward precise calculation over general principles.
+2. **Watch for stalemate** — Before playing what looks like a winning move, verify the opponent isn't stalemated.
+3. **Centralize the king** — Even with queens on the board, king safety matters. A exposed king invites perpetual check.
+4. **Advance passed pawns cautiously** — A pawn on the 7th supported by its king often draws or wins against a queen, but the geometry is tricky.
 
 ## In this section
 
