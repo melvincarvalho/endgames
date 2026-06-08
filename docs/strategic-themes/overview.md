@@ -8,12 +8,10 @@ description: Cross-cutting concepts that apply to many endgames
 
 These concepts transcend specific material configurations. Understanding them improves all your endgames.
 
-## Topics
+## In this section
 
-| Theme | Description |
-|-------|-------------|
-| [Zugzwang](/strategic-themes/zugzwang) | When any move loses |
-| [Fortresses](/strategic-themes/fortresses) | Unbreakable defensive setups |
-| [Stalemate Resources](/strategic-themes/stalemate-resources) | Saving lost positions |
-| [Two Weaknesses](/strategic-themes/principle-of-two-weaknesses) | Stretching the defense |
-| [Do Not Hurry](/strategic-themes/do-not-hurry) | Patience in won positions |
+- [Zugzwang](/strategic-themes/zugzwang) — When any move worsens your position
+- [Fortresses](/strategic-themes/fortresses) — Defensive setups that cannot be broken despite material disadvantage
+- [Stalemate resources](/strategic-themes/stalemate-resources) — Saving seemingly lost positions through stalemate tricks
+- [Two weaknesses](/strategic-themes/principle-of-two-weaknesses) — Creating a second weakness to stretch and break the defense
+- [Do not hurry](/strategic-themes/do-not-hurry) — Patience in won positions; premature action throws away wins
