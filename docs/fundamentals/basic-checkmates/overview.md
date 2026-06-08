@@ -8,6 +8,14 @@ description: Essential checkmates every chess player must know
 
 These checkmates are the foundation of endgame play. You cannot improve at chess without mastering them.
 
+## In this section
+
+- [King + Queen vs King](/fundamentals/basic-checkmates/queen-mate) — Drive the lone king to the edge and deliver mate
+- [King + Rook vs King](/fundamentals/basic-checkmates/rook-mate) — Use the rook to cut off the king and mate on the edge
+- [King + Two Bishops vs King](/fundamentals/basic-checkmates/two-bishops-mate) — Coordinate two bishops to restrict and mate the king
+- [King + Bishop + Knight vs King](/fundamentals/basic-checkmates/bishop-knight-mate) — The hardest basic checkmate, requiring precise technique
+
+
 ## Why Learn Basic Checkmates?
 
 1. **They appear in every game** where you win material
