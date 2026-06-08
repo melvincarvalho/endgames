@@ -221,3 +221,9 @@ Plan for White with the "bad" bishop.
 4. **Improve it** — Trade, move outside pawn chain, change structure
 5. **Active bad bishop** — Better than passive, but not ideal
 6. **Practical impact** — Bad bishops can cost half a piece in effective value
+
+## Related topics
+
+- [Same-colour bishops](/minor-piece-endgames/bishop-same-color)
+- [Bishop vs knight](/minor-piece-endgames/bishop-vs-knight)
+- [Fortresses](/strategic-themes/fortresses)

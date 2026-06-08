@@ -229,3 +229,9 @@ The knight is the perfect blockader of an a-pawn (or h-pawn).
 4. **Excellent blockaders** — Control key squares firmly
 5. **Fork potential** — Always look for tactical opportunities
 6. **Outposts matter** — Establish knights on safe squares
+
+## Related topics
+
+- [Bishop vs knight](/minor-piece-endgames/bishop-vs-knight)
+- [Fortresses](/strategic-themes/fortresses)
+- [Zugzwang](/strategic-themes/zugzwang)

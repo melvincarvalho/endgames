@@ -119,3 +119,9 @@ White to move. What's the result?
 3. **Bishop pawns** — draw if the king sits in front near promotion
 4. **Central pawns** — always lose (the queen has checking room)
 5. **Proximity decides** — a close enemy king beats every fortress
+
+## Related topics
+
+- [Queen vs rook](/queen-endgames/queen-vs-rook)
+- [Protected passed pawn](/pawn-endgames/protected-passed-pawn)
+- [Rook vs pawn](/rook-endgames/rook-vs-pawn)

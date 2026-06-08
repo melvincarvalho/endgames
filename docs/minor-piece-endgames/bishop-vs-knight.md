@@ -131,3 +131,9 @@ Evaluate: which side would you rather have?
 3. **Closed + outpost** = Knight better
 4. **Bad bishop** = Often worse than a knight
 5. **Colour-bound** = A wrong-coloured bishop can't win a rook-pawn; a knight can
+
+## Related topics
+
+- [Knight endgames](/minor-piece-endgames/knight-endgames)
+- [Good vs bad bishop](/minor-piece-endgames/good-vs-bad-bishop)
+- [Opposite-colour bishops](/minor-piece-endgames/bishop-opposite-color)

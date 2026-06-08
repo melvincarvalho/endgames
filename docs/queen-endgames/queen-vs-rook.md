@@ -135,3 +135,9 @@ White to move. How should White proceed?
 3. **Can take 30+ moves** — Patience required
 4. **Fortresses exist** — But rare and require precise defense
 5. **Practice** — Know the patterns to win confidently
+
+## Related topics
+
+- [Queen vs pawn](/queen-endgames/queen-vs-pawn)
+- [Lucena position](/rook-endgames/lucena-position)
+- [Philidor position](/rook-endgames/philidor-position)
