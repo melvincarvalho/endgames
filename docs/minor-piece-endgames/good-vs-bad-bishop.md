@@ -209,7 +209,7 @@ Plan for White with the "bad" bishop.
 
 **1...Ke7 2.Bc3 Kd7 3.Ke3 Kc6 4.Kd3 Kb5 5.Ba5!** — The bishop is now "good"—active on a5-d8 diagonal.
 
-**5...b6 6.Bb4!** — Controlling key squares. The bishop is transformed.
+**5...b6 6.Bb4!** — Controlling [key squares](/pawn-endgames/key-squares). The bishop is transformed.
 
 </details>
 
