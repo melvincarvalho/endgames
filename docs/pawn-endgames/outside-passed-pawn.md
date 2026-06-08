@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Outside Passed Pawn
-description: The decoy advantage
+description: How a passed pawn far from the main action decoys the enemy king to create a winning king advantage
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';

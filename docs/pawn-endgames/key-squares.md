@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Key Squares
-description: The fundamental concept behind pawn promotion
+description: The critical squares a king must control to guarantee pawn promotion in king-and-pawn endgames
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';
