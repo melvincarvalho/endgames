@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Do Not Hurry
-description: Patience in won positions
+description: The principle of improving your position before pushing in endgames — when to wait and when to act
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';

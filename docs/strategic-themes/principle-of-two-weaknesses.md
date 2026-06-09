@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Principle of Two Weaknesses
-description: Stretching the defense to breaking point
+description: Creating a second weakness to overwhelm the defense — a key technique in better endgames
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';
