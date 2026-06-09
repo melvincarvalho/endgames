@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Same-Color Bishops
-description: When both bishops travel the same color squares
+description: Endgames where both sides have bishops on the same colour complex — extra pawn is often not enough to win
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';

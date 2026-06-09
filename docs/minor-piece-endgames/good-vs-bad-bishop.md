@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Good vs Bad Bishop
-description: Evaluating bishop quality
+description: How pawn structure determines bishop strength — a good bishop has pawns on the opposite colour complex
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';
