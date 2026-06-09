@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Queen Endgames
-description: The most complex endgame type
+description: Queen endgame principles — perpetual check, mating threats, and the power of the queen in open positions
 ---
 
 # Queen Endgames
