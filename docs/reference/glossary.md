@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Glossary
-description: Chess endgame terminology
+description: Definitions of key endgame terms — from opposition and zugzwang to triangulation and the Lucena position
 ---
 
 # Glossary

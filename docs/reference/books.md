@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Recommended Books
-description: Essential endgame literature
+description: Recommended books for endgame study — from beginner guides to advanced reference works
 ---
 
 # Recommended Books
