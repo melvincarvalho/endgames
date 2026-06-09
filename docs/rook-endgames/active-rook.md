@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Active Rook
-description: The importance of rook activity
+description: Why an active rook is the single biggest factor in rook endgames — behind the pawn, on the 7th rank, and cutting off the king
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';

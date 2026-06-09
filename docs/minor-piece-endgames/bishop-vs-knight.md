@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Bishop vs Knight
-description: Evaluating which piece is better
+description: When the bishop excels and when the knight excels in endgames — positional factors that determine the stronger minor piece
 ---
 
 import ChessBoard from '@site/src/components/ChessBoard';
